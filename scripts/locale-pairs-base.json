@@ -1,0 +1,1486 @@
+[
+  [
+    "DataLuminary — Insights Within Reach | AI-Native Open-Source BI Platform",
+    "DataLuminary — Insights al alcance | Plataforma BI de código abierto nativa en IA"
+  ],
+  [
+    "DataLuminary is an open-source, plugin-based, AI-native data visualization and BI platform built with full-stack TypeScript. End-to-end AI insights, microkernel plugin ecosystem, drag-and-drop NoCode configuration, and 5-minute Docker private deployment.",
+    "DataLuminary es una plataforma de visualización de datos y BI de código abierto, basada en plugins y nativa en IA, construida con TypeScript full-stack. Insights de IA de extremo a extremo, ecosistema de plugins de microkernel, configuración NoCode con arrastrar y soltar, y despliegue privado con Docker en 5 minutos."
+  ],
+  [
+    "BI Platform",
+    "Plataforma BI"
+  ],
+  [
+    "Data Visualization",
+    "Visualización de datos"
+  ],
+  [
+    "AI Insights",
+    "Insights de IA"
+  ],
+  [
+    "Open Source BI",
+    "BI de código abierto"
+  ],
+  [
+    "Plugin Architecture",
+    "Arquitectura de plugins"
+  ],
+  [
+    "DataLuminary — Insights Within Reach",
+    "DataLuminary — Insights al alcance"
+  ],
+  [
+    "AI-native, plugin-based, open-source data visualization BI platform",
+    "Plataforma BI de visualización de datos de código abierto, basada en plugins y nativa en IA"
+  ],
+  [
+    "Features",
+    "Funciones"
+  ],
+  [
+    "Plugins",
+    "Plugins"
+  ],
+  [
+    "AI",
+    "IA"
+  ],
+  [
+    "Deploy",
+    "Despliegue"
+  ],
+  [
+    "About",
+    "Acerca de"
+  ],
+  [
+    "Sign In",
+    "Iniciar sesión"
+  ],
+  [
+    "DataLuminary Home",
+    "Inicio de DataLuminary"
+  ],
+  [
+    "Switch language",
+    "Cambiar idioma"
+  ],
+  [
+    "Open menu",
+    "Abrir menú"
+  ],
+  [
+    "Close menu",
+    "Cerrar menú"
+  ],
+  [
+    "LuminaryWorks AI Ecosystem · Open Source MIT License",
+    "Ecosistema IA LuminaryWorks · Licencia MIT de código abierto"
+  ],
+  [
+    "Insights Within Reach",
+    "Insights al alcance"
+  ],
+  [
+    "End-to-end AI — report generation, charting, data cleansing, and page layout, AI assists every step",
+    "IA de extremo a extremo — generación de informes, gráficos, limpieza de datos y diseño de páginas; la IA asiste en cada paso"
+  ],
+  [
+    "Microkernel plugins — data sources, charts, and dashboard layouts, everything is extensible",
+    "Plugins de microkernel — fuentes de datos, gráficos y diseños de panel; todo es extensible"
+  ],
+  [
+    "Full-stack TypeScript — launch with Docker in 5 minutes, private deployment, zero barrier to customization",
+    "TypeScript full-stack — inicio con Docker en 5 minutos, despliegue privado, personalización sin barreras"
+  ],
+  [
+    "Try for Free",
+    "Probar gratis"
+  ],
+  [
+    "Open Source Community",
+    "Comunidad de código abierto"
+  ],
+  [
+    "One-Click Docker Launch",
+    "Inicio con Docker en un clic"
+  ],
+  [
+    "Full-Stack TypeScript",
+    "TypeScript full-stack"
+  ],
+  [
+    "Private Deployment",
+    "Despliegue privado"
+  ],
+  [
+    "AI is generating an analysis report",
+    "La IA está generando un informe de análisis"
+  ],
+  [
+    "Total Sales",
+    "Ventas totales"
+  ],
+  [
+    "Anomaly Trends",
+    "Tendencias anómalas"
+  ],
+  [
+    "3 anomaly trends detected · East China Q3 YoY ↓18%",
+    "3 tendencias anómalas detectadas · Este de China T3 interanual ↓18%"
+  ],
+  [
+    "AI Cleansing",
+    "Limpieza con IA"
+  ],
+  [
+    "AI Charts/Reports",
+    "Gráficos/informes con IA"
+  ],
+  [
+    "Full Drag-and-Drop",
+    "Arrastrar y soltar completo"
+  ],
+  [
+    "Plugin-Based",
+    "Basado en plugins"
+  ],
+  [
+    "Four Core Differentiators",
+    "Cuatro diferenciadores clave"
+  ],
+  [
+    "Redefining Enterprise Data Visualization",
+    "Redefiniendo la visualización de datos empresarial"
+  ],
+  [
+    "End-to-end AI · Microkernel Plugins · Drag-and-Drop NoCode · Full-Stack TypeScript",
+    "IA de extremo a extremo · Plugins de microkernel · NoCode con arrastrar y soltar · TypeScript full-stack"
+  ],
+  [
+    "AI-Native, End-to-End Intelligence",
+    "Nativo en IA, inteligencia de extremo a extremo"
+  ],
+  [
+    "Beyond visualization BI — DataLuminary embeds AI across every step from data to decisions. AI guides you through every stage of your reports.",
+    "Más allá del BI de visualización — DataLuminary integra IA en cada paso, desde los datos hasta las decisiones. La IA le guía en cada etapa de sus informes."
+  ],
+  [
+    "AI-Generated Analysis Reports",
+    "Informes de análisis generados por IA"
+  ],
+  [
+    "Describe your analysis goal; AI produces a complete report",
+    "Describa su objetivo de análisis; la IA produce un informe completo"
+  ],
+  [
+    "AI-Assisted Charting",
+    "Gráficos asistidos por IA"
+  ],
+  [
+    "Smart chart recommendations with automatic field mapping",
+    "Recomendaciones inteligentes de gráficos con mapeo automático de campos"
+  ],
+  [
+    "AI Data Cleansing",
+    "Limpieza de datos con IA"
+  ],
+  [
+    "Detect nulls, anomalies, and format errors — fix with one click",
+    "Detecte nulos, anomalías y errores de formato — corríjalos con un clic"
+  ],
+  [
+    "AI Page Layout",
+    "Diseño de página con IA"
+  ],
+  [
+    "Analyze content hierarchy and auto-arrange dashboard layouts",
+    "Analice la jerarquía del contenido y organice automáticamente los diseños del panel"
+  ],
+  [
+    "Microkernel Architecture, Infinitely Extensible",
+    "Arquitectura de microkernel, infinitamente extensible"
+  ],
+  [
+    "Dashboard Plugins",
+    "Plugins de panel"
+  ],
+  [
+    "Free-form big screens / PC grid reports / mobile lists / card boards",
+    "Pantallas grandes de diseño libre / informes en cuadrícula PC / listas móviles / tableros de tarjetas"
+  ],
+  [
+    "Chart Plugins",
+    "Plugins de gráficos"
+  ],
+  [
+    "ECharts · AntV · Highcharts — community contributions stack infinitely",
+    "ECharts · AntV · Highcharts — las contribuciones de la comunidad se acumulan infinitamente"
+  ],
+  [
+    "Data Source Plugins",
+    "Plugins de fuentes de datos"
+  ],
+  [
+    "MySQL / PG / MongoDB / Excel / API — extend via custom SDK",
+    "MySQL / PG / MongoDB / Excel / API — extienda mediante SDK personalizado"
+  ],
+  [
+    "Open SDK",
+    "SDK abierto"
+  ],
+  [
+    "JSON Schema constraints, interoperable with the Grafana ecosystem",
+    "Restricciones JSON Schema, interoperable con el ecosistema Grafana"
+  ],
+  [
+    "Drag-and-Drop Configuration, No Coding Required",
+    "Configuración con arrastrar y soltar, sin programación"
+  ],
+  [
+    "Product, operations, and BI analysts can independently handle data cleansing, charting, and dashboard building. Developers can dive into SQL and advanced config when needed.",
+    "Producto, operaciones y analistas BI pueden gestionar de forma independiente la limpieza de datos, los gráficos y la creación de paneles. Los desarrolladores pueden profundizar en SQL y configuración avanzada cuando sea necesario."
+  ],
+  [
+    "Drag-and-Drop Datasets",
+    "Conjuntos de datos con arrastrar y soltar"
+  ],
+  [
+    "Drag fields to configure metrics/dimensions, multi-table joins, calculated fields",
+    "Arrastre campos para configurar métricas/dimensiones, uniones multi-tabla, campos calculados"
+  ],
+  [
+    "NoCode Charting",
+    "Gráficos NoCode"
+  ],
+  [
+    "Pick chart type, drag fields to axes, live preview, zero code",
+    "Elija el tipo de gráfico, arrastre campos a los ejes, vista previa en vivo, cero código"
+  ],
+  [
+    "Visual Layout",
+    "Diseño visual"
+  ],
+  [
+    "Grid drag / free positioning, responsive adaptation",
+    "Arrastre en cuadrícula / posicionamiento libre, adaptación responsiva"
+  ],
+  [
+    "Chart Linkage & Drill-Down",
+    "Vinculación y desglose de gráficos"
+  ],
+  [
+    "Visually configure filters and linkage — no interaction code",
+    "Configure filtros y vinculación visualmente — sin código de interacción"
+  ],
+  [
+    "Full-Stack TS, Lightweight & Fast",
+    "TS full-stack, ligero y rápido"
+  ],
+  [
+    "In the AI era, TypeScript is a first-class citizen. A unified full-stack means lower hiring barriers, faster AI-assisted development, and lighter maintenance.",
+    "En la era de la IA, TypeScript es ciudadano de primera clase. Un full-stack unificado significa menores barreras de contratación, desarrollo asistido por IA más rápido y mantenimiento más ligero."
+  ],
+  [
+    "Live in 5 Minutes",
+    "En vivo en 5 minutos"
+  ],
+  [
+    "One-click Docker Compose launch — deploy in 3 commands",
+    "Inicio con Docker Compose en un clic — despliegue en 3 comandos"
+  ],
+  [
+    "Easier Hiring",
+    "Contratación más fácil"
+  ],
+  [
+    "Thriving TS ecosystem — frontend and backend talent interchangeable",
+    "Ecosistema TS próspero — talento frontend y backend intercambiable"
+  ],
+  [
+    "AI-Assisted Development",
+    "Desarrollo asistido por IA"
+  ],
+  [
+    "TS type information is the language LLMs understand best",
+    "La información de tipos TS es el lenguaje que mejor entienden los LLM"
+  ],
+  [
+    "Zero Customization Barrier",
+    "Personalización sin barreras"
+  ],
+  [
+    "Type-safe, refactor-friendly, complete plugin SDK",
+    "Seguro en tipos, apto para refactorización, SDK de plugins completo"
+  ],
+  [
+    "End-to-End AI Insight Capabilities",
+    "Capacidades de insight de IA de extremo a extremo"
+  ],
+  [
+    "AI-Powered — Data That Speaks",
+    "Impulsado por IA — datos que hablan"
+  ],
+  [
+    "From data cleansing to insight reports, AI spans every step",
+    "Desde la limpieza de datos hasta los informes de insight, la IA abarca cada paso"
+  ],
+  [
+    "Auto-extract key metrics · Detect anomaly trends · Output business recommendations",
+    "Extracción automática de métricas clave · Detección de tendencias anómalas · Recomendaciones de negocio"
+  ],
+  [
+    "Analyze regional sales trends this quarter, focusing on the East China decline",
+    "Analice las tendencias de ventas regionales este trimestre, centrándose en la caída del Este de China"
+  ],
+  [
+    "Analyzing Q3 sales dataset... Found 3 anomaly trends ↓\\nReport structure: Overview → Regional comparison → Root cause → Recommendations",
+    "Analizando conjunto de ventas T3... Se encontraron 3 tendencias anómalas ↓\\nEstructura del informe: Resumen → Comparación regional → Causa raíz → Recomendaciones"
+  ],
+  [
+    "Report Preview",
+    "Vista previa del informe"
+  ],
+  [
+    "Revenue",
+    "Ingresos"
+  ],
+  [
+    "Orders",
+    "Pedidos"
+  ],
+  [
+    "Conversion",
+    "Conversión"
+  ],
+  [
+    "AOV",
+    "Ticket medio"
+  ],
+  [
+    "East China Q3 YoY ↓18%, mainly due to channel inventory backlog",
+    "Este de China T3 interanual ↓18%, principalmente por acumulación de inventario en canal"
+  ],
+  [
+    "Understand business semantics · Recommend best charts · Auto-complete configuration",
+    "Comprenda la semántica del negocio · Recomiende los mejores gráficos · Complete la configuración automáticamente"
+  ],
+  [
+    "Compare monthly growth rates across product lines over the last 6 months",
+    "Compare las tasas de crecimiento mensual entre líneas de producto en los últimos 6 meses"
+  ],
+  [
+    "Auto-selected multi-series line chart, X-axis=month / Y-axis=growth rate, recommended color scheme, suggested mean reference line",
+    "Gráfico de líneas multiserie auto-seleccionado, eje X=mes / eje Y=tasa de crecimiento, esquema de color recomendado, línea de referencia de media sugerida"
+  ],
+  [
+    "Before",
+    "Antes"
+  ],
+  [
+    "After",
+    "Después"
+  ],
+  [
+    "Smart quality detection · Batch repair · Preserve processing history",
+    "Detección inteligente de calidad · Reparación por lotes · Conservar historial de procesamiento"
+  ],
+  [
+    "AI One-Click Cleanse",
+    "Limpieza con IA en un clic"
+  ],
+  [
+    "Cleansing Complete",
+    "Limpieza completada"
+  ],
+  [
+    "Filled 3 missing values (mean imputation)",
+    "Se rellenaron 3 valores faltantes (imputación por media)"
+  ],
+  [
+    "Flagged 1 outlier (retained and annotated)",
+    "Se marcó 1 valor atípico (conservado y anotado)"
+  ],
+  [
+    "Standardized 8 date formats",
+    "Se estandarizaron 8 formatos de fecha"
+  ],
+  [
+    "Analyze content weight · Auto-adjust size and position · Follow visual standards",
+    "Analice el peso del contenido · Ajuste automáticamente tamaño y posición · Siga estándares visuales"
+  ],
+  [
+    "Before · Cluttered layout",
+    "Antes · Diseño desordenado"
+  ],
+  [
+    "After · Clear hierarchy",
+    "Después · Jerarquía clara"
+  ],
+  [
+    "AI Optimize Layout",
+    "Optimizar diseño con IA"
+  ],
+  [
+    "AI analyzed content weight of 6 components and auto-optimized layout hierarchy",
+    "La IA analizó el peso del contenido de 6 componentes y optimizó automáticamente la jerarquía del diseño"
+  ],
+  [
+    "Microkernel Plugin Architecture",
+    "Arquitectura de plugins de microkernel"
+  ],
+  [
+    "Meet Every Visualization Need",
+    "Cubre todas las necesidades de visualización"
+  ],
+  [
+    "Unlike monolithic traditional BI tools, DataLuminary is a microkernel plugin platform — panel, chart, and data source plugin ecosystems make every visualization need achievable",
+    "A diferencia de las herramientas BI tradicionales monolíticas, DataLuminary es una plataforma de plugins de microkernel — los ecosistemas de plugins de panel, gráficos y fuentes de datos hacen posible cualquier necesidad de visualización"
+  ],
+  [
+    "Microkernel",
+    "Microkernel"
+  ],
+  [
+    "Explore Plugin Ecosystem",
+    "Explorar ecosistema de plugins"
+  ],
+  [
+    "Dashboard Layout Plugins",
+    "Plugins de diseño de panel"
+  ],
+  [
+    "Custom",
+    "Personalizado"
+  ],
+  [
+    "grid-panel grid layout — react-grid-layout, PC reports preferred, import Grafana panels",
+    "grid-panel diseño en cuadrícula — react-grid-layout, informes PC preferidos, importar paneles Grafana"
+  ],
+  [
+    "position-panel free-form big screen — TMagic-based, pixel-level positioning for command centers",
+    "position-panel pantalla grande de diseño libre — basado en TMagic, posicionamiento a nivel de píxel para centros de mando"
+  ],
+  [
+    "card-panel card view — reports, email, boards, and more",
+    "card-panel vista de tarjetas — informes, correo, tableros y más"
+  ],
+  [
+    "list-panel list layout — mobile-first, vertical card scrolling",
+    "list-panel diseño de lista — mobile-first, desplazamiento vertical de tarjetas"
+  ],
+  [
+    "+ Custom layout plugins — integrate via development SDK",
+    "+ Plugins de diseño personalizado — integre mediante SDK de desarrollo"
+  ],
+  [
+    "Headless BI Design",
+    "Diseño Headless BI"
+  ],
+  [
+    "Chart plugins only render — data is uniformly supplied by the dataset layer, no direct data source connection",
+    "Los plugins de gráficos solo renderizan — los datos los suministra uniformemente la capa de conjuntos de datos, sin conexión directa a fuentes"
+  ],
+  [
+    "Built-in: line · bar · area · pie · ring · scatter · radar · funnel",
+    "Integrados: línea · barra · área · circular · anillo · dispersión · radar · embudo"
+  ],
+  [
+    "Map · word cloud · metric card · table · rich text · liquid · heatmap · sankey · candlestick · graph...",
+    "Mapa · nube de palabras · tarjeta métrica · tabla · texto enriquecido · líquido · mapa de calor · sankey · velas · grafo..."
+  ],
+  [
+    "Switch chart libraries: ECharts / AntV / Highcharts — swap freely without affecting configuration",
+    "Cambie bibliotecas de gráficos: ECharts / AntV / Highcharts — intercambie libremente sin afectar la configuración"
+  ],
+  [
+    "Three-Stage Plugin Protocol (Grafana-inspired)",
+    "Protocolo de plugins en tres etapas (inspirado en Grafana)"
+  ],
+  [
+    "ConfigPanel data source config · QueryPanel query config · VariablePanel variable query",
+    "ConfigPanel config. de fuente · QueryPanel config. de consulta · VariablePanel consulta de variables"
+  ],
+  [
+    "Relational: MySQL · PostgreSQL · SQL Server · ClickHouse",
+    "Relacionales: MySQL · PostgreSQL · SQL Server · ClickHouse"
+  ],
+  [
+    "Document: MongoDB · Elasticsearch | Files: Excel · CSV · JSON",
+    "Documentales: MongoDB · Elasticsearch | Archivos: Excel · CSV · JSON"
+  ],
+  [
+    "APIs: RESTful API · GraphQL | + Plugin SDK for any custom data source",
+    "APIs: RESTful API · GraphQL | + Plugin SDK para cualquier fuente personalizada"
+  ],
+  [
+    "Core Pipeline",
+    "Pipeline principal"
+  ],
+  [
+    "From Data to Decisions",
+    "De los datos a las decisiones"
+  ],
+  [
+    "Data Source → Dataset → Chart → Dashboard — data flows through the pipeline, every stage is plugin-extensible",
+    "Fuente de datos → Conjunto de datos → Gráfico → Panel — los datos fluyen por el pipeline, cada etapa es extensible con plugins"
+  ],
+  [
+    "Headless BI Design:",
+    "Diseño Headless BI:"
+  ],
+  [
+    "Data Source",
+    "Fuente de datos"
+  ],
+  [
+    "Multi-source ingestion, unified management",
+    "Ingesta multi-fuente, gestión unificada"
+  ],
+  [
+    "Data source plugin list",
+    "Lista de plugins de fuentes de datos"
+  ],
+  [
+    "Connection test",
+    "Prueba de conexión"
+  ],
+  [
+    "QueryPanel preview",
+    "Vista previa QueryPanel"
+  ],
+  [
+    "Dataset",
+    "Conjunto de datos"
+  ],
+  [
+    "Dataset · Headless BI Core",
+    "Dataset · Núcleo Headless BI"
+  ],
+  [
+    "Metric/dimension modeling, data cleansing",
+    "Modelado de métricas/dimensiones, limpieza de datos"
+  ],
+  [
+    "Configure metric / dimension fields",
+    "Configurar campos de métrica / dimensión"
+  ],
+  [
+    "Multi-table Join",
+    "Unión multi-tabla"
+  ],
+  [
+    "Calculated fields and data cleansing",
+    "Campos calculados y limpieza de datos"
+  ],
+  [
+    "AI-assisted cleansing (coming soon)",
+    "Limpieza asistida por IA (próximamente)"
+  ],
+  [
+    "Chart",
+    "Gráfico"
+  ],
+  [
+    "NoCode charting, drag and get results",
+    "Gráficos NoCode, arrastre y obtenga resultados"
+  ],
+  [
+    "Select chart type (plugin-based)",
+    "Seleccionar tipo de gráfico (basado en plugins)"
+  ],
+  [
+    "Drag fields to X-axis/Y-axis/series",
+    "Arrastrar campos al eje X/eje Y/series"
+  ],
+  [
+    "AI recommends best chart type",
+    "La IA recomienda el mejor tipo de gráfico"
+  ],
+  [
+    "Live preview",
+    "Vista previa en vivo"
+  ],
+  [
+    "Dashboard",
+    "Panel"
+  ],
+  [
+    "Multi-endpoint, multi-layout, flexible orchestration",
+    "Multi-endpoint, multi-diseño, orquestación flexible"
+  ],
+  [
+    "Grid / Position / Card / List — four layouts",
+    "Grid / Position / Card / List — cuatro diseños"
+  ],
+  [
+    "Chart linkage, filters",
+    "Vinculación de gráficos, filtros"
+  ],
+  [
+    "Version management, access control",
+    "Gestión de versiones, control de acceso"
+  ],
+  [
+    "AI one-click layout optimization",
+    "Optimización de diseño con IA en un clic"
+  ],
+  [
+    "Veteran Team, Battle-Tested",
+    "Equipo veterano, probado en combate"
+  ],
+  [
+    "Core Team: Years of Enterprise Data Visualization Platform Experience",
+    "Equipo principal: años de experiencia en plataformas de visualización de datos empresariales"
+  ],
+  [
+    "From Tencent to Ping An — deep expertise in enterprise BI and visualization platforms",
+    "De Tencent a Ping An — profunda experiencia en BI empresarial y plataformas de visualización"
+  ],
+  [
+    "Having built enterprise BI platforms from 0 to 1 over many years, DataLuminary distills that experience into one product",
+    "Tras construir plataformas BI empresariales de 0 a 1 durante muchos años, DataLuminary destila esa experiencia en un solo producto"
+  ],
+  [
+    "Tencent Game Experience Management Platform",
+    "Plataforma de gestión de experiencia de juegos Tencent"
+  ],
+  [
+    "Led Architecture Refactor",
+    "Lideró refactorización de arquitectura"
+  ],
+  [
+    "Covers data experience pipeline for all Tencent game products",
+    "Cubre el pipeline de experiencia de datos de todos los productos de juegos Tencent"
+  ],
+  [
+    "Visualization Platform",
+    "Plataforma de visualización"
+  ],
+  [
+    "Architecture Refactor",
+    "Refactorización de arquitectura"
+  ],
+  [
+    "Large-Scale Data",
+    "Datos a gran escala"
+  ],
+  [
+    "BlueKing Universal Chart Platform",
+    "Plataforma universal de gráficos BlueKing"
+  ],
+  [
+    "Built from Scratch",
+    "Construido desde cero"
+  ],
+  [
+    "Core visualization component of Tencent Cloud operations system",
+    "Componente central de visualización del sistema de operaciones Tencent Cloud"
+  ],
+  [
+    "From Zero",
+    "Desde cero"
+  ],
+  [
+    "Chart Platform",
+    "Plataforma de gráficos"
+  ],
+  [
+    "Tencent Cloud Ops",
+    "Operaciones Tencent Cloud"
+  ],
+  [
+    "Ping An Smart City MaxView",
+    "Ping An Smart City MaxView"
+  ],
+  [
+    "Financial-grade enterprise and government data visualization platform",
+    "Plataforma de visualización de datos empresarial y gubernamental de grado financiero"
+  ],
+  [
+    "Financial Grade",
+    "Grado financiero"
+  ],
+  [
+    "Enterprise BI",
+    "BI empresarial"
+  ],
+  [
+    "Ping An Technology StarCanvas",
+    "Ping An Technology StarCanvas"
+  ],
+  [
+    "Years of Continuous Iteration",
+    "Años de iteración continua"
+  ],
+  [
+    "Commercial BI product with deep data visualization expertise",
+    "Producto BI comercial con profunda experiencia en visualización de datos"
+  ],
+  [
+    "Commercial Product",
+    "Producto comercial"
+  ],
+  [
+    "Long-Term Iteration",
+    "Iteración a largo plazo"
+  ],
+  [
+    "BI in Production",
+    "BI en producción"
+  ],
+  [
+    "Full-Stack TS, Lightweight Launch",
+    "TS full-stack, lanzamiento ligero"
+  ],
+  [
+    "In the AI era, TypeScript is a first-class citizen — unified stack, faster development, lighter deployment",
+    "En la era de la IA, TypeScript es ciudadano de primera clase — stack unificado, desarrollo más rápido, despliegue más ligero"
+  ],
+  [
+    "Why Full-Stack TypeScript",
+    "Por qué TypeScript full-stack"
+  ],
+  [
+    "The Top Choice for the AI Era",
+    "La mejor opción para la era de la IA"
+  ],
+  [
+    "TypeScript is the language Copilot, Claude, and other AI tools understand best. Full-stack TS multiplies AI-assisted development — more accurate completions, safer refactors.",
+    "TypeScript es el lenguaje que Copilot, Claude y otras herramientas de IA entienden mejor. TS full-stack multiplica el desarrollo asistido por IA — autocompletado más preciso, refactorizaciones más seguras."
+  ],
+  [
+    "Lower Team Hiring Costs",
+    "Menores costes de contratación"
+  ],
+  [
+    "Unified frontend/backend stack — full-stack engineers can ship complete features independently. Rich TS talent pool dramatically lowers team expansion barriers.",
+    "Stack frontend/backend unificado — ingenieros full-stack pueden entregar funciones completas de forma independiente. Amplio pool de talento TS reduce drásticamente las barreras de expansión del equipo."
+  ],
+  [
+    "Type Safety, Fearless Refactoring",
+    "Seguridad de tipos, refactorización sin miedo"
+  ],
+  [
+    "Strong typing spans frontend and backend — plugin interfaces and data contracts are type-guaranteed. Errors surface at compile time, not in production.",
+    "Tipado fuerte en frontend y backend — interfaces de plugins y contratos de datos con garantía de tipos. Los errores aparecen en compilación, no en producción."
+  ],
+  [
+    "Lightweight Deployment, Simple Ops",
+    "Despliegue ligero, operaciones simples"
+  ],
+  [
+    "One-click Docker Compose launch, PostgreSQL only. Skip Docker and use local DB. Full support for Windows / macOS / Linux.",
+    "Inicio con Docker Compose en un clic, solo PostgreSQL. Omita Docker y use BD local. Soporte completo para Windows / macOS / Linux."
+  ],
+  [
+    "Traditional BI Platform Comparison",
+    "Comparación con plataformas BI tradicionales"
+  ],
+  [
+    "Complex installation, dozens of config items",
+    "Instalación compleja, decenas de parámetros"
+  ],
+  [
+    "Mixed languages, frontend/backend siloed",
+    "Lenguajes mixtos, frontend/backend aislados"
+  ],
+  [
+    "Dedicated ops team required",
+    "Se requiere equipo de operaciones dedicado"
+  ],
+  [
+    "DataLuminary: 3 commands · unified TS · automated bootstrap",
+    "DataLuminary: 3 comandos · TS unificado · bootstrap automatizado"
+  ],
+  [
+    "Infinite Entry Points, Ecosystem-Driven",
+    "Puntos de entrada infinitos, impulsado por ecosistema"
+  ],
+  [
+    "More Than a BI Tool — An Ecosystem-Driven Data Insight Platform",
+    "Más que una herramienta BI — una plataforma de insight de datos impulsada por ecosistema"
+  ],
+  [
+    "Covers traditional BI scenarios while leveraging the LuminaryWorks ecosystem to expand into blockchain, AI tasks, IoT, remote monitoring, and other new physical-world scenarios",
+    "Cubre escenarios BI tradicionales y aprovecha el ecosistema LuminaryWorks para expandirse a blockchain, tareas de IA, IoT, monitorización remota y otros escenarios del mundo físico"
+  ],
+  [
+    "Covers All Traditional Data Analysis Scenarios",
+    "Cubre todos los escenarios tradicionales de análisis de datos"
+  ],
+  [
+    "Product, operations, and BI analysts can get started independently — from data ingestion to insight reports, full NoCode pipeline",
+    "Producto, operaciones y analistas BI pueden empezar de forma independiente — desde la ingesta de datos hasta informes de insight, pipeline NoCode completo"
+  ],
+  [
+    "Data Insights · See",
+    "Insights de datos · Ver"
+  ],
+  [
+    "Data Aggregation Hub",
+    "Hub de agregación de datos"
+  ],
+  [
+    "E-commerce Operations",
+    "Operaciones de comercio electrónico"
+  ],
+  [
+    "Gaming Analytics",
+    "Analítica de juegos"
+  ],
+  [
+    "Financial Risk Control",
+    "Control de riesgos financieros"
+  ],
+  [
+    "Manufacturing Lines",
+    "Líneas de fabricación"
+  ],
+  [
+    "Retail Analytics",
+    "Analítica retail"
+  ],
+  [
+    "Healthcare",
+    "Sanidad"
+  ],
+  [
+    "Education Assessment",
+    "Evaluación educativa"
+  ],
+  [
+    "Logistics Tracking",
+    "Seguimiento logístico"
+  ],
+  [
+    "Project Management",
+    "Gestión de proyectos"
+  ],
+  [
+    "Connect",
+    "Conectar"
+  ],
+  [
+    "Open-source IoT PaaS platform",
+    "Plataforma IoT PaaS de código abierto"
+  ],
+  [
+    "Factory floor device status → real-time monitoring dashboard",
+    "Estado de dispositivos en planta → panel de monitorización en tiempo real"
+  ],
+  [
+    "Control",
+    "Controlar"
+  ],
+  [
+    "WebRTC remote operations platform",
+    "Plataforma de operaciones remotas WebRTC"
+  ],
+  [
+    "Remote ops audit logs → security audit reports",
+    "Registros de auditoría de operaciones remotas → informes de auditoría de seguridad"
+  ],
+  [
+    "Earn",
+    "Ganar"
+  ],
+  [
+    "AI Agent on-chain marketplace",
+    "Mercado on-chain de agentes de IA"
+  ],
+  [
+    "Blockchain Agent revenue → performance analytics dashboard",
+    "Ingresos de agentes blockchain → panel de analítica de rendimiento"
+  ],
+  [
+    "Learn",
+    "Aprender"
+  ],
+  [
+    "Visual programming + AI-assisted teaching",
+    "Programación visual + enseñanza asistida por IA"
+  ],
+  [
+    "Learning data → teaching quality dashboard · nurture ecosystem developers",
+    "Datos de aprendizaje → panel de calidad docente · fomentar desarrolladores del ecosistema"
+  ],
+  [
+    "Ecosystem Entry · Developer Incubator",
+    "Entrada al ecosistema · Incubadora de desarrolladores"
+  ],
+  [
+    "Traditional BI, Ready Out of the Box",
+    "BI tradicional, listo para usar"
+  ],
+  [
+    "E-commerce · gaming · finance · manufacturing — mainstream BI scenarios fully covered, no ecosystem required, fully usable on standalone deployment",
+    "Comercio electrónico · juegos · finanzas · fabricación — escenarios BI principales totalmente cubiertos, sin ecosistema requerido, totalmente usable en despliegue independiente"
+  ],
+  [
+    "New Physical Scenarios, Ecosystem Support",
+    "Nuevos escenarios físicos, soporte del ecosistema"
+  ],
+  [
+    "IoT · AI tasks · blockchain · remote monitoring — sibling product data flows directly for cross-domain insights",
+    "IoT · tareas de IA · blockchain · monitorización remota — datos de productos hermanos fluyen directamente para insights cross-domain"
+  ],
+  [
+    "Education Platform, Developer Ecosystem",
+    "Plataforma educativa, ecosistema de desarrolladores"
+  ],
+  [
+    "VibeEdu visual programming + AI teaching assistance — more developers learn and contribute plugins, continuously expanding the ecosystem",
+    "Programación visual VibeEdu + asistencia docente con IA — más desarrolladores aprenden y contribuyen plugins, expandiendo continuamente el ecosistema"
+  ],
+  [
+    "LuminaryWorks/identity unified OIDC login · LuminaryWorks/shared component library · one account across all products",
+    "Inicio de sesión OIDC unificado LuminaryWorks/identity · biblioteca de componentes LuminaryWorks/shared · una cuenta en todos los productos"
+  ],
+  [
+    "Why Choose DataLuminary",
+    "Por qué elegir DataLuminary"
+  ],
+  [
+    "Full Comparison at a Glance",
+    "Comparación completa de un vistazo"
+  ],
+  [
+    "Feature",
+    "Función"
+  ],
+  [
+    "Traditional BI Tools",
+    "Herramientas BI tradicionales"
+  ],
+  [
+    "Closed-Source SaaS",
+    "SaaS de código cerrado"
+  ],
+  [
+    "End-to-End AI",
+    "IA de extremo a extremo"
+  ],
+  [
+    "Charting/cleansing/layout/reports",
+    "Gráficos/limpieza/diseño/informes"
+  ],
+  [
+    "None or very limited",
+    "Ninguna o muy limitada"
+  ],
+  [
+    "Paid unlock",
+    "Desbloqueo de pago"
+  ],
+  [
+    "Plugin Architecture",
+    "Arquitectura de plugins"
+  ],
+  [
+    "Microkernel, three-layer plugin ecosystem",
+    "Microkernel, ecosistema de plugins de tres capas"
+  ],
+  [
+    "Monolithic",
+    "Monolítico"
+  ],
+  [
+    "Closed ecosystem",
+    "Ecosistema cerrado"
+  ],
+  [
+    "Dashboard Layouts",
+    "Diseños de panel"
+  ],
+  [
+    "Big screen/report/mobile/board",
+    "Pantalla grande/informe/móvil/tablero"
+  ],
+  [
+    "1-2 fixed types",
+    "1-2 tipos fijos"
+  ],
+  [
+    "Limited",
+    "Limitado"
+  ],
+  [
+    "LessCode / NoCode",
+    "LessCode / NoCode"
+  ],
+  [
+    "Full drag-and-drop pipeline",
+    "Pipeline completo con arrastrar y soltar"
+  ],
+  [
+    "Partial support",
+    "Soporte parcial"
+  ],
+  [
+    "Supported",
+    "Compatible"
+  ],
+  [
+    "Unified frontend/backend",
+    "Frontend/backend unificado"
+  ],
+  [
+    "Mixed languages",
+    "Lenguajes mixtos"
+  ],
+  [
+    "Not visible",
+    "No visible"
+  ],
+  [
+    "Deployment Complexity",
+    "Complejidad de despliegue"
+  ],
+  [
+    "3 commands, 5 minutes",
+    "3 comandos, 5 minutos"
+  ],
+  [
+    "Complex install",
+    "Instalación compleja"
+  ],
+  [
+    "N/A cloud service",
+    "N/A servicio en la nube"
+  ],
+  [
+    "Fully private",
+    "Totalmente privado"
+  ],
+  [
+    "Extra cost",
+    "Coste adicional"
+  ],
+  [
+    "Data Security",
+    "Seguridad de datos"
+  ],
+  [
+    "Data stays on-premises",
+    "Los datos permanecen on-premises"
+  ],
+  [
+    "Can be private",
+    "Puede ser privado"
+  ],
+  [
+    "Data in cloud",
+    "Datos en la nube"
+  ],
+  [
+    "Customization",
+    "Personalización"
+  ],
+  [
+    "Plugin SDK, type-safe",
+    "Plugin SDK, seguro en tipos"
+  ],
+  [
+    "Steep learning curve",
+    "Curva de aprendizaje pronunciada"
+  ],
+  [
+    "Not supported",
+    "No compatible"
+  ],
+  [
+    "Open Source License",
+    "Licencia de código abierto"
+  ],
+  [
+    "MIT open source",
+    "Código abierto MIT"
+  ],
+  [
+    "Partially open",
+    "Parcialmente abierto"
+  ],
+  [
+    "Closed source",
+    "Código cerrado"
+  ],
+  [
+    "Ecosystem Integration",
+    "Integración de ecosistema"
+  ],
+  [
+    "Five-product AI ecosystem",
+    "Ecosistema de IA de cinco productos"
+  ],
+  [
+    "Standalone product",
+    "Producto independiente"
+  ],
+  [
+    "Limited integration",
+    "Integración limitada"
+  ],
+  [
+    "Cost",
+    "Coste"
+  ],
+  [
+    "Free",
+    "Gratis"
+  ],
+  [
+    "Enterprise edition fees",
+    "Tarifas de edición empresarial"
+  ],
+  [
+    "Usage-based billing",
+    "Facturación por uso"
+  ],
+  [
+    "Use Cases",
+    "Casos de uso"
+  ],
+  [
+    "Data Insights for Every Industry",
+    "Insights de datos para cada industria"
+  ],
+  [
+    "Business Operations",
+    "Operaciones de negocio"
+  ],
+  [
+    "Sales dashboards, KPI boards, channel analysis reports",
+    "Paneles de ventas, tableros KPI, informes de análisis de canales"
+  ],
+  [
+    "Operations",
+    "Operaciones"
+  ],
+  [
+    "Manufacturing Monitoring",
+    "Monitorización de fabricación"
+  ],
+  [
+    "IoT device dashboards, production line analytics, energy monitoring",
+    "Paneles de dispositivos IoT, analítica de líneas de producción, monitorización energética"
+  ],
+  [
+    "IT",
+    "TI"
+  ],
+  [
+    "Financial Compliance",
+    "Cumplimiento financiero"
+  ],
+  [
+    "Risk reports, transaction analysis, audit trail dashboards",
+    "Informes de riesgo, análisis de transacciones, paneles de auditoría"
+  ],
+  [
+    "Product",
+    "Producto"
+  ],
+  [
+    "E-commerce & Retail",
+    "Comercio electrónico y retail"
+  ],
+  [
+    "User profiles, product analytics, logistics monitoring",
+    "Perfiles de usuario, analítica de productos, monitorización logística"
+  ],
+  [
+    "Patient data analytics, medical resource scheduling dashboards",
+    "Analítica de datos de pacientes, paneles de programación de recursos médicos"
+  ],
+  [
+    "Education & Training",
+    "Educación y formación"
+  ],
+  [
+    "Learning behavior analysis, teaching quality assessment reports",
+    "Análisis de comportamiento de aprendizaje, informes de evaluación de calidad docente"
+  ],
+  [
+    "Open Source Collaboration",
+    "Colaboración de código abierto"
+  ],
+  [
+    "Building the AI Data Insight Ecosystem Together",
+    "Construyendo juntos el ecosistema de insight de datos con IA"
+  ],
+  [
+    "DataLuminary is plugin-based — the entire platform is fully open to the community. Data sources, chart libraries, layout engines — extend capabilities at any layer",
+    "DataLuminary está basado en plugins — toda la plataforma está completamente abierta a la comunidad. Fuentes de datos, bibliotecas de gráficos, motores de diseño — extienda capacidades en cualquier capa"
+  ],
+  [
+    "Data Source Plugin Layer",
+    "Capa de plugins de fuentes de datos"
+  ],
+  [
+    "Direct connection at small scale, ClickHouse integration for billion-row data",
+    "Conexión directa a pequeña escala, integración ClickHouse para datos de miles de millones de filas"
+  ],
+  [
+    "Core data capabilities: MySQL · PostgreSQL · MongoDB · Excel · CSV · API",
+    "Capacidades de datos principales: MySQL · PostgreSQL · MongoDB · Excel · CSV · API"
+  ],
+  [
+    "Small scale (millions) → direct PostgreSQL, zero extra cost",
+    "Pequeña escala (millones) → PostgreSQL directo, cero coste adicional"
+  ],
+  [
+    "Tens/hundreds of millions → ClickHouse integration, second-level aggregation, config unchanged",
+    "Decenas/cientos de millones → integración ClickHouse, agregación en segundos, configuración sin cambios"
+  ],
+  [
+    "Users choose their own foundation — no forced database binding",
+    "Los usuarios eligen su propia base — sin vinculación forzada a base de datos"
+  ],
+  [
+    "Three-stage plugin protocol, interoperable with Grafana data source ecosystem",
+    "Protocolo de plugins en tres etapas, interoperable con el ecosistema de fuentes Grafana"
+  ],
+  [
+    "Contribute Data Source Plugins",
+    "Contribuir plugins de fuentes de datos"
+  ],
+  [
+    "Chart Plugin Layer",
+    "Capa de plugins de gráficos"
+  ],
+  [
+    "No chart library limits, semantic smart recommendations",
+    "Sin límites de biblioteca de gráficos, recomendaciones semánticas inteligentes"
+  ],
+  [
+    "Built-in (AntV G2): line · bar · pie · scatter · radar · sankey...",
+    "Integrados (AntV G2): línea · barra · circular · dispersión · radar · sankey..."
+  ],
+  [
+    "Semantic recommendations (Alibaba AVA): data decides the chart, not user guesswork",
+    "Recomendaciones semánticas (Alibaba AVA): los datos deciden el gráfico, no la suposición del usuario"
+  ],
+  [
+    "Headless BI: switch ECharts / AntV / Highcharts freely without affecting config",
+    "Headless BI: cambie ECharts / AntV / Highcharts libremente sin afectar la configuración"
+  ],
+  [
+    "Any third-party chart library can be wrapped as a chart plugin",
+    "Cualquier biblioteca de gráficos de terceros puede encapsularse como plugin de gráficos"
+  ],
+  [
+    "Contribute Chart Plugins",
+    "Contribuir plugins de gráficos"
+  ],
+  [
+    "Panel Layout Plugin Layer",
+    "Capa de plugins de diseño de panel"
+  ],
+  [
+    "Multi-scenario layouts for every display need",
+    "Diseños multi-escenario para cada necesidad de visualización"
+  ],
+  [
+    "grid-panel → grid drag, PC analysis reports preferred, import Grafana panels",
+    "grid-panel → arrastre en cuadrícula, informes de análisis PC preferidos, importar paneles Grafana"
+  ],
+  [
+    "position-panel → pixel-level free positioning (TMagic), big screens/command centers",
+    "position-panel → posicionamiento libre a nivel de píxel (TMagic), pantallas grandes/centros de mando"
+  ],
+  [
+    "card-panel → card view for reports, email, info boards",
+    "card-panel → vista de tarjetas para informes, correo, tableros informativos"
+  ],
+  [
+    "list-panel → vertical list, mobile-first",
+    "list-panel → lista vertical, mobile-first"
+  ],
+  [
+    "Layout engine itself is a plugin — build and integrate your own engine",
+    "El motor de diseño en sí es un plugin — construya e integre su propio motor"
+  ],
+  [
+    "Contribute Layout Plugins",
+    "Contribuir plugins de diseño"
+  ],
+  [
+    "Import Packages On Demand",
+    "Importar paquetes bajo demanda"
+  ],
+  [
+    "Serverless Data Processing",
+    "Procesamiento de datos Serverless"
+  ],
+  [
+    "Functional Business Logic",
+    "Lógica de negocio funcional"
+  ],
+  [
+    "Lerna Package Management",
+    "Gestión de paquetes Lerna"
+  ],
+  [
+    "All plugins, components, and functions managed by Lerna — independent versions, releases, and imports",
+    "Todos los plugins, componentes y funciones gestionados por Lerna — versiones, publicaciones e importaciones independientes"
+  ],
+  [
+    "Functional Data Processing",
+    "Procesamiento de datos funcional"
+  ],
+  [
+    "Cleansing, transformation, and aggregation logic as pure functions — composable, testable, reusable",
+    "Lógica de limpieza, transformación y agregación como funciones puras — componible, testeable, reutilizable"
+  ],
+  [
+    "Serverless-Ready Granularity",
+    "Granularidad lista para Serverless"
+  ],
+  [
+    "Core processing logic is stateless — deploy directly as Serverless / Edge functions, compute on demand",
+    "La lógica de procesamiento central es sin estado — despliegue directo como funciones Serverless / Edge, cómputo bajo demanda"
+  ],
+  [
+    "User-Chosen Foundation",
+    "Base elegida por el usuario"
+  ],
+  [
+    "No forced database binding — direct PG at small scale, ClickHouse for billion-row data",
+    "Sin vinculación forzada a base de datos — PG directo a pequeña escala, ClickHouse para datos de miles de millones de filas"
+  ],
+  [
+    "Star on GitHub",
+    "Star en GitHub"
+  ],
+  [
+    "Open source and free for commercial use",
+    "Código abierto y gratuito para uso comercial"
+  ],
+  [
+    "Complete Documentation",
+    "Documentación completa"
+  ],
+  [
+    "User guide · plugin development · API docs",
+    "Guía de usuario · desarrollo de plugins · documentación API"
+  ],
+  [
+    "Active Community",
+    "Comunidad activa"
+  ],
+  [
+    "GitHub Discussions · Discord",
+    "GitHub Discussions · Discord"
+  ],
+  [
+    "Contributor-Friendly",
+    "Amigable con contribuidores"
+  ],
+  [
+    "Detailed contribution guide, full CI/CD support",
+    "Guía de contribución detallada, soporte CI/CD completo"
+  ],
+  [
+    "Every line of plugin code is a step forward in AI data insight, driven by the community.",
+    "Cada línea de código de plugin es un paso adelante en el insight de datos con IA, impulsado por la comunidad."
+  ],
+  [
+    "Deploy in 5 Minutes — Experience AI-Native Data Insights Now",
+    "Despliegue en 5 minutos — experimente insights de datos nativos en IA ahora"
+  ],
+  [
+    "Open source & free · No credit card · Private deployment · MIT License",
+    "Código abierto y gratuito · Sin tarjeta de crédito · Despliegue privado · Licencia MIT"
+  ],
+  [
+    "Deploy Locally for Free",
+    "Desplegar localmente gratis"
+  ],
+  [
+    "View Documentation",
+    "Ver documentación"
+  ],
+  [
+    "Enter email to subscribe to product updates",
+    "Introduzca su correo para suscribirse a actualizaciones del producto"
+  ],
+  [
+    "Email address",
+    "Dirección de correo electrónico"
+  ],
+  [
+    "Subscribe",
+    "Suscribirse"
+  ],
+  [
+    "No spam, unsubscribe anytime",
+    "Sin spam, cancélelo cuando quiera"
+  ],
+  [
+    "Adopted by 500+ enterprises and developers",
+    "Adoptado por más de 500 empresas y desarrolladores"
+  ],
+  [
+    "4.9/5 community rating",
+    "Valoración comunitaria 4,9/5"
+  ],
+  [
+    "Open-source, plugin-based, AI-native data visualization BI platform. Insights within reach.",
+    "Plataforma BI de visualización de datos de código abierto, basada en plugins y nativa en IA. Insights al alcance."
+  ],
+  [
+    "Social links",
+    "Enlaces sociales"
+  ],
+  [
+    "Plugin Marketplace",
+    "Marketplace de plugins"
+  ],
+  [
+    "Changelog",
+    "Registro de cambios"
+  ],
+  [
+    "Roadmap",
+    "Hoja de ruta"
+  ],
+  [
+    "Developers",
+    "Desarrolladores"
+  ],
+  [
+    "Plugin Development Guide",
+    "Guía de desarrollo de plugins"
+  ],
+  [
+    "API Docs",
+    "Documentación API"
+  ],
+  [
+    "Contribution Guide",
+    "Guía de contribución"
+  ],
+  [
+    "Ecosystem",
+    "Ecosistema"
+  ],
+  [
+    "Legal",
+    "Legal"
+  ],
+  [
+    "Privacy Policy",
+    "Política de privacidad"
+  ],
+  [
+    "Security Disclosure",
+    "Divulgación de seguridad"
+  ],
+  [
+    "© 2024–2026 LuminaryWorks. Built with TypeScript.",
+    "© 2024–2026 LuminaryWorks. Built with TypeScript."
+  ]
+]

@@ -1,0 +1,371 @@
+﻿DataLuminary 鈥?Insights Within Reach | AI-Native Open-Source BI Platform
+DataLuminary is an open-source, plugin-based, AI-native data visualization and BI platform built with full-stack TypeScript. End-to-end AI insights, microkernel plugin ecosystem, drag-and-drop NoCode configuration, and 5-minute Docker private deployment.
+BI Platform
+Data Visualization
+AI Insights
+Open Source BI
+Plugin Architecture
+DataLuminary 鈥?Insights Within Reach
+AI-native, plugin-based, open-source data visualization BI platform
+Features
+Plugins
+AI
+Deploy
+About
+Sign In
+DataLuminary Home
+Switch language
+Open menu
+Close menu
+LuminaryWorks AI Ecosystem 路 Open Source MIT License
+Insights Within Reach
+End-to-end AI 鈥?report generation, charting, data cleansing, and page layout, AI assists every step
+Microkernel plugins 鈥?data sources, charts, and dashboard layouts, everything is extensible
+Full-stack TypeScript 鈥?launch with Docker in 5 minutes, private deployment, zero barrier to customization
+Try for Free
+Open Source Community
+One-Click Docker Launch
+Full-Stack TypeScript
+Private Deployment
+AI is generating an analysis report
+Total Sales
+Anomaly Trends
+3 anomaly trends detected 路 East China Q3 YoY 鈫?8%
+AI Cleansing
+AI Charts/Reports
+Full Drag-and-Drop
+Plugin-Based
+Four Core Differentiators
+Redefining Enterprise Data Visualization
+End-to-end AI 路 Microkernel Plugins 路 Drag-and-Drop NoCode 路 Full-Stack TypeScript
+AI-Native, End-to-End Intelligence
+Beyond visualization BI 鈥?DataLuminary embeds AI across every step from data to decisions. AI guides you through every stage of your reports.
+AI-Generated Analysis Reports
+Describe your analysis goal; AI produces a complete report
+AI-Assisted Charting
+Smart chart recommendations with automatic field mapping
+AI Data Cleansing
+Detect nulls, anomalies, and format errors 鈥?fix with one click
+AI Page Layout
+Analyze content hierarchy and auto-arrange dashboard layouts
+Microkernel Architecture, Infinitely Extensible
+Dashboard Plugins
+Free-form big screens / PC grid reports / mobile lists / card boards
+Chart Plugins
+ECharts 路 AntV 路 Highcharts 鈥?community contributions stack infinitely
+Data Source Plugins
+MySQL / PG / MongoDB / Excel / API 鈥?extend via custom SDK
+Open SDK
+JSON Schema constraints, interoperable with the Grafana ecosystem
+Drag-and-Drop Configuration, No Coding Required
+Product, operations, and BI analysts can independently handle data cleansing, charting, and dashboard building. Developers can dive into SQL and advanced config when needed.
+Drag-and-Drop Datasets
+Drag fields to configure metrics/dimensions, multi-table joins, calculated fields
+NoCode Charting
+Pick chart type, drag fields to axes, live preview, zero code
+Visual Layout
+Grid drag / free positioning, responsive adaptation
+Chart Linkage & Drill-Down
+Visually configure filters and linkage 鈥?no interaction code
+Full-Stack TS, Lightweight & Fast
+In the AI era, TypeScript is a first-class citizen. A unified full-stack means lower hiring barriers, faster AI-assisted development, and lighter maintenance.
+Live in 5 Minutes
+One-click Docker Compose launch 鈥?deploy in 3 commands
+Easier Hiring
+Thriving TS ecosystem 鈥?frontend and backend talent interchangeable
+AI-Assisted Development
+TS type information is the language LLMs understand best
+Zero Customization Barrier
+Type-safe, refactor-friendly, complete plugin SDK
+End-to-End AI Insight Capabilities
+AI-Powered 鈥?Data That Speaks
+From data cleansing to insight reports, AI spans every step
+Auto-extract key metrics 路 Detect anomaly trends 路 Output business recommendations
+Analyze regional sales trends this quarter, focusing on the East China decline
+Analyzing Q3 sales dataset... Found 3 anomaly trends 鈫揬nReport structure: Overview 鈫?Regional comparison 鈫?Root cause 鈫?Recommendations
+Report Preview
+Revenue
+Orders
+Conversion
+AOV
+East China Q3 YoY 鈫?8%, mainly due to channel inventory backlog
+Understand business semantics 路 Recommend best charts 路 Auto-complete configuration
+Compare monthly growth rates across product lines over the last 6 months
+Auto-selected multi-series line chart, X-axis=month / Y-axis=growth rate, recommended color scheme, suggested mean reference line
+Before
+After
+Smart quality detection 路 Batch repair 路 Preserve processing history
+AI One-Click Cleanse
+Cleansing Complete
+Filled 3 missing values (mean imputation)
+Flagged 1 outlier (retained and annotated)
+Standardized 8 date formats
+Analyze content weight 路 Auto-adjust size and position 路 Follow visual standards
+Before 路 Cluttered layout
+After 路 Clear hierarchy
+AI Optimize Layout
+AI analyzed content weight of 6 components and auto-optimized layout hierarchy
+Microkernel Plugin Architecture
+Meet Every Visualization Need
+Unlike monolithic traditional BI tools, DataLuminary is a microkernel plugin platform 鈥?panel, chart, and data source plugin ecosystems make every visualization need achievable
+Microkernel
+Explore Plugin Ecosystem
+Dashboard Layout Plugins
+Custom
+grid-panel grid layout 鈥?react-grid-layout, PC reports preferred, import Grafana panels
+position-panel free-form big screen 鈥?TMagic-based, pixel-level positioning for command centers
+card-panel card view 鈥?reports, email, boards, and more
+list-panel list layout 鈥?mobile-first, vertical card scrolling
++ Custom layout plugins 鈥?integrate via development SDK
+Headless BI Design
+Chart plugins only render 鈥?data is uniformly supplied by the dataset layer, no direct data source connection
+Built-in: line 路 bar 路 area 路 pie 路 ring 路 scatter 路 radar 路 funnel
+Map 路 word cloud 路 metric card 路 table 路 rich text 路 liquid 路 heatmap 路 sankey 路 candlestick 路 graph...
+Switch chart libraries: ECharts / AntV / Highcharts 鈥?swap freely without affecting configuration
+Three-Stage Plugin Protocol (Grafana-inspired)
+ConfigPanel data source config 路 QueryPanel query config 路 VariablePanel variable query
+Relational: MySQL 路 PostgreSQL 路 SQL Server 路 ClickHouse
+Document: MongoDB 路 Elasticsearch | Files: Excel 路 CSV 路 JSON
+APIs: RESTful API 路 GraphQL | + Plugin SDK for any custom data source
+Core Pipeline
+From Data to Decisions
+Data Source 鈫?Dataset 鈫?Chart 鈫?Dashboard 鈥?data flows through the pipeline, every stage is plugin-extensible
+Headless BI Design:
+Data Source
+Multi-source ingestion, unified management
+Data source plugin list
+Connection test
+QueryPanel preview
+Dataset
+Dataset 路 Headless BI Core
+Metric/dimension modeling, data cleansing
+Configure metric / dimension fields
+Multi-table Join
+Calculated fields and data cleansing
+AI-assisted cleansing (coming soon)
+Chart
+NoCode charting, drag and get results
+Select chart type (plugin-based)
+Drag fields to X-axis/Y-axis/series
+AI recommends best chart type
+Live preview
+Dashboard
+Multi-endpoint, multi-layout, flexible orchestration
+Grid / Position / Card / List 鈥?four layouts
+Chart linkage, filters
+Version management, access control
+AI one-click layout optimization
+Veteran Team, Battle-Tested
+Core Team: Years of Enterprise Data Visualization Platform Experience
+From Tencent to Ping An 鈥?deep expertise in enterprise BI and visualization platforms
+Having built enterprise BI platforms from 0 to 1 over many years, DataLuminary distills that experience into one product
+Tencent Game Experience Management Platform
+Led Architecture Refactor
+Covers data experience pipeline for all Tencent game products
+Visualization Platform
+Architecture Refactor
+Large-Scale Data
+BlueKing Universal Chart Platform
+Built from Scratch
+Core visualization component of Tencent Cloud operations system
+From Zero
+Chart Platform
+Tencent Cloud Ops
+Ping An Smart City MaxView
+Financial-grade enterprise and government data visualization platform
+Financial Grade
+Enterprise BI
+Ping An Technology StarCanvas
+Years of Continuous Iteration
+Commercial BI product with deep data visualization expertise
+Commercial Product
+Long-Term Iteration
+BI in Production
+Full-Stack TS, Lightweight Launch
+In the AI era, TypeScript is a first-class citizen 鈥?unified stack, faster development, lighter deployment
+Why Full-Stack TypeScript
+The Top Choice for the AI Era
+TypeScript is the language Copilot, Claude, and other AI tools understand best. Full-stack TS multiplies AI-assisted development 鈥?more accurate completions, safer refactors.
+Lower Team Hiring Costs
+Unified frontend/backend stack 鈥?full-stack engineers can ship complete features independently. Rich TS talent pool dramatically lowers team expansion barriers.
+Type Safety, Fearless Refactoring
+Strong typing spans frontend and backend 鈥?plugin interfaces and data contracts are type-guaranteed. Errors surface at compile time, not in production.
+Lightweight Deployment, Simple Ops
+One-click Docker Compose launch, PostgreSQL only. Skip Docker and use local DB. Full support for Windows / macOS / Linux.
+Traditional BI Platform Comparison
+Complex installation, dozens of config items
+Mixed languages, frontend/backend siloed
+Dedicated ops team required
+DataLuminary: 3 commands 路 unified TS 路 automated bootstrap
+Infinite Entry Points, Ecosystem-Driven
+More Than a BI Tool 鈥?An Ecosystem-Driven Data Insight Platform
+Covers traditional BI scenarios while leveraging the LuminaryWorks ecosystem to expand into blockchain, AI tasks, IoT, remote monitoring, and other new physical-world scenarios
+Covers All Traditional Data Analysis Scenarios
+Product, operations, and BI analysts can get started independently 鈥?from data ingestion to insight reports, full NoCode pipeline
+Data Insights 路 See
+Data Aggregation Hub
+E-commerce Operations
+Gaming Analytics
+Financial Risk Control
+Manufacturing Lines
+Retail Analytics
+Healthcare
+Education Assessment
+Logistics Tracking
+Project Management
+Connect
+Open-source IoT PaaS platform
+Factory floor device status 鈫?real-time monitoring dashboard
+Control
+WebRTC remote operations platform
+Remote ops audit logs 鈫?security audit reports
+Earn
+AI Agent on-chain marketplace
+Blockchain Agent revenue 鈫?performance analytics dashboard
+Learn
+Visual programming + AI-assisted teaching
+Learning data 鈫?teaching quality dashboard 路 nurture ecosystem developers
+Ecosystem Entry 路 Developer Incubator
+Traditional BI, Ready Out of the Box
+E-commerce 路 gaming 路 finance 路 manufacturing 鈥?mainstream BI scenarios fully covered, no ecosystem required, fully usable on standalone deployment
+New Physical Scenarios, Ecosystem Support
+IoT 路 AI tasks 路 blockchain 路 remote monitoring 鈥?sibling product data flows directly for cross-domain insights
+Education Platform, Developer Ecosystem
+VibeEdu visual programming + AI teaching assistance 鈥?more developers learn and contribute plugins, continuously expanding the ecosystem
+LuminaryWorks/identity unified OIDC login 路 LuminaryWorks/shared component library 路 one account across all products
+Why Choose DataLuminary
+Full Comparison at a Glance
+Feature
+Traditional BI Tools
+Closed-Source SaaS
+End-to-End AI
+Charting/cleansing/layout/reports
+None or very limited
+Paid unlock
+Plugin Architecture
+Microkernel, three-layer plugin ecosystem
+Monolithic
+Closed ecosystem
+Dashboard Layouts
+Big screen/report/mobile/board
+1-2 fixed types
+Limited
+LessCode / NoCode
+Full drag-and-drop pipeline
+Partial support
+Supported
+Unified frontend/backend
+Mixed languages
+Not visible
+Deployment Complexity
+3 commands, 5 minutes
+Complex install
+N/A cloud service
+Fully private
+Extra cost
+Data Security
+Data stays on-premises
+Can be private
+Data in cloud
+Customization
+Plugin SDK, type-safe
+Steep learning curve
+Not supported
+Open Source License
+MIT open source
+Partially open
+Closed source
+Ecosystem Integration
+Five-product AI ecosystem
+Standalone product
+Limited integration
+Cost
+Free
+Enterprise edition fees
+Usage-based billing
+Use Cases
+Data Insights for Every Industry
+Business Operations
+Sales dashboards, KPI boards, channel analysis reports
+Operations
+Manufacturing Monitoring
+IoT device dashboards, production line analytics, energy monitoring
+IT
+Financial Compliance
+Risk reports, transaction analysis, audit trail dashboards
+Product
+E-commerce & Retail
+User profiles, product analytics, logistics monitoring
+Patient data analytics, medical resource scheduling dashboards
+Education & Training
+Learning behavior analysis, teaching quality assessment reports
+Open Source Collaboration
+Building the AI Data Insight Ecosystem Together
+DataLuminary is plugin-based 鈥?the entire platform is fully open to the community. Data sources, chart libraries, layout engines 鈥?extend capabilities at any layer
+Data Source Plugin Layer
+Direct connection at small scale, ClickHouse integration for billion-row data
+Core data capabilities: MySQL 路 PostgreSQL 路 MongoDB 路 Excel 路 CSV 路 API
+Small scale (millions) 鈫?direct PostgreSQL, zero extra cost
+Tens/hundreds of millions 鈫?ClickHouse integration, second-level aggregation, config unchanged
+Users choose their own foundation 鈥?no forced database binding
+Three-stage plugin protocol, interoperable with Grafana data source ecosystem
+Contribute Data Source Plugins
+Chart Plugin Layer
+No chart library limits, semantic smart recommendations
+Built-in (AntV G2): line 路 bar 路 pie 路 scatter 路 radar 路 sankey...
+Semantic recommendations (Alibaba AVA): data decides the chart, not user guesswork
+Headless BI: switch ECharts / AntV / Highcharts freely without affecting config
+Any third-party chart library can be wrapped as a chart plugin
+Contribute Chart Plugins
+Panel Layout Plugin Layer
+Multi-scenario layouts for every display need
+grid-panel 鈫?grid drag, PC analysis reports preferred, import Grafana panels
+position-panel 鈫?pixel-level free positioning (TMagic), big screens/command centers
+card-panel 鈫?card view for reports, email, info boards
+list-panel 鈫?vertical list, mobile-first
+Layout engine itself is a plugin 鈥?build and integrate your own engine
+Contribute Layout Plugins
+Import Packages On Demand
+Serverless Data Processing
+Functional Business Logic
+Lerna Package Management
+All plugins, components, and functions managed by Lerna 鈥?independent versions, releases, and imports
+Functional Data Processing
+Cleansing, transformation, and aggregation logic as pure functions 鈥?composable, testable, reusable
+Serverless-Ready Granularity
+Core processing logic is stateless 鈥?deploy directly as Serverless / Edge functions, compute on demand
+User-Chosen Foundation
+No forced database binding 鈥?direct PG at small scale, ClickHouse for billion-row data
+Star on GitHub
+Open source and free for commercial use
+Complete Documentation
+User guide 路 plugin development 路 API docs
+Active Community
+GitHub Discussions 路 Discord
+Contributor-Friendly
+Detailed contribution guide, full CI/CD support
+Every line of plugin code is a step forward in AI data insight, driven by the community.
+Deploy in 5 Minutes 鈥?Experience AI-Native Data Insights Now
+Open source & free 路 No credit card 路 Private deployment 路 MIT License
+Deploy Locally for Free
+View Documentation
+Enter email to subscribe to product updates
+Email address
+Subscribe
+No spam, unsubscribe anytime
+Adopted by 500+ enterprises and developers
+4.9/5 community rating
+Open-source, plugin-based, AI-native data visualization BI platform. Insights within reach.
+Social links
+Plugin Marketplace
+Changelog
+Roadmap
+Developers
+Plugin Development Guide
+API Docs
+Contribution Guide
+Ecosystem
+Legal
+Privacy Policy
+Security Disclosure
+漏 2024鈥?026 LuminaryWorks. Built with TypeScript.

@@ -1,0 +1,909 @@
+{
+  "metadata": {
+    "title": "DataLuminary — Insights Within Reach | AI-Native Open-Source BI Platform",
+    "description": "DataLuminary is an open-source, plugin-based, AI-native data visualization and BI platform built with full-stack TypeScript. End-to-end AI insights, microkernel plugin ecosystem, drag-and-drop NoCode configuration, and 5-minute Docker private deployment.",
+    "keywords": [
+      "DataLuminary",
+      "BI Platform",
+      "Data Visualization",
+      "AI Insights",
+      "Open Source BI",
+      "TypeScript",
+      "Plugin Architecture"
+    ],
+    "openGraph": {
+      "title": "DataLuminary — Insights Within Reach",
+      "description": "AI-native, plugin-based, open-source data visualization BI platform"
+    }
+  },
+  "nav": {
+    "links": {
+      "features": "Features",
+      "plugins": "Plugins",
+      "ai": "AI",
+      "deploy": "Deploy",
+      "about": "About"
+    },
+    "login": "Sign In",
+    "homeAria": "DataLuminary Home",
+    "toggleLang": "Switch language",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "badge": "LuminaryWorks AI Ecosystem · Open Source MIT License",
+    "title": "Insights Within Reach",
+    "tagline": "Illuminate insights for all",
+    "values": [
+      "End-to-end AI — report generation, charting, data cleansing, and page layout, AI assists every step",
+      "Microkernel plugins — data sources, charts, and dashboard layouts, everything is extensible",
+      "Full-stack TypeScript — launch with Docker in 5 minutes, private deployment, zero barrier to customization"
+    ],
+    "cta": "Try for Free",
+    "github": "GitHub",
+    "trust": [
+      {
+        "label": "Open Source Community"
+      },
+      {
+        "label": "One-Click Docker Launch"
+      },
+      {
+        "label": "Full-Stack TypeScript"
+      },
+      {
+        "label": "Private Deployment"
+      }
+    ],
+    "card": {
+      "aiGenerating": "AI is generating an analysis report",
+      "totalSales": "Total Sales",
+      "anomalyTrend": "Anomaly Trends",
+      "anomalyCount": "3",
+      "anomalyAlert": "3 anomaly trends detected · East China Q3 YoY ↓18%",
+      "statusChips": [
+        {
+          "label": "AI Cleansing"
+        },
+        {
+          "label": "AI Charts/Reports"
+        },
+        {
+          "label": "Full Drag-and-Drop"
+        },
+        {
+          "label": "Plugin-Based"
+        }
+      ]
+    }
+  },
+  "coreAdvantages": {
+    "eyebrow": "Four Core Differentiators",
+    "title": "Redefining Enterprise Data Visualization",
+    "subtitle": "End-to-end AI · Microkernel Plugins · Drag-and-Drop NoCode · Full-Stack TypeScript",
+    "cards": [
+      {
+        "headline": "AI-Native, End-to-End Intelligence",
+        "body": "Beyond visualization BI — DataLuminary embeds AI across every step from data to decisions. AI guides you through every stage of your reports.",
+        "chips": [
+          {
+            "label": "AI-Generated Analysis Reports",
+            "desc": "Describe your analysis goal; AI produces a complete report"
+          },
+          {
+            "label": "AI-Assisted Charting",
+            "desc": "Smart chart recommendations with automatic field mapping"
+          },
+          {
+            "label": "AI Data Cleansing",
+            "desc": "Detect nulls, anomalies, and format errors — fix with one click"
+          },
+          {
+            "label": "AI Page Layout",
+            "desc": "Analyze content hierarchy and auto-arrange dashboard layouts"
+          }
+        ]
+      },
+      {
+        "headline": "Microkernel Architecture, Infinitely Extensible",
+        "body": "Panel, chart, and data source plugin systems form DataLuminary's visualization world — not a fixed feature list, but an ever-growing plugin ecosystem.",
+        "chips": [
+          {
+            "label": "Dashboard Plugins",
+            "desc": "Free-form big screens / PC grid reports / mobile lists / card boards"
+          },
+          {
+            "label": "Chart Plugins",
+            "desc": "ECharts · AntV · Highcharts — community contributions stack infinitely"
+          },
+          {
+            "label": "Data Source Plugins",
+            "desc": "MySQL / PG / MongoDB / Excel / API — extend via custom SDK"
+          },
+          {
+            "label": "Open SDK",
+            "desc": "JSON Schema constraints, interoperable with the Grafana ecosystem"
+          }
+        ]
+      },
+      {
+        "headline": "Drag-and-Drop Configuration, No Coding Required",
+        "body": "Product, operations, and BI analysts can independently handle data cleansing, charting, and dashboard building. Developers can dive into SQL and advanced config when needed.",
+        "chips": [
+          {
+            "label": "Drag-and-Drop Datasets",
+            "desc": "Drag fields to configure metrics/dimensions, multi-table joins, calculated fields"
+          },
+          {
+            "label": "NoCode Charting",
+            "desc": "Pick chart type, drag fields to axes, live preview, zero code"
+          },
+          {
+            "label": "Visual Layout",
+            "desc": "Grid drag / free positioning, responsive adaptation"
+          },
+          {
+            "label": "Chart Linkage & Drill-Down",
+            "desc": "Visually configure filters and linkage — no interaction code"
+          }
+        ]
+      },
+      {
+        "headline": "Full-Stack TS, Lightweight & Fast",
+        "body": "In the AI era, TypeScript is a first-class citizen. A unified full-stack means lower hiring barriers, faster AI-assisted development, and lighter maintenance.",
+        "chips": [
+          {
+            "label": "Live in 5 Minutes",
+            "desc": "One-click Docker Compose launch — deploy in 3 commands"
+          },
+          {
+            "label": "Easier Hiring",
+            "desc": "Thriving TS ecosystem — frontend and backend talent interchangeable"
+          },
+          {
+            "label": "AI-Assisted Development",
+            "desc": "TS type information is the language LLMs understand best"
+          },
+          {
+            "label": "Zero Customization Barrier",
+            "desc": "Type-safe, refactor-friendly, complete plugin SDK"
+          }
+        ]
+      }
+    ]
+  },
+  "aiCapabilities": {
+    "eyebrow": "End-to-End AI Insight Capabilities",
+    "title": "AI-Powered — Data That Speaks",
+    "subtitle": "From data cleansing to insight reports, AI spans every step",
+    "tabs": [
+      {
+        "id": "report",
+        "label": "AI-Generated Analysis Reports"
+      },
+      {
+        "id": "chart",
+        "label": "AI-Assisted Charting"
+      },
+      {
+        "id": "clean",
+        "label": "AI Data Cleansing"
+      },
+      {
+        "id": "layout",
+        "label": "AI Page Layout"
+      }
+    ],
+    "demos": {
+      "report": {
+        "tag": "Auto-extract key metrics · Detect anomaly trends · Output business recommendations",
+        "user": "Analyze regional sales trends this quarter, focusing on the East China decline",
+        "ai": "Analyzing Q3 sales dataset... Found 3 anomaly trends ↓\nReport structure: Overview → Regional comparison → Root cause → Recommendations",
+        "previewLabel": "Report Preview",
+        "metricLabels": [
+          "Revenue",
+          "Orders",
+          "Conversion",
+          "AOV"
+        ],
+        "anomalyNote": "East China Q3 YoY ↓18%, mainly due to channel inventory backlog"
+      },
+      "chart": {
+        "tag": "Understand business semantics · Recommend best charts · Auto-complete configuration",
+        "user": "Compare monthly growth rates across product lines over the last 6 months",
+        "ai": "Auto-selected multi-series line chart, X-axis=month / Y-axis=growth rate, recommended color scheme, suggested mean reference line",
+        "beforeLabel": "Before",
+        "afterLabel": "After"
+      },
+      "clean": {
+        "tag": "Smart quality detection · Batch repair · Preserve processing history",
+        "cleanButton": "AI One-Click Cleanse",
+        "completeLabel": "Cleansing Complete",
+        "results": [
+          "Filled 3 missing values (mean imputation)",
+          "Flagged 1 outlier (retained and annotated)",
+          "Standardized 8 date formats"
+        ]
+      },
+      "layout": {
+        "tag": "Analyze content weight · Auto-adjust size and position · Follow visual standards",
+        "beforeLabel": "Before · Cluttered layout",
+        "afterLabel": "After · Clear hierarchy",
+        "optimizeButton": "AI Optimize Layout",
+        "afterNote": "AI analyzed content weight of 6 components and auto-optimized layout hierarchy"
+      }
+    }
+  },
+  "pluginArchitecture": {
+    "eyebrow": "Microkernel Plugin Architecture",
+    "title": "Meet Every Visualization Need",
+    "subtitle": "Unlike monolithic traditional BI tools, DataLuminary is a microkernel plugin platform — panel, chart, and data source plugin ecosystems make every visualization need achievable",
+    "microkernel": "Microkernel",
+    "exploreCta": "Explore Plugin Ecosystem",
+    "orbits": [
+      {
+        "id": "panel",
+        "title": "Dashboard Layout Plugins",
+        "nodes": [
+          "Grid",
+          "Position",
+          "Card",
+          "List",
+          "Custom"
+        ],
+        "detail": {
+          "lines": [
+            "grid-panel grid layout — react-grid-layout, PC reports preferred, import Grafana panels",
+            "position-panel free-form big screen — TMagic-based, pixel-level positioning for command centers",
+            "card-panel card view — reports, email, boards, and more",
+            "list-panel list layout — mobile-first, vertical card scrolling",
+            "+ Custom layout plugins — integrate via development SDK"
+          ]
+        }
+      },
+      {
+        "id": "chart",
+        "title": "Chart Plugins",
+        "nodes": [
+          "ECharts",
+          "AntV",
+          "Highcharts",
+          "Custom"
+        ],
+        "detail": {
+          "title": "Headless BI Design",
+          "lines": [
+            "Chart plugins only render — data is uniformly supplied by the dataset layer, no direct data source connection",
+            "Built-in: line · bar · area · pie · ring · scatter · radar · funnel",
+            "Map · word cloud · metric card · table · rich text · liquid · heatmap · sankey · candlestick · graph...",
+            "Switch chart libraries: ECharts / AntV / Highcharts — swap freely without affecting configuration"
+          ]
+        }
+      },
+      {
+        "id": "datasource",
+        "title": "Data Source Plugins",
+        "nodes": [
+          "MySQL",
+          "PG",
+          "MongoDB",
+          "Excel",
+          "API",
+          "Custom"
+        ],
+        "detail": {
+          "title": "Three-Stage Plugin Protocol (Grafana-inspired)",
+          "lines": [
+            "ConfigPanel data source config · QueryPanel query config · VariablePanel variable query",
+            "Relational: MySQL · PostgreSQL · SQL Server · ClickHouse",
+            "Document: MongoDB · Elasticsearch | Files: Excel · CSV · JSON",
+            "APIs: RESTful API · GraphQL | + Plugin SDK for any custom data source"
+          ]
+        }
+      }
+    ]
+  },
+  "dataPipeline": {
+    "eyebrow": "Core Pipeline",
+    "title": "From Data to Decisions",
+    "subtitle": "Data Source → Dataset → Chart → Dashboard — data flows through the pipeline, every stage is plugin-extensible",
+    "headlessLabel": "Headless BI Design:",
+    "headlessNote": "Charts do not connect directly to data sources — datasets supply data uniformly. This is DataLuminary's core architectural difference from traditional tools.",
+    "steps": [
+      {
+        "label": "Data Source",
+        "en": "Datasource",
+        "desc": "Multi-source ingestion, unified management",
+        "popup": [
+          "Data source plugin list",
+          "Connection test",
+          "QueryPanel preview"
+        ]
+      },
+      {
+        "label": "Dataset",
+        "en": "Dataset · Headless BI Core",
+        "desc": "Metric/dimension modeling, data cleansing",
+        "popup": [
+          "Configure metric / dimension fields",
+          "Multi-table Join",
+          "Calculated fields and data cleansing",
+          "AI-assisted cleansing (coming soon)"
+        ]
+      },
+      {
+        "label": "Chart",
+        "en": "Chart",
+        "desc": "NoCode charting, drag and get results",
+        "popup": [
+          "Select chart type (plugin-based)",
+          "Drag fields to X-axis/Y-axis/series",
+          "AI recommends best chart type",
+          "Live preview"
+        ]
+      },
+      {
+        "label": "Dashboard",
+        "en": "Dashboard",
+        "desc": "Multi-endpoint, multi-layout, flexible orchestration",
+        "popup": [
+          "Grid / Position / Card / List — four layouts",
+          "Chart linkage, filters",
+          "Version management, access control",
+          "AI one-click layout optimization"
+        ]
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Veteran Team, Battle-Tested",
+    "title": "Core Team: Years of Enterprise Data Visualization Platform Experience",
+    "subtitle": "From Tencent to Ping An — deep expertise in enterprise BI and visualization platforms",
+    "quote": "Having built enterprise BI platforms from 0 to 1 over many years, DataLuminary distills that experience into one product",
+    "cards": [
+      {
+        "company": "Tencent Game Experience Management Platform",
+        "role": "Led Architecture Refactor",
+        "impact": "Covers data experience pipeline for all Tencent game products",
+        "chips": [
+          "Visualization Platform",
+          "Architecture Refactor",
+          "Large-Scale Data"
+        ]
+      },
+      {
+        "company": "Tencent BlueKing Universal Chart Platform",
+        "role": "Built from Scratch",
+        "impact": "Core visualization component of Tencent Cloud operations system",
+        "chips": [
+          "From Zero",
+          "Chart Platform",
+          "Tencent Cloud Ops"
+        ]
+      },
+      {
+        "company": "Ping An Smart City MaxView",
+        "role": "Built from Scratch",
+        "impact": "Financial-grade enterprise and government data visualization platform",
+        "chips": [
+          "Financial Grade",
+          "From Zero",
+          "Enterprise BI"
+        ]
+      },
+      {
+        "company": "Ping An Technology StarCanvas",
+        "role": "Years of Continuous Iteration",
+        "impact": "Commercial BI product with deep data visualization expertise",
+        "chips": [
+          "Commercial Product",
+          "Long-Term Iteration",
+          "BI in Production"
+        ]
+      }
+    ]
+  },
+  "typescriptDeploy": {
+    "eyebrow": "Full-Stack TypeScript",
+    "title": "Full-Stack TS, Lightweight Launch",
+    "subtitle": "In the AI era, TypeScript is a first-class citizen — unified stack, faster development, lighter deployment",
+    "whyTitle": "Why Full-Stack TypeScript",
+    "reasons": [
+      {
+        "title": "The Top Choice for the AI Era",
+        "body": "TypeScript is the language Copilot, Claude, and other AI tools understand best. Full-stack TS multiplies AI-assisted development — more accurate completions, safer refactors."
+      },
+      {
+        "title": "Lower Team Hiring Costs",
+        "body": "Unified frontend/backend stack — full-stack engineers can ship complete features independently. Rich TS talent pool dramatically lowers team expansion barriers."
+      },
+      {
+        "title": "Type Safety, Fearless Refactoring",
+        "body": "Strong typing spans frontend and backend — plugin interfaces and data contracts are type-guaranteed. Errors surface at compile time, not in production."
+      },
+      {
+        "title": "Lightweight Deployment, Simple Ops",
+        "body": "One-click Docker Compose launch, PostgreSQL only. Skip Docker and use local DB. Full support for Windows / macOS / Linux."
+      }
+    ],
+    "compareTitle": "Traditional BI Platform Comparison",
+    "compareBad": [
+      "Complex installation, dozens of config items",
+      "Mixed languages, frontend/backend siloed",
+      "Dedicated ops team required"
+    ],
+    "compareGood": "DataLuminary: 3 commands · unified TS · automated bootstrap"
+  },
+  "ecosystem": {
+    "eyebrow": "Infinite Entry Points, Ecosystem-Driven",
+    "title": "More Than a BI Tool — An Ecosystem-Driven Data Insight Platform",
+    "subtitle": "Covers traditional BI scenarios while leveraging the LuminaryWorks ecosystem to expand into blockchain, AI tasks, IoT, remote monitoring, and other new physical-world scenarios",
+    "industriesTitle": "Covers All Traditional Data Analysis Scenarios",
+    "industriesNote": "Product, operations, and BI analysts can get started independently — from data ingestion to insight reports, full NoCode pipeline",
+    "hubTag": "Data Insights · See",
+    "hubBadge": "Data Aggregation Hub",
+    "industries": [
+      {
+        "label": "E-commerce Operations"
+      },
+      {
+        "label": "Gaming Analytics"
+      },
+      {
+        "label": "Financial Risk Control"
+      },
+      {
+        "label": "Manufacturing Lines"
+      },
+      {
+        "label": "Retail Analytics"
+      },
+      {
+        "label": "Healthcare"
+      },
+      {
+        "label": "Education Assessment"
+      },
+      {
+        "label": "Logistics Tracking"
+      },
+      {
+        "label": "Project Management"
+      }
+    ],
+    "nodes": [
+      {
+        "name": "LuminaryIoTChain",
+        "role": "Connect",
+        "desc": "Open-source IoT PaaS platform",
+        "scenario": "Factory floor device status → real-time monitoring dashboard"
+      },
+      {
+        "name": "VistaRemote",
+        "role": "Control",
+        "desc": "WebRTC remote operations platform",
+        "scenario": "Remote ops audit logs → security audit reports"
+      },
+      {
+        "name": "VibeAgent",
+        "role": "Earn",
+        "desc": "AI Agent on-chain marketplace",
+        "scenario": "Blockchain Agent revenue → performance analytics dashboard"
+      },
+      {
+        "name": "VibeEdu / BlockyEdu",
+        "role": "Learn",
+        "desc": "Visual programming + AI-assisted teaching",
+        "scenario": "Learning data → teaching quality dashboard · nurture ecosystem developers",
+        "badge": "Ecosystem Entry · Developer Incubator"
+      }
+    ],
+    "valueCards": [
+      {
+        "title": "Traditional BI, Ready Out of the Box",
+        "body": "E-commerce · gaming · finance · manufacturing — mainstream BI scenarios fully covered, no ecosystem required, fully usable on standalone deployment"
+      },
+      {
+        "title": "New Physical Scenarios, Ecosystem Support",
+        "body": "IoT · AI tasks · blockchain · remote monitoring — sibling product data flows directly for cross-domain insights"
+      },
+      {
+        "title": "Education Platform, Developer Ecosystem",
+        "body": "VibeEdu visual programming + AI teaching assistance — more developers learn and contribute plugins, continuously expanding the ecosystem"
+      }
+    ],
+    "footerNote": "LuminaryWorks/identity unified OIDC login · LuminaryWorks/shared component library · one account across all products"
+  },
+  "comparison": {
+    "eyebrow": "Why Choose DataLuminary",
+    "title": "Full Comparison at a Glance",
+    "colFeature": "Feature",
+    "colDL": "DataLuminary",
+    "colTrad": "Traditional BI Tools",
+    "colSaas": "Closed-Source SaaS",
+    "rows": [
+      {
+        "feature": "End-to-End AI",
+        "dl": {
+          "type": "yes",
+          "note": "Charting/cleansing/layout/reports"
+        },
+        "trad": {
+          "type": "no",
+          "note": "None or very limited"
+        },
+        "saas": {
+          "type": "warn",
+          "note": "Paid unlock"
+        }
+      },
+      {
+        "feature": "Plugin Architecture",
+        "dl": {
+          "type": "yes",
+          "note": "Microkernel, three-layer plugin ecosystem"
+        },
+        "trad": {
+          "type": "no",
+          "note": "Monolithic"
+        },
+        "saas": {
+          "type": "no",
+          "note": "Closed ecosystem"
+        }
+      },
+      {
+        "feature": "Dashboard Layouts",
+        "dl": {
+          "type": "yes",
+          "note": "Big screen/report/mobile/board"
+        },
+        "trad": {
+          "type": "warn",
+          "note": "1-2 fixed types"
+        },
+        "saas": {
+          "type": "warn",
+          "note": "Limited"
+        }
+      },
+      {
+        "feature": "LessCode / NoCode",
+        "dl": {
+          "type": "yes",
+          "note": "Full drag-and-drop pipeline"
+        },
+        "trad": {
+          "type": "warn",
+          "note": "Partial support"
+        },
+        "saas": {
+          "type": "yes",
+          "note": "Supported"
+        }
+      },
+      {
+        "feature": "Full-Stack TypeScript",
+        "dl": {
+          "type": "yes",
+          "note": "Unified frontend/backend"
+        },
+        "trad": {
+          "type": "no",
+          "note": "Mixed languages"
+        },
+        "saas": {
+          "type": "lock",
+          "note": "Not visible"
+        }
+      },
+      {
+        "feature": "Deployment Complexity",
+        "dl": {
+          "type": "yes",
+          "note": "3 commands, 5 minutes"
+        },
+        "trad": {
+          "type": "no",
+          "note": "Complex install"
+        },
+        "saas": {
+          "type": "text",
+          "note": "N/A cloud service"
+        }
+      },
+      {
+        "feature": "Private Deployment",
+        "dl": {
+          "type": "yes",
+          "note": "Fully private"
+        },
+        "trad": {
+          "type": "yes",
+          "note": "Supported"
+        },
+        "saas": {
+          "type": "warn",
+          "note": "Extra cost"
+        }
+      },
+      {
+        "feature": "Data Security",
+        "dl": {
+          "type": "yes",
+          "note": "Data stays on-premises"
+        },
+        "trad": {
+          "type": "yes",
+          "note": "Can be private"
+        },
+        "saas": {
+          "type": "warn",
+          "note": "Data in cloud"
+        }
+      },
+      {
+        "feature": "Customization",
+        "dl": {
+          "type": "yes",
+          "note": "Plugin SDK, type-safe"
+        },
+        "trad": {
+          "type": "no",
+          "note": "Steep learning curve"
+        },
+        "saas": {
+          "type": "lock",
+          "note": "Not supported"
+        }
+      },
+      {
+        "feature": "Open Source License",
+        "dl": {
+          "type": "yes",
+          "note": "MIT open source"
+        },
+        "trad": {
+          "type": "warn",
+          "note": "Partially open"
+        },
+        "saas": {
+          "type": "no",
+          "note": "Closed source"
+        }
+      },
+      {
+        "feature": "Ecosystem Integration",
+        "dl": {
+          "type": "yes",
+          "note": "Five-product AI ecosystem"
+        },
+        "trad": {
+          "type": "no",
+          "note": "Standalone product"
+        },
+        "saas": {
+          "type": "warn",
+          "note": "Limited integration"
+        }
+      },
+      {
+        "feature": "Cost",
+        "dl": {
+          "type": "yes",
+          "note": "Free"
+        },
+        "trad": {
+          "type": "warn",
+          "note": "Enterprise edition fees"
+        },
+        "saas": {
+          "type": "text",
+          "note": "Usage-based billing"
+        }
+      }
+    ]
+  },
+  "useCases": {
+    "eyebrow": "Use Cases",
+    "title": "Data Insights for Every Industry",
+    "cases": [
+      {
+        "title": "Business Operations",
+        "desc": "Sales dashboards, KPI boards, channel analysis reports",
+        "persona": "Operations"
+      },
+      {
+        "title": "Manufacturing Monitoring",
+        "desc": "IoT device dashboards, production line analytics, energy monitoring",
+        "persona": "IT"
+      },
+      {
+        "title": "Financial Compliance",
+        "desc": "Risk reports, transaction analysis, audit trail dashboards",
+        "persona": "Product"
+      },
+      {
+        "title": "E-commerce & Retail",
+        "desc": "User profiles, product analytics, logistics monitoring",
+        "persona": "Operations"
+      },
+      {
+        "title": "Healthcare",
+        "desc": "Patient data analytics, medical resource scheduling dashboards",
+        "persona": "IT"
+      },
+      {
+        "title": "Education & Training",
+        "desc": "Learning behavior analysis, teaching quality assessment reports",
+        "persona": "Product"
+      }
+    ]
+  },
+  "openSource": {
+    "eyebrow": "Open Source Collaboration",
+    "title": "Building the AI Data Insight Ecosystem Together",
+    "subtitle": "DataLuminary is plugin-based — the entire platform is fully open to the community. Data sources, chart libraries, layout engines — extend capabilities at any layer",
+    "layers": [
+      {
+        "headline": "Data Source Plugin Layer",
+        "sub": "Direct connection at small scale, ClickHouse integration for billion-row data",
+        "points": [
+          "Core data capabilities: MySQL · PostgreSQL · MongoDB · Excel · CSV · API",
+          "Small scale (millions) → direct PostgreSQL, zero extra cost",
+          "Tens/hundreds of millions → ClickHouse integration, second-level aggregation, config unchanged",
+          "Users choose their own foundation — no forced database binding",
+          "Three-stage plugin protocol, interoperable with Grafana data source ecosystem"
+        ],
+        "cta": "Contribute Data Source Plugins"
+      },
+      {
+        "headline": "Chart Plugin Layer",
+        "sub": "No chart library limits, semantic smart recommendations",
+        "points": [
+          "Built-in (AntV G2): line · bar · pie · scatter · radar · sankey...",
+          "Semantic recommendations (Alibaba AVA): data decides the chart, not user guesswork",
+          "Headless BI: switch ECharts / AntV / Highcharts freely without affecting config",
+          "Any third-party chart library can be wrapped as a chart plugin"
+        ],
+        "cta": "Contribute Chart Plugins"
+      },
+      {
+        "headline": "Panel Layout Plugin Layer",
+        "sub": "Multi-scenario layouts for every display need",
+        "points": [
+          "grid-panel → grid drag, PC analysis reports preferred, import Grafana panels",
+          "position-panel → pixel-level free positioning (TMagic), big screens/command centers",
+          "card-panel → card view for reports, email, info boards",
+          "list-panel → vertical list, mobile-first",
+          "Layout engine itself is a plugin — build and integrate your own engine"
+        ],
+        "cta": "Contribute Layout Plugins"
+      }
+    ],
+    "codeTabs": [
+      {
+        "id": "import",
+        "label": "Import Packages On Demand"
+      },
+      {
+        "id": "serverless",
+        "label": "Serverless Data Processing"
+      },
+      {
+        "id": "compose",
+        "label": "Functional Business Logic"
+      }
+    ],
+    "featureCards": [
+      {
+        "title": "Lerna Package Management",
+        "body": "All plugins, components, and functions managed by Lerna — independent versions, releases, and imports"
+      },
+      {
+        "title": "Functional Data Processing",
+        "body": "Cleansing, transformation, and aggregation logic as pure functions — composable, testable, reusable"
+      },
+      {
+        "title": "Serverless-Ready Granularity",
+        "body": "Core processing logic is stateless — deploy directly as Serverless / Edge functions, compute on demand"
+      },
+      {
+        "title": "User-Chosen Foundation",
+        "body": "No forced database binding — direct PG at small scale, ClickHouse for billion-row data"
+      }
+    ],
+    "starGithub": "Star on GitHub",
+    "commercialBadge": "Open source and free for commercial use",
+    "community": [
+      {
+        "title": "Complete Documentation",
+        "body": "User guide · plugin development · API docs"
+      },
+      {
+        "title": "Active Community",
+        "body": "GitHub Discussions · Discord"
+      },
+      {
+        "title": "Contributor-Friendly",
+        "body": "Detailed contribution guide, full CI/CD support"
+      }
+    ],
+    "quote": "Every line of plugin code is a step forward in AI data insight, driven by the community."
+  },
+  "footerCta": {
+    "title": "Deploy in 5 Minutes — Experience AI-Native Data Insights Now",
+    "subtitle": "Open source & free · No credit card · Private deployment · MIT License",
+    "deploy": "Deploy Locally for Free",
+    "docs": "View Documentation",
+    "github": "GitHub",
+    "emailPlaceholder": "Enter email to subscribe to product updates",
+    "emailAria": "Email address",
+    "subscribe": "Subscribe",
+    "noSpam": "No spam, unsubscribe anytime",
+    "adopted": "Adopted by 500+ enterprises and developers",
+    "rating": "4.9/5 community rating"
+  },
+  "siteFooter": {
+    "tagline": "Open-source, plugin-based, AI-native data visualization BI platform. Insights within reach.",
+    "socialAria": "Social links",
+    "columns": [
+      {
+        "title": "Product",
+        "links": [
+          "Features",
+          "Plugin Marketplace",
+          "Changelog",
+          "Roadmap"
+        ]
+      },
+      {
+        "title": "Developers",
+        "links": [
+          "Plugin Development Guide",
+          "API Docs",
+          "Contribution Guide",
+          "GitHub"
+        ]
+      },
+      {
+        "title": "Ecosystem",
+        "links": [
+          "LuminaryWorks",
+          "IoTChain",
+          "VistaRemote",
+          "VibeEdu"
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          "MIT License",
+          "Privacy Policy",
+          "Security Disclosure"
+        ]
+      }
+    ],
+    "copyright": "© 2024–2026 LuminaryWorks. Built with TypeScript.",
+    "poweredBy": "Part of the LuminaryWorks ecosystem",
+    "ecosystem": {
+      "title": "LuminaryWorks Ecosystem",
+      "subtitle": "Sibling products that feed real-world data into DataLuminary.",
+      "items": {
+        "blockyedu": "Education platform for plugin & function development.",
+        "syncrobrain": "IoT platform delivering physical-world data analytics.",
+        "vistacast": "Scene-specific AI analytics for factories, stores & warehouses.",
+        "vistaremote": "Workforce analytics with remote deployment assistance."
+      }
+    }
+  },
+  "terminal": {
+    "title": "DataLuminary — Local start in 5 minutes",
+    "initComment": "# Initialize sub-repos",
+    "bootstrapComment": "# Dependencies + PostgreSQL + migrations + seed data",
+    "backendComment": "# Backend API   → localhost:7084",
+    "frontendComment": "# Frontend UI   → localhost:3003",
+    "done": "# ✓  3 commands, 5 minutes, done!",
+    "defaultAccount": "# Default account: admin / admin!@#123"
+  }
+}

@@ -1,0 +1,909 @@
+{
+  "metadata": {
+    "title": "DataLuminary — Inzichten binnen handbereik | AI-native open-source BI-platform",
+    "description": "DataLuminary is een open-source, plugin-gebaseerd, AI-native platform voor datavisualisatie en BI, gebouwd met full-stack TypeScript. End-to-end AI-inzichten, microkernel-plugin-ecosysteem, drag-and-drop NoCode-configuratie en private Docker-implementatie in 5 minuten.",
+    "keywords": [
+      "DataLuminary",
+      "BI-platform",
+      "Datavisualisatie",
+      "AI-inzichten",
+      "Open-source BI",
+      "TypeScript",
+      "Plugin-architectuur"
+    ],
+    "openGraph": {
+      "title": "DataLuminary — Inzichten binnen handbereik",
+      "description": "AI-native, plugin-gebaseerd, open-source datavisualisatie-BI-platform"
+    }
+  },
+  "nav": {
+    "links": {
+      "features": "Functies",
+      "plugins": "Plugins",
+      "ai": "AI",
+      "deploy": "Implementatie",
+      "about": "Over ons"
+    },
+    "login": "Inloggen",
+    "homeAria": "DataLuminary-home",
+    "toggleLang": "Taal wisselen",
+    "openMenu": "Menu openen",
+    "closeMenu": "Menu sluiten"
+  },
+  "hero": {
+    "badge": "LuminaryWorks AI-ecosysteem · Open-source MIT-licentie",
+    "title": "Inzichten binnen handbereik",
+    "tagline": "Illuminate insights for all",
+    "values": [
+      "End-to-end AI — rapportgeneratie, grafieken, datacleaning en paginalayout; AI ondersteunt elke stap",
+      "Microkernel-plugins — databronnen, grafieken en dashboardlayouts; alles is uitbreidbaar",
+      "Full-stack TypeScript — start met Docker in 5 minuten, private implementatie, geen drempels voor maatwerk"
+    ],
+    "cta": "Gratis proberen",
+    "github": "GitHub",
+    "trust": [
+      {
+        "label": "Open-source community"
+      },
+      {
+        "label": "Docker-start met één klik"
+      },
+      {
+        "label": "Full-stack TypeScript"
+      },
+      {
+        "label": "Private implementatie"
+      }
+    ],
+    "card": {
+      "aiGenerating": "AI genereert een analyserapport",
+      "totalSales": "Totale omzet",
+      "anomalyTrend": "Anomalie-trends",
+      "anomalyCount": "3",
+      "anomalyAlert": "3 anomalie-trends gedetecteerd · Oost-China Q3 YoY ↓18%",
+      "statusChips": [
+        {
+          "label": "AI-cleaning"
+        },
+        {
+          "label": "AI-grafieken/rapporten"
+        },
+        {
+          "label": "Volledig drag-and-drop"
+        },
+        {
+          "label": "Plugin-gebaseerd"
+        }
+      ]
+    }
+  },
+  "coreAdvantages": {
+    "eyebrow": "Vier kernonderscheiders",
+    "title": "Enterprise-datavisualisatie opnieuw definiëren",
+    "subtitle": "End-to-end AI · Microkernel-plugins · Drag-and-drop NoCode · Full-stack TypeScript",
+    "cards": [
+      {
+        "headline": "AI-native, end-to-end intelligentie",
+        "body": "Meer dan visualisatie-BI — DataLuminary integreert AI in elke stap van data tot beslissingen. AI begeleidt u in elke fase van uw rapporten.",
+        "chips": [
+          {
+            "label": "AI-gegenereerde analyserapporten",
+            "desc": "Beschrijf uw analyse-doel; AI levert een compleet rapport"
+          },
+          {
+            "label": "AI-ondersteunde grafieken",
+            "desc": "Slimme grafiekaanbevelingen met automatische veldtoewijzing"
+          },
+          {
+            "label": "AI-datacleaning",
+            "desc": "Detecteer null-waarden, anomalieën en formaatfouten — repareer met één klik"
+          },
+          {
+            "label": "AI-paginalayout",
+            "desc": "Analyseer contenthiërarchie en rangschik dashboardlayouts automatisch"
+          }
+        ]
+      },
+      {
+        "headline": "Microkernel-architectuur, oneindig uitbreidbaar",
+        "body": "Panel-, grafiek- en databron-pluginsystemen vormen de visualisatiewereld van DataLuminary — geen vaste functielijst, maar een voortdurend groeiend plugin-ecosysteem.",
+        "chips": [
+          {
+            "label": "Dashboard-plugins",
+            "desc": "Vrije grote schermen / PC-raster rapporten / mobiele lijsten / kaartborden"
+          },
+          {
+            "label": "Grafiek-plugins",
+            "desc": "ECharts · AntV · Highcharts — communitybijdragen stapelen oneindig op"
+          },
+          {
+            "label": "Databron-plugins",
+            "desc": "MySQL / PG / MongoDB / Excel / API — uitbreiden via aangepaste SDK"
+          },
+          {
+            "label": "Open SDK",
+            "desc": "JSON Schema-beperkingen, interoperabel met het Grafana-ecosysteem"
+          }
+        ]
+      },
+      {
+        "headline": "Drag-and-drop configuratie, geen codering vereist",
+        "body": "Product, operations en BI-analisten kunnen zelfstandig datacleaning, grafieken en dashboardbouw afhandelen. Ontwikkelaars kunnen indien nodig dieper ingaan op SQL en geavanceerde configuratie.",
+        "chips": [
+          {
+            "label": "Drag-and-drop datasets",
+            "desc": "Sleep velden om metrics/dimensies, multi-table joins en berekende velden te configureren"
+          },
+          {
+            "label": "NoCode-grafieken",
+            "desc": "Kies grafiektype, sleep velden naar assen, live preview, nul code"
+          },
+          {
+            "label": "Visuele layout",
+            "desc": "Raster slepen / vrije positionering, responsieve aanpassing"
+          },
+          {
+            "label": "Grafiekkoppeling & drill-down",
+            "desc": "Configureer filters en koppelingen visueel — geen interactiecode"
+          }
+        ]
+      },
+      {
+        "headline": "Full-stack TS, lichtgewicht & snel",
+        "body": "In het AI-tijdperk is TypeScript first-class. Een uniforme full-stack betekent lagere wervingsdrempels, snellere AI-ondersteunde ontwikkeling en lichter onderhoud.",
+        "chips": [
+          {
+            "label": "Live in 5 minuten",
+            "desc": "Docker Compose-start met één klik — implementeer in 3 commando's"
+          },
+          {
+            "label": "Eenvoudiger werven",
+            "desc": "Bloeiend TS-ecosysteem — frontend- en backend-talent uitwisselbaar"
+          },
+          {
+            "label": "AI-ondersteunde ontwikkeling",
+            "desc": "TS-type-informatie is de taal die LLM's het best begrijpen"
+          },
+          {
+            "label": "Geen drempel voor maatwerk",
+            "desc": "Type-safe, refactor-vriendelijk, complete plugin-SDK"
+          }
+        ]
+      }
+    ]
+  },
+  "aiCapabilities": {
+    "eyebrow": "End-to-end AI-inzichtcapaciteiten",
+    "title": "AI-aangedreven — data die spreekt",
+    "subtitle": "Van datacleaning tot inzichtrapporten, AI bestrijkt elke stap",
+    "tabs": [
+      {
+        "id": "report",
+        "label": "AI-gegenereerde analyserapporten"
+      },
+      {
+        "id": "chart",
+        "label": "AI-ondersteunde grafieken"
+      },
+      {
+        "id": "clean",
+        "label": "AI-datacleaning"
+      },
+      {
+        "id": "layout",
+        "label": "AI-paginalayout"
+      }
+    ],
+    "demos": {
+      "report": {
+        "tag": "Automatisch kerncijfers extraheren · Anomalie-trends detecteren · Bedrijfsaanbevelingen outputten",
+        "user": "Analyseer regionale verkooptrends dit kwartaal, met focus op de daling in Oost-China",
+        "ai": "Q3-verkoopdataset analyseren... 3 anomalie-trends gevonden ↓\nRapportstructuur: Overzicht → Regionale vergelijking → Hoofdoorzaak → Aanbevelingen",
+        "previewLabel": "Rapportvoorbeeld",
+        "metricLabels": [
+          "Omzet",
+          "Orders",
+          "Conversie",
+          "AOV"
+        ],
+        "anomalyNote": "Oost-China Q3 YoY ↓18%, voornamelijk door kanaalvoorraadachterstand"
+      },
+      "chart": {
+        "tag": "Bedrijfssemantiek begrijpen · Beste grafieken aanbevelen · Configuratie automatisch voltooien",
+        "user": "Vergelijk maandelijkse groeipercentages tussen productlijnen over de afgelopen 6 maanden",
+        "ai": "Automatisch geselecteerde multi-series lijngrafiek, X-as=maand / Y-as=groeipercentage, aanbevolen kleurenschema, voorgestelde gemiddelde referentielijn",
+        "beforeLabel": "Voor",
+        "afterLabel": "Na"
+      },
+      "clean": {
+        "tag": "Slimme kwaliteitsdetectie · Batchreparatie · Verwerkingsgeschiedenis behouden",
+        "cleanButton": "AI-cleaning met één klik",
+        "completeLabel": "Cleaning voltooid",
+        "results": [
+          "3 ontbrekende waarden ingevuld (gemiddelde-imputatie)",
+          "1 outlier gemarkeerd (behouden en geannoteerd)",
+          "8 datumformaten gestandaardiseerd"
+        ]
+      },
+      "layout": {
+        "tag": "Contentgewicht analyseren · Grootte en positie automatisch aanpassen · Visuele standaarden volgen",
+        "beforeLabel": "Voor · Rommelige layout",
+        "afterLabel": "Na · Duidelijke hiërarchie",
+        "optimizeButton": "Layout optimaliseren met AI",
+        "afterNote": "AI analyseerde het contentgewicht van 6 componenten en optimaliseerde automatisch de layouthiërarchie"
+      }
+    }
+  },
+  "pluginArchitecture": {
+    "eyebrow": "Microkernel-plugin-architectuur",
+    "title": "Voldoe aan elke visualisatiebehoefte",
+    "subtitle": "In tegenstelling tot monolithische traditionele BI-tools is DataLuminary een microkernel-pluginplatform — panel-, grafiek- en databron-plugin-ecosystemen maken elke visualisatiebehoefte haalbaar",
+    "microkernel": "Microkernel",
+    "exploreCta": "Verken plugin-ecosysteem",
+    "orbits": [
+      {
+        "id": "panel",
+        "title": "Dashboard-layout-plugins",
+        "nodes": [
+          "Grid",
+          "Position",
+          "Card",
+          "List",
+          "Custom"
+        ],
+        "detail": {
+          "lines": [
+            "grid-panel rasterlayout — react-grid-layout, PC-rapporten voorkeur, importeer Grafana-panelen",
+            "position-panel vrij vormgegeven groot scherm — TMagic-gebaseerd, pixelniveau-positionering voor commandocentra",
+            "card-panel kaartweergave — rapporten, e-mail, borden en meer",
+            "list-panel lijstlayout — mobile-first, verticaal kaartscrollen",
+            "+ Aangepaste layout-plugins — integreer via development SDK"
+          ]
+        }
+      },
+      {
+        "id": "chart",
+        "title": "Grafiek-plugins",
+        "nodes": [
+          "ECharts",
+          "AntV",
+          "Highcharts",
+          "Custom"
+        ],
+        "detail": {
+          "title": "Headless BI-design",
+          "lines": [
+            "Grafiek-plugins renderen alleen — data wordt uniform geleverd door de datasetlaag, geen directe databronverbinding",
+            "Ingebouwd: lijn · staaf · vlak · taart · ring · scatter · radar · funnel",
+            "Kaart · word cloud · metric card · tabel · rich text · liquid · heatmap · sankey · candlestick · graph...",
+            "Wissel grafiekbibliotheken: ECharts / AntV / Highcharts — wissel vrij zonder configuratie te beïnvloeden"
+          ]
+        }
+      },
+      {
+        "id": "datasource",
+        "title": "Databron-plugins",
+        "nodes": [
+          "MySQL",
+          "PG",
+          "MongoDB",
+          "Excel",
+          "API",
+          "Custom"
+        ],
+        "detail": {
+          "title": "Drie-fasen pluginprotocol (Grafana-geïnspireerd)",
+          "lines": [
+            "ConfigPanel databronconfiguratie · QueryPanel queryconfiguratie · VariablePanel variabele query",
+            "Relationeel: MySQL · PostgreSQL · SQL Server · ClickHouse",
+            "Document: MongoDB · Elasticsearch | Bestanden: Excel · CSV · JSON",
+            "API's: RESTful API · GraphQL | + Plugin SDK voor elke aangepaste databron"
+          ]
+        }
+      }
+    ]
+  },
+  "dataPipeline": {
+    "eyebrow": "Kernpipeline",
+    "title": "Van data tot beslissingen",
+    "subtitle": "Databron → Dataset → Grafiek → Dashboard — data stroomt door de pipeline, elke fase is plugin-uitbreidbaar",
+    "headlessLabel": "Headless BI-design:",
+    "headlessNote": "Grafieken verbinden niet rechtstreeks met databronnen — datasets leveren data uniform. Dit is het kernarchitectuurverschil van DataLuminary ten opzichte van traditionele tools.",
+    "steps": [
+      {
+        "label": "Databron",
+        "en": "Datasource",
+        "desc": "Multi-bron ingestie, uniform beheer",
+        "popup": [
+          "Lijst databron-plugins",
+          "Verbindingstest",
+          "QueryPanel-voorbeeld"
+        ]
+      },
+      {
+        "label": "Dataset",
+        "en": "Dataset · Headless BI-kern",
+        "desc": "Metric/dimensie-modellering, datacleaning",
+        "popup": [
+          "Configureer metric- / dimensievelden",
+          "Multi-table Join",
+          "Berekende velden en datacleaning",
+          "AI-ondersteunde cleaning (binnenkort)"
+        ]
+      },
+      {
+        "label": "Grafiek",
+        "en": "Chart",
+        "desc": "NoCode-grafieken, slepen en resultaat krijgen",
+        "popup": [
+          "Selecteer grafiektype (plugin-gebaseerd)",
+          "Sleep velden naar X-as/Y-as/series",
+          "AI beveelt beste grafiektype aan",
+          "Live preview"
+        ]
+      },
+      {
+        "label": "Dashboard",
+        "en": "Dashboard",
+        "desc": "Multi-endpoint, multi-layout, flexibele orchestratie",
+        "popup": [
+          "Grid / Position / Card / List — vier layouts",
+          "Grafiekkoppeling, filters",
+          "Versiebeheer, toegangscontrole",
+          "AI-layoutoptimalisatie met één klik"
+        ]
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Ervaren team, beproefd in productie",
+    "title": "Kernteam: jarenlange ervaring met enterprise-datavisualisatieplatforms",
+    "subtitle": "Van Tencent tot Ping An — diepgaande expertise in enterprise-BI en visualisatieplatforms",
+    "quote": "Na jarenlang enterprise-BI-platforms van 0 tot 1 te hebben gebouwd, destilleert DataLuminary die ervaring tot één product",
+    "cards": [
+      {
+        "company": "Tencent Game Experience Management Platform",
+        "role": "Leidde architectuurrefactor",
+        "impact": "Dekt de data-ervaringspipeline voor alle Tencent-gamingproducten",
+        "chips": [
+          "Visualisatieplatform",
+          "Architectuurrefactor",
+          "Grootschalige data"
+        ]
+      },
+      {
+        "company": "Tencent BlueKing Universal Chart Platform",
+        "role": "Vanaf nul gebouwd",
+        "impact": "Kernvisualisatiecomponent van het Tencent Cloud-operationssysteem",
+        "chips": [
+          "Vanaf nul",
+          "Grafiekplatform",
+          "Tencent Cloud Ops"
+        ]
+      },
+      {
+        "company": "Ping An Smart City MaxView",
+        "role": "Vanaf nul gebouwd",
+        "impact": "Financieel-grade enterprise- en overheid-datavisualisatieplatform",
+        "chips": [
+          "Financieel grade",
+          "Vanaf nul",
+          "Enterprise BI"
+        ]
+      },
+      {
+        "company": "Ping An Technology StarCanvas",
+        "role": "Jarenlange continue iteratie",
+        "impact": "Commercieel BI-product met diepgaande datavisualisatie-expertise",
+        "chips": [
+          "Commercieel product",
+          "Langetermijniteratie",
+          "BI in productie"
+        ]
+      }
+    ]
+  },
+  "typescriptDeploy": {
+    "eyebrow": "Full-stack TypeScript",
+    "title": "Full-stack TS, lichtgewicht start",
+    "subtitle": "In het AI-tijdperk is TypeScript first-class — uniforme stack, snellere ontwikkeling, lichtere implementatie",
+    "whyTitle": "Waarom full-stack TypeScript",
+    "reasons": [
+      {
+        "title": "De topkeuze voor het AI-tijdperk",
+        "body": "TypeScript is de taal die Copilot, Claude en andere AI-tools het best begrijpen. Full-stack TS vermenigvuldigt AI-ondersteunde ontwikkeling — nauwkeurigere completions, veiligere refactors."
+      },
+      {
+        "title": "Lagere wervingskosten",
+        "body": "Uniforme frontend/backend-stack — full-stack engineers kunnen complete features zelfstandig opleveren. Rijke TS-talentpool verlaagt teamuitbreidingsdrempels drastisch."
+      },
+      {
+        "title": "Type safety, refactor zonder angst",
+        "body": "Sterke typing over frontend en backend — plugin-interfaces en datacontracten zijn type-gegarandeerd. Fouten komen naar boven bij compilatie, niet in productie."
+      },
+      {
+        "title": "Lichtgewicht implementatie, eenvoudige ops",
+        "body": "Docker Compose-start met één klik, alleen PostgreSQL. Sla Docker over en gebruik lokale DB. Volledige ondersteuning voor Windows / macOS / Linux."
+      }
+    ],
+    "compareTitle": "Vergelijking traditionele BI-platforms",
+    "compareBad": [
+      "Complexe installatie, tientallen configuratie-items",
+      "Gemengde talen, frontend/backend gescheiden",
+      "Dedicated ops-team vereist"
+    ],
+    "compareGood": "DataLuminary: 3 commando's · uniforme TS · geautomatiseerde bootstrap"
+  },
+  "ecosystem": {
+    "eyebrow": "Oneindige instappunten, ecosysteem-gedreven",
+    "title": "Meer dan een BI-tool — een ecosysteem-gedreven data-inzichtplatform",
+    "subtitle": "Dekt traditionele BI-scenario's en benut het LuminaryWorks-ecosysteem om uit te breiden naar blockchain, AI-taken, IoT, remote monitoring en andere fysieke-wereldscenario's",
+    "industriesTitle": "Dekt alle traditionele data-analysescenario's",
+    "industriesNote": "Product, operations en BI-analisten kunnen zelfstandig starten — van data-ingestie tot inzichtrapporten, volledige NoCode-pipeline",
+    "hubTag": "Data-inzichten · Zie",
+    "hubBadge": "Data-aggregatiehub",
+    "industries": [
+      {
+        "label": "E-commerce operations"
+      },
+      {
+        "label": "Gaming-analytics"
+      },
+      {
+        "label": "Financieel risicobeheer"
+      },
+      {
+        "label": "Productielijnen"
+      },
+      {
+        "label": "Retail-analytics"
+      },
+      {
+        "label": "Gezondheidszorg"
+      },
+      {
+        "label": "Onderwijsbeoordeling"
+      },
+      {
+        "label": "Logistieke tracking"
+      },
+      {
+        "label": "Projectmanagement"
+      }
+    ],
+    "nodes": [
+      {
+        "name": "LuminaryIoTChain",
+        "role": "Connect",
+        "desc": "Open-source IoT PaaS-platform",
+        "scenario": "Apparaatstatus op de fabrieksvloer → real-time monitoringdashboard"
+      },
+      {
+        "name": "VistaRemote",
+        "role": "Control",
+        "desc": "WebRTC remote operations-platform",
+        "scenario": "Remote ops auditlogs → beveiligingsauditrapporten"
+      },
+      {
+        "name": "VibeAgent",
+        "role": "Earn",
+        "desc": "AI Agent on-chain marketplace",
+        "scenario": "Blockchain Agent-omzet → performance-analyticsdashboard"
+      },
+      {
+        "name": "VibeEdu / BlockyEdu",
+        "role": "Learn",
+        "desc": "Visueel programmeren + AI-ondersteund onderwijs",
+        "scenario": "Leerdata → onderwijskwaliteitsdashboard · ecosysteemontwikkelaars kweken",
+        "badge": "Ecosysteem-instap · Ontwikkelaarsincubator"
+      }
+    ],
+    "valueCards": [
+      {
+        "title": "Traditionele BI, direct klaar voor gebruik",
+        "body": "E-commerce · gaming · finance · manufacturing — mainstream BI-scenario's volledig gedekt, geen ecosysteem vereist, volledig bruikbaar bij standalone implementatie"
+      },
+      {
+        "title": "Nieuwe fysieke scenario's, ecosysteemondersteuning",
+        "body": "IoT · AI-taken · blockchain · remote monitoring — data van sibling-producten stroomt direct voor cross-domain inzichten"
+      },
+      {
+        "title": "Onderwijsplatform, ontwikkelaarsecosysteem",
+        "body": "VibeEdu visueel programmeren + AI-onderwijsassistentie — meer ontwikkelaars leren en dragen plugins bij, ecosysteem blijft groeien"
+      }
+    ],
+    "footerNote": "LuminaryWorks/identity uniforme OIDC-login · LuminaryWorks/shared componentbibliotheek · één account voor alle producten"
+  },
+  "comparison": {
+    "eyebrow": "Waarom DataLuminary kiezen",
+    "title": "Volledige vergelijking in één oogopslag",
+    "colFeature": "Functie",
+    "colDL": "DataLuminary",
+    "colTrad": "Traditionele BI-tools",
+    "colSaas": "Closed-source SaaS",
+    "rows": [
+      {
+        "feature": "End-to-end AI",
+        "dl": {
+          "type": "yes",
+          "note": "Grafieken/cleaning/layout/rapporten"
+        },
+        "trad": {
+          "type": "no",
+          "note": "Geen of zeer beperkt"
+        },
+        "saas": {
+          "type": "warn",
+          "note": "Betaald ontgrendelen"
+        }
+      },
+      {
+        "feature": "Plugin-architectuur",
+        "dl": {
+          "type": "yes",
+          "note": "Microkernel, drielaags plugin-ecosysteem"
+        },
+        "trad": {
+          "type": "no",
+          "note": "Monolithisch"
+        },
+        "saas": {
+          "type": "no",
+          "note": "Gesloten ecosysteem"
+        }
+      },
+      {
+        "feature": "Dashboard-layouts",
+        "dl": {
+          "type": "yes",
+          "note": "Groot scherm/rapport/mobiel/bord"
+        },
+        "trad": {
+          "type": "warn",
+          "note": "1-2 vaste types"
+        },
+        "saas": {
+          "type": "warn",
+          "note": "Beperkt"
+        }
+      },
+      {
+        "feature": "LessCode / NoCode",
+        "dl": {
+          "type": "yes",
+          "note": "Volledige drag-and-drop pipeline"
+        },
+        "trad": {
+          "type": "warn",
+          "note": "Gedeeltelijke ondersteuning"
+        },
+        "saas": {
+          "type": "yes",
+          "note": "Ondersteund"
+        }
+      },
+      {
+        "feature": "Full-stack TypeScript",
+        "dl": {
+          "type": "yes",
+          "note": "Uniform frontend/backend"
+        },
+        "trad": {
+          "type": "no",
+          "note": "Gemengde talen"
+        },
+        "saas": {
+          "type": "lock",
+          "note": "Niet zichtbaar"
+        }
+      },
+      {
+        "feature": "Implementatiecomplexiteit",
+        "dl": {
+          "type": "yes",
+          "note": "3 commando's, 5 minuten"
+        },
+        "trad": {
+          "type": "no",
+          "note": "Complexe installatie"
+        },
+        "saas": {
+          "type": "text",
+          "note": "N.v.t. cloudservice"
+        }
+      },
+      {
+        "feature": "Private implementatie",
+        "dl": {
+          "type": "yes",
+          "note": "Volledig privaat"
+        },
+        "trad": {
+          "type": "yes",
+          "note": "Ondersteund"
+        },
+        "saas": {
+          "type": "warn",
+          "note": "Extra kosten"
+        }
+      },
+      {
+        "feature": "Databeveiliging",
+        "dl": {
+          "type": "yes",
+          "note": "Data blijft on-premises"
+        },
+        "trad": {
+          "type": "yes",
+          "note": "Kan privaat zijn"
+        },
+        "saas": {
+          "type": "warn",
+          "note": "Data in de cloud"
+        }
+      },
+      {
+        "feature": "Maatwerk",
+        "dl": {
+          "type": "yes",
+          "note": "Plugin SDK, type-safe"
+        },
+        "trad": {
+          "type": "no",
+          "note": "Steile leercurve"
+        },
+        "saas": {
+          "type": "lock",
+          "note": "Niet ondersteund"
+        }
+      },
+      {
+        "feature": "Open-source licentie",
+        "dl": {
+          "type": "yes",
+          "note": "MIT open source"
+        },
+        "trad": {
+          "type": "warn",
+          "note": "Gedeeltelijk open"
+        },
+        "saas": {
+          "type": "no",
+          "note": "Closed source"
+        }
+      },
+      {
+        "feature": "Ecosysteemintegratie",
+        "dl": {
+          "type": "yes",
+          "note": "Vijf-producten AI-ecosysteem"
+        },
+        "trad": {
+          "type": "no",
+          "note": "Standalone product"
+        },
+        "saas": {
+          "type": "warn",
+          "note": "Beperkte integratie"
+        }
+      },
+      {
+        "feature": "Kosten",
+        "dl": {
+          "type": "yes",
+          "note": "Gratis"
+        },
+        "trad": {
+          "type": "warn",
+          "note": "Enterprise-editiekosten"
+        },
+        "saas": {
+          "type": "text",
+          "note": "Gebruiksgebaseerde facturering"
+        }
+      }
+    ]
+  },
+  "useCases": {
+    "eyebrow": "Use cases",
+    "title": "Data-inzichten voor elke sector",
+    "cases": [
+      {
+        "title": "Bedrijfsoperations",
+        "desc": "Verkoopdashboards, KPI-borden, kanaalanalyserapporten",
+        "persona": "Operations"
+      },
+      {
+        "title": "Manufacturing monitoring",
+        "desc": "IoT-apparaatdashboards, productielijnanalytics, energiemonitoring",
+        "persona": "IT"
+      },
+      {
+        "title": "Financiële compliance",
+        "desc": "Risicorapporten, transactieanalyse, audit trail-dashboards",
+        "persona": "Product"
+      },
+      {
+        "title": "E-commerce & retail",
+        "desc": "Gebruikersprofielen, productanalytics, logistieke monitoring",
+        "persona": "Operations"
+      },
+      {
+        "title": "Gezondheidszorg",
+        "desc": "Patiëntdata-analytics, dashboards medische resourceplanning",
+        "persona": "IT"
+      },
+      {
+        "title": "Onderwijs & training",
+        "desc": "Leergedraganalyse, rapporten onderwijskwaliteitsbeoordeling",
+        "persona": "Product"
+      }
+    ]
+  },
+  "openSource": {
+    "eyebrow": "Open-source samenwerking",
+    "title": "Samen het AI-data-inzichtecosysteem bouwen",
+    "subtitle": "DataLuminary is plugin-gebaseerd — het hele platform staat volledig open voor de community. Databronnen, grafiekbibliotheken, layout-engines — breid mogelijkheden uit op elke laag",
+    "layers": [
+      {
+        "headline": "Databron-pluginlaag",
+        "sub": "Directe verbinding op kleine schaal, ClickHouse-integratie voor miljarden-rijdata",
+        "points": [
+          "Kern datacapaciteiten: MySQL · PostgreSQL · MongoDB · Excel · CSV · API",
+          "Kleine schaal (miljoenen) → direct PostgreSQL, nul extra kosten",
+          "Tientallen/honderden miljoenen → ClickHouse-integratie, aggregatie op secondeniveau, configuratie ongewijzigd",
+          "Gebruikers kiezen hun eigen basis — geen gedwongen databasebinding",
+          "Drie-fasen pluginprotocol, interoperabel met Grafana-databron-ecosysteem"
+        ],
+        "cta": "Draag databron-plugins bij"
+      },
+      {
+        "headline": "Grafiek-pluginlaag",
+        "sub": "Geen grafiekbibliotheeklimieten, semantische slimme aanbevelingen",
+        "points": [
+          "Ingebouwd (AntV G2): lijn · staaf · taart · scatter · radar · sankey...",
+          "Semantische aanbevelingen (Alibaba AVA): data bepaalt de grafiek, niet gebruikersgokwerk",
+          "Headless BI: wissel ECharts / AntV / Highcharts vrij zonder configuratie te beïnvloeden",
+          "Elke grafiekbibliotheek van derden kan als grafiek-plugin worden verpakt"
+        ],
+        "cta": "Draag grafiek-plugins bij"
+      },
+      {
+        "headline": "Panel-layout-pluginlaag",
+        "sub": "Multi-scenario layouts voor elke weergavebehoefte",
+        "points": [
+          "grid-panel → raster slepen, PC-analyserapporten voorkeur, importeer Grafana-panelen",
+          "position-panel → pixelniveau vrije positionering (TMagic), grote schermen/commandocentra",
+          "card-panel → kaartweergave voor rapporten, e-mail, infoborden",
+          "list-panel → verticale lijst, mobile-first",
+          "Layout-engine zelf is een plugin — bouw en integreer uw eigen engine"
+        ],
+        "cta": "Draag layout-plugins bij"
+      }
+    ],
+    "codeTabs": [
+      {
+        "id": "import",
+        "label": "Pakketten on demand importeren"
+      },
+      {
+        "id": "serverless",
+        "label": "Serverless dataverwerking"
+      },
+      {
+        "id": "compose",
+        "label": "Functionele bedrijfslogica"
+      }
+    ],
+    "featureCards": [
+      {
+        "title": "Lerna-pakketbeheer",
+        "body": "Alle plugins, componenten en functies beheerd door Lerna — onafhankelijke versies, releases en imports"
+      },
+      {
+        "title": "Functionele dataverwerking",
+        "body": "Cleaning-, transformatie- en aggregatielogica als pure functies — composeerbaar, testbaar, herbruikbaar"
+      },
+      {
+        "title": "Serverless-ready granulariteit",
+        "body": "Kernverwerkingslogica is stateless — implementeer direct als Serverless / Edge-functies, compute on demand"
+      },
+      {
+        "title": "Door gebruiker gekozen basis",
+        "body": "Geen gedwongen databasebinding — direct PG op kleine schaal, ClickHouse voor miljarden-rijdata"
+      }
+    ],
+    "starGithub": "Star op GitHub",
+    "commercialBadge": "Open source en gratis voor commercieel gebruik",
+    "community": [
+      {
+        "title": "Complete documentatie",
+        "body": "Gebruikersgids · pluginontwikkeling · API-docs"
+      },
+      {
+        "title": "Actieve community",
+        "body": "GitHub Discussions · Discord"
+      },
+      {
+        "title": "Contributor-vriendelijk",
+        "body": "Gedetailleerde bijdragegids, volledige CI/CD-ondersteuning"
+      }
+    ],
+    "quote": "Elke regel plugincode is een stap vooruit in AI-data-inzicht, aangedreven door de community."
+  },
+  "footerCta": {
+    "title": "Implementeer in 5 minuten — ervaar nu AI-native data-inzichten",
+    "subtitle": "Open source & gratis · Geen creditcard · Private implementatie · MIT-licentie",
+    "deploy": "Gratis lokaal implementeren",
+    "docs": "Documentatie bekijken",
+    "github": "GitHub",
+    "emailPlaceholder": "Voer e-mail in om productupdates te ontvangen",
+    "emailAria": "E-mailadres",
+    "subscribe": "Abonneren",
+    "noSpam": "Geen spam, altijd uitschrijven",
+    "adopted": "Gebruikt door 500+ bedrijven en ontwikkelaars",
+    "rating": "4,9/5 communitybeoordeling"
+  },
+  "siteFooter": {
+    "tagline": "Open-source, plugin-gebaseerd, AI-native datavisualisatie-BI-platform. Inzichten binnen handbereik.",
+    "socialAria": "Social links",
+    "columns": [
+      {
+        "title": "Product",
+        "links": [
+          "Functies",
+          "Plugin Marketplace",
+          "Changelog",
+          "Roadmap"
+        ]
+      },
+      {
+        "title": "Ontwikkelaars",
+        "links": [
+          "Plugin Development Guide",
+          "API Docs",
+          "Contribution Guide",
+          "GitHub"
+        ]
+      },
+      {
+        "title": "Ecosysteem",
+        "links": [
+          "LuminaryWorks",
+          "IoTChain",
+          "VistaRemote",
+          "VibeEdu"
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          "MIT License",
+          "Privacy Policy",
+          "Security Disclosure"
+        ]
+      }
+    ],
+    "copyright": "© 2024–2026 LuminaryWorks. Built with TypeScript.",
+    "poweredBy": "Onderdeel van het LuminaryWorks-ecosysteem",
+    "ecosystem": {
+      "title": "LuminaryWorks-ecosysteem",
+      "subtitle": "Verwante producten die data uit de fysieke wereld naar DataLuminary brengen.",
+      "items": {
+        "blockyedu": "Educatief platform voor plugin- en functieontwikkeling.",
+        "syncrobrain": "IoT-platform voor data-analyse van de fysieke wereld.",
+        "vistacast": "Scenariospecifieke AI-analyse voor fabrieken, winkels en magazijnen.",
+        "vistaremote": "Personeelsanalyse met ondersteuning voor externe implementatie."
+      }
+    }
+  },
+  "terminal": {
+    "title": "DataLuminary — Lokaal starten in 5 minuten",
+    "initComment": "# Sub-repositories initialiseren",
+    "bootstrapComment": "# Dependencies + PostgreSQL + migraties + seeddata",
+    "backendComment": "# Backend API   → localhost:7084",
+    "frontendComment": "# Frontend UI   → localhost:3003",
+    "done": "# ✓  3 commando's, 5 minuten, klaar!",
+    "defaultAccount": "# Standaardaccount: admin / admin!@#123"
+  }
+}

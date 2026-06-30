@@ -1,0 +1,909 @@
+{
+  "metadata": {
+    "title": "DataLuminary — 손끝의 인사이트 | AI 네이티브 오픈소스 BI 플랫폼",
+    "description": "DataLuminary는 풀스택 TypeScript로 구축된 오픈소스, 플러그인 기반, AI 네이티브 데이터 시각화 및 BI 플랫폼입니다. 엔드투엔드 AI 인사이트, 마이크로커널 플러그인 생태계, 드래그 앤 드롭 NoCode 구성, 5분 Docker 프라이빗 배포를 지원합니다.",
+    "keywords": [
+      "DataLuminary",
+      "BI 플랫폼",
+      "데이터 시각화",
+      "AI 인사이트",
+      "오픈소스 BI",
+      "TypeScript",
+      "플러그인 아키텍처"
+    ],
+    "openGraph": {
+      "title": "DataLuminary — 손끝의 인사이트",
+      "description": "AI 네이티브, 플러그인 기반 오픈소스 데이터 시각화 BI 플랫폼"
+    }
+  },
+  "nav": {
+    "links": {
+      "features": "기능",
+      "plugins": "플러그인",
+      "ai": "AI",
+      "deploy": "배포",
+      "about": "소개"
+    },
+    "login": "로그인",
+    "homeAria": "DataLuminary 홈",
+    "toggleLang": "언어 전환",
+    "openMenu": "메뉴 열기",
+    "closeMenu": "메뉴 닫기"
+  },
+  "hero": {
+    "badge": "LuminaryWorks AI 생태계 · 오픈소스 MIT 라이선스",
+    "title": "손끝의 인사이트",
+    "tagline": "Illuminate insights for all",
+    "values": [
+      "엔드투엔드 AI — 보고서 생성, 차트 작성, 데이터 클렌징, 페이지 레이아웃까지 AI가 모든 단계를 지원",
+      "마이크로커널 플러그인 — 데이터 소스, 차트, 대시보드 레이아웃, 모든 것이 확장 가능",
+      "풀스택 TypeScript — Docker로 5분 시작, 프라이빗 배포, 커스터마이징 장벽 제로"
+    ],
+    "cta": "무료 체험",
+    "github": "GitHub",
+    "trust": [
+      {
+        "label": "오픈소스 커뮤니티"
+      },
+      {
+        "label": "Docker 원클릭 시작"
+      },
+      {
+        "label": "풀스택 TypeScript"
+      },
+      {
+        "label": "프라이빗 배포"
+      }
+    ],
+    "card": {
+      "aiGenerating": "AI가 분석 보고서 생성 중",
+      "totalSales": "총 매출",
+      "anomalyTrend": "이상 트렌드",
+      "anomalyCount": "3",
+      "anomalyAlert": "이상 트렌드 3건 감지 · 화동 Q3 전년 대비 ↓18%",
+      "statusChips": [
+        {
+          "label": "AI 클렌징"
+        },
+        {
+          "label": "AI 차트/보고서"
+        },
+        {
+          "label": "전체 드래그 앤 드롭"
+        },
+        {
+          "label": "플러그인 기반"
+        }
+      ]
+    }
+  },
+  "coreAdvantages": {
+    "eyebrow": "4가지 핵심 차별점",
+    "title": "엔터프라이즈 데이터 시각화 재정의",
+    "subtitle": "엔드투엔드 AI · 마이크로커널 플러그인 · 드래그 앤 드롭 NoCode · 풀스택 TypeScript",
+    "cards": [
+      {
+        "headline": "AI 네이티브, 엔드투엔드 인텔리전스",
+        "body": "시각화 BI를 넘어 — DataLuminary는 데이터에서 의사결정까지 모든 단계에 AI를 내장합니다. AI가 보고서 작성의 모든 단계를 안내합니다.",
+        "chips": [
+          {
+            "label": "AI 생성 분석 보고서",
+            "desc": "분석 목표를 설명하면 AI가 완전한 보고서를 생성"
+          },
+          {
+            "label": "AI 지원 차트 작성",
+            "desc": "자동 필드 매핑을 통한 스마트 차트 추천"
+          },
+          {
+            "label": "AI 데이터 클렌징",
+            "desc": "NULL, 이상값, 형식 오류 감지 — 원클릭 수정"
+          },
+          {
+            "label": "AI 페이지 레이아웃",
+            "desc": "콘텐츠 계층을 분석하고 대시보드 레이아웃을 자동 배치"
+          }
+        ]
+      },
+      {
+        "headline": "마이크로커널 아키텍처, 무한 확장",
+        "body": "Panel, chart, and data source plugin systems form DataLuminary's visualization world — not a fixed feature list, but an ever-growing plugin ecosystem.",
+        "chips": [
+          {
+            "label": "대시보드 플러그인",
+            "desc": "자유 배치 빅스크린 / PC 그리드 보고서 / 모바일 목록 / 카드 보드"
+          },
+          {
+            "label": "차트 플러그인",
+            "desc": "ECharts · AntV · Highcharts — 커뮤니티 기여가 무한히 쌓임"
+          },
+          {
+            "label": "데이터 소스 플러그인",
+            "desc": "MySQL / PG / MongoDB / Excel / API — 커스텀 SDK로 확장"
+          },
+          {
+            "label": "오픈 SDK",
+            "desc": "JSON Schema 제약, Grafana 생태계와 상호 운용"
+          }
+        ]
+      },
+      {
+        "headline": "드래그 앤 드롭 구성, 코딩 불필요",
+        "body": "제품, 운영, BI 분석가가 독립적으로 데이터 클렌징, 차트 작성, 대시보드 구축 가능. 개발자는 필요 시 SQL 및 고급 구성에 깊이 들어갈 수 있습니다.",
+        "chips": [
+          {
+            "label": "드래그 앤 드롭 데이터셋",
+            "desc": "필드를 드래그하여 메트릭/디멘션, 멀티 테이블 조인, 계산 필드 구성"
+          },
+          {
+            "label": "NoCode 차트 작성",
+            "desc": "차트 유형 선택, 필드를 축에 드래그, 라이브 미리보기, 코드 제로"
+          },
+          {
+            "label": "비주얼 레이아웃",
+            "desc": "그리드 드래그 / 자유 배치, 반응형 적응"
+          },
+          {
+            "label": "차트 연동 및 드릴다운",
+            "desc": "필터와 연동을 시각적으로 구성 — 인터랙션 코드 불필요"
+          }
+        ]
+      },
+      {
+        "headline": "풀스택 TS, 경량 & 빠름",
+        "body": "AI 시대에 TypeScript는 일급 시민. 통합 풀스택은 채용 장벽 감소, AI 지원 개발 가속, 유지보수 경량화를 의미합니다.",
+        "chips": [
+          {
+            "label": "5분 만에 가동",
+            "desc": "Docker Compose 원클릭 시작 — 3개 명령으로 배포"
+          },
+          {
+            "label": "채용 용이",
+            "desc": "활발한 TS 생태계 — 프론트엔드/백엔드 인재 상호 활용"
+          },
+          {
+            "label": "AI 지원 개발",
+            "desc": "TS 타입 정보는 LLM이 가장 잘 이해하는 언어"
+          },
+          {
+            "label": "커스터마이징 장벽 제로",
+            "desc": "타입 안전, 리팩터링 친화적, 완전한 플러그인 SDK"
+          }
+        ]
+      }
+    ]
+  },
+  "aiCapabilities": {
+    "eyebrow": "엔드투엔드 AI 인사이트 기능",
+    "title": "AI 기반 — 말하는 데이터",
+    "subtitle": "데이터 클렌징부터 인사이트 보고서까지 AI가 모든 단계를 아우름",
+    "tabs": [
+      {
+        "id": "report",
+        "label": "AI 생성 분석 보고서"
+      },
+      {
+        "id": "chart",
+        "label": "AI 지원 차트 작성"
+      },
+      {
+        "id": "clean",
+        "label": "AI 데이터 클렌징"
+      },
+      {
+        "id": "layout",
+        "label": "AI 페이지 레이아웃"
+      }
+    ],
+    "demos": {
+      "report": {
+        "tag": "핵심 메트릭 자동 추출 · 이상 트렌드 감지 · 비즈니스 제언 출력",
+        "user": "이번 분기 지역별 매출 트렌드를 분석하고 화동 감소에 집중",
+        "ai": "Q3 매출 데이터셋 분석 중... 이상 트렌드 3건 감지 ↓\n보고서 구조: 개요 → 지역 비교 → 근본 원인 → 제언",
+        "previewLabel": "보고서 미리보기",
+        "metricLabels": [
+          "매출",
+          "주문",
+          "전환",
+          "평균 주문 금액"
+        ],
+        "anomalyNote": "화동 Q3 전년 대비 ↓18%, 주요 원인은 채널 재고 적체"
+      },
+      "chart": {
+        "tag": "비즈니스 시맨틱스 이해 · 최적 차트 추천 · 구성 자동 완료",
+        "user": "최근 6개월 제품 라인별 월간 성장률 비교",
+        "ai": "자동 선택 멀티 시리즈 꺾은선 차트, X축=월 / Y축=성장률, 추천 색상 구성, 평균 기준선 제안",
+        "beforeLabel": "이전",
+        "afterLabel": "이후"
+      },
+      "clean": {
+        "tag": "스마트 품질 감지 · 일괄 수정 · 처리 이력 보존",
+        "cleanButton": "AI 원클릭 클렌징",
+        "completeLabel": "클렌징 완료",
+        "results": [
+          "결측값 3건 보완(평균 대체)",
+          "이상값 1건 플래그(유지 및 주석)",
+          "날짜 형식 8건 표준화"
+        ]
+      },
+      "layout": {
+        "tag": "콘텐츠 비중 분석 · 크기와 위치 자동 조정 · 비주얼 표준 준수",
+        "beforeLabel": "이전 · 어수선한 레이아웃",
+        "afterLabel": "이후 · 명확한 계층",
+        "optimizeButton": "AI 레이아웃 최적화",
+        "afterNote": "AI가 6개 컴포넌트의 콘텐츠 비중을 분석하고 레이아웃 계층을 자동 최적화"
+      }
+    }
+  },
+  "pluginArchitecture": {
+    "eyebrow": "마이크로커널 플러그인 아키텍처",
+    "title": "모든 시각화 요구 충족",
+    "subtitle": "모놀리식 전통 BI 도구와 달리 DataLuminary는 마이크로커널 플러그인 플랫폼 — 패널, 차트, 데이터 소스 플러그인 생태계로 모든 시각화 요구 실현",
+    "microkernel": "Microkernel",
+    "exploreCta": "플러그인 생태계 탐색",
+    "orbits": [
+      {
+        "id": "panel",
+        "title": "대시보드 레이아웃 플러그인",
+        "nodes": [
+          "Grid",
+          "Position",
+          "Card",
+          "List",
+          "사용자 정의"
+        ],
+        "detail": {
+          "lines": [
+            "grid-panel 그리드 레이아웃 — react-grid-layout, PC 보고서 선호, Grafana 패널 가져오기",
+            "position-panel 자유 배치 빅스크린 — TMagic 기반, 지휘 센터용 픽셀 단위 배치",
+            "card-panel 카드 뷰 — 보고서, 이메일, 보드 등",
+            "list-panel 목록 레이아웃 — 모바일 우선, 세로 카드 스크롤",
+            "+ 사용자 정의 레이아웃 플러그인 — 개발 SDK로 통합"
+          ]
+        }
+      },
+      {
+        "id": "chart",
+        "title": "차트 플러그인",
+        "nodes": [
+          "ECharts",
+          "AntV",
+          "Highcharts",
+          "사용자 정의"
+        ],
+        "detail": {
+          "title": "Headless BI 설계",
+          "lines": [
+            "차트 플러그인은 렌더링만 — 데이터는 데이터셋 레이어에서 균일 공급, 데이터 소스 직접 연결 없음",
+            "내장: 꺾은선 · 막대 · 영역 · 원 · 링 · 산점 · 레이더 · 퍼널",
+            "지도 · 워드 클라우드 · 메트릭 카드 · 테이블 · 리치 텍스트 · 리퀴드 · 히트맵 · 산키 · 캔들스틱 · 그래프...",
+            "차트 라이브러리 전환: ECharts / AntV / Highcharts — 구성에 영향 없이 자유 교체"
+          ]
+        }
+      },
+      {
+        "id": "datasource",
+        "title": "데이터 소스 플러그인",
+        "nodes": [
+          "MySQL",
+          "PG",
+          "MongoDB",
+          "Excel",
+          "API",
+          "사용자 정의"
+        ],
+        "detail": {
+          "title": "3단계 플러그인 프로토콜(Grafana 영감)",
+          "lines": [
+            "ConfigPanel 데이터 소스 구성 · QueryPanel 쿼리 구성 · VariablePanel 변수 쿼리",
+            "관계형: MySQL · PostgreSQL · SQL Server · ClickHouse",
+            "문서: MongoDB · Elasticsearch | 파일: Excel · CSV · JSON",
+            "API: RESTful API · GraphQL | + 모든 커스텀 데이터 소스용 Plugin SDK"
+          ]
+        }
+      }
+    ]
+  },
+  "dataPipeline": {
+    "eyebrow": "코어 파이프라인",
+    "title": "데이터에서 의사결정으로",
+    "subtitle": "데이터 소스 → 데이터셋 → 차트 → 대시보드 — 데이터가 파이프라인을 흐르며 각 단계가 플러그인 확장 가능",
+    "headlessLabel": "Headless BI 설계:",
+    "headlessNote": "Charts do not connect directly to data sources — datasets supply data uniformly. This is DataLuminary's core architectural difference from traditional tools.",
+    "steps": [
+      {
+        "label": "데이터 소스",
+        "en": "Datasource",
+        "desc": "멀티 소스 수집, 통합 관리",
+        "popup": [
+          "데이터 소스 플러그인 목록",
+          "연결 테스트",
+          "QueryPanel 미리보기"
+        ]
+      },
+      {
+        "label": "데이터셋",
+        "en": "Dataset · Headless BI 코어",
+        "desc": "메트릭/디멘션 모델링, 데이터 클렌징",
+        "popup": [
+          "메트릭 / 디멘션 필드 구성",
+          "멀티 테이블 조인",
+          "계산 필드 및 데이터 클렌징",
+          "AI 지원 클렌징(출시 예정)"
+        ]
+      },
+      {
+        "label": "차트",
+        "en": "차트",
+        "desc": "NoCode 차트 작성, 드래그만으로 결과",
+        "popup": [
+          "차트 유형 선택(플러그인 기반)",
+          "필드를 X축/Y축/시리즈에 드래그",
+          "AI가 최적 차트 유형 추천",
+          "라이브 미리보기"
+        ]
+      },
+      {
+        "label": "대시보드",
+        "en": "대시보드",
+        "desc": "멀티 엔드포인트, 멀티 레이아웃, 유연한 오케스트레이션",
+        "popup": [
+          "Grid / Position / Card / List — 4가지 레이아웃",
+          "차트 연동, 필터",
+          "버전 관리, 접근 제어",
+          "AI 원클릭 레이아웃 최적화"
+        ]
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "베테랑 팀, 실전 검증",
+    "title": "코어 팀: 엔터프라이즈 데이터 시각화 플랫폼 다년 경험",
+    "subtitle": "Tencent에서 Ping An까지 — 엔터프라이즈 BI 및 시각화 플랫폼 깊은 전문성",
+    "quote": "수년간 엔터프라이즈 BI 플랫폼을 0에서 1까지 구축한 경험을 DataLuminary가 하나의 제품으로 응축",
+    "cards": [
+      {
+        "company": "Tencent 게임 경험 관리 플랫폼",
+        "role": "아키텍처 리팩터링 주도",
+        "impact": "Tencent 전 게임 제품의 데이터 경험 파이프라인 커버",
+        "chips": [
+          "시각화 플랫폼",
+          "아키텍처 리팩터링",
+          "대규모 데이터"
+        ]
+      },
+      {
+        "company": "腾讯 BlueKing 범용 차트 플랫폼",
+        "role": "처음부터 구축",
+        "impact": "Tencent Cloud 운영 시스템의 핵심 시각화 컴포넌트",
+        "chips": [
+          "제로에서",
+          "차트 플랫폼",
+          "Tencent Cloud 운영"
+        ]
+      },
+      {
+        "company": "Ping An Smart City MaxView",
+        "role": "처음부터 구축",
+        "impact": "금융급 엔터프라이즈 및 정부 데이터 시각화 플랫폼",
+        "chips": [
+          "금융급",
+          "제로에서",
+          "엔터프라이즈 BI"
+        ]
+      },
+      {
+        "company": "Ping An Technology StarCanvas",
+        "role": "수년간 지속적 반복",
+        "impact": "데이터 시각화 깊은 전문성을 갖춘 상용 BI 제품",
+        "chips": [
+          "상용 제품",
+          "장기 반복",
+          "프로덕션 BI"
+        ]
+      }
+    ]
+  },
+  "typescriptDeploy": {
+    "eyebrow": "풀스택 TypeScript",
+    "title": "풀스택 TS, 경량 시작",
+    "subtitle": "AI 시대에 TypeScript는 일급 시민 — 통합 스택, 빠른 개발, 경량 배포",
+    "whyTitle": "왜 풀스택 TypeScript인가",
+    "reasons": [
+      {
+        "title": "AI 시대의 최적 선택",
+        "body": "TypeScript는 Copilot, Claude 등 AI 도구가 가장 잘 이해하는 언어. 풀스택 TS는 AI 지원 개발을 배가 — 더 정확한 자동완성, 더 안전한 리팩터링."
+      },
+      {
+        "title": "팀 채용 비용 절감",
+        "body": "프론트엔드/백엔드 통합 스택 — 풀스택 엔지니어가 독립적으로 완전한 기능 출시. 풍부한 TS 인재 풀이 팀 확장 장벽을 크게 낮춤."
+      },
+      {
+        "title": "타입 안전, 두려움 없는 리팩터링",
+        "body": "강력한 타입이 프론트엔드/백엔드를 관통 — 플러그인 인터페이스와 데이터 계약이 타입으로 보장. 오류는 프로덕션이 아닌 컴파일 시점에 발견."
+      },
+      {
+        "title": "경량 배포, 간단한 운영",
+        "body": "Docker Compose 원클릭 시작, PostgreSQL만. Docker 생략하고 로컬 DB 사용 가능. Windows / macOS / Linux 완전 지원."
+      }
+    ],
+    "compareTitle": "전통 BI 플랫폼 비교",
+    "compareBad": [
+      "복잡한 설치, 수십 개 구성 항목",
+      "언어 혼재, 프론트엔드/백엔드 분리",
+      "전담 운영 팀 필요"
+    ],
+    "compareGood": "DataLuminary: 3개 명령 · 통합 TS · 자동 부트스트랩"
+  },
+  "ecosystem": {
+    "eyebrow": "무한 진입점, 생태계 주도",
+    "title": "BI 도구를 넘어 — 생태계 주도 데이터 인사이트 플랫폼",
+    "subtitle": "전통 BI 시나리오를 커버하면서 LuminaryWorks 생태계를 활용해 블록체인, AI 작업, IoT, 원격 모니터링 등 새로운 물리 세계 시나리오로 확장",
+    "industriesTitle": "모든 전통 데이터 분석 시나리오 커버",
+    "industriesNote": "제품, 운영, BI 분석가가 독립적으로 시작 — 데이터 수집부터 인사이트 보고서까지 완전 NoCode 파이프라인",
+    "hubTag": "데이터 인사이트 · 보기",
+    "hubBadge": "데이터 집계 허브",
+    "industries": [
+      {
+        "label": "이커머스 운영"
+      },
+      {
+        "label": "게임 분석"
+      },
+      {
+        "label": "금융 리스크 관리"
+      },
+      {
+        "label": "제조 라인"
+      },
+      {
+        "label": "리테일 분석"
+      },
+      {
+        "label": "헬스케어"
+      },
+      {
+        "label": "교육 평가"
+      },
+      {
+        "label": "물류 추적"
+      },
+      {
+        "label": "프로젝트 관리"
+      }
+    ],
+    "nodes": [
+      {
+        "name": "LuminaryIoTChain",
+        "role": "연결",
+        "desc": "오픈소스 IoT PaaS 플랫폼",
+        "scenario": "공장 현장 장치 상태 → 실시간 모니터링 대시보드"
+      },
+      {
+        "name": "VistaRemote",
+        "role": "제어",
+        "desc": "WebRTC 원격 운영 플랫폼",
+        "scenario": "원격 운영 감사 로그 → 보안 감사 보고서"
+      },
+      {
+        "name": "VibeAgent",
+        "role": "수익",
+        "desc": "AI Agent 온체인 마켓플레이스",
+        "scenario": "Blockchain Agent 수익 → 성과 분석 대시보드"
+      },
+      {
+        "name": "VibeEdu / BlockyEdu",
+        "role": "학습",
+        "desc": "비주얼 프로그래밍 + AI 지원 교육",
+        "scenario": "학습 데이터 → 교육 품질 대시보드 · 생태계 개발자 육성",
+        "badge": "생태계 진입 · 개발자 인큐베이터"
+      }
+    ],
+    "valueCards": [
+      {
+        "title": "전통 BI, 즉시 사용 가능",
+        "body": "이커머스 · 게임 · 금융 · 제조 — 주류 BI 시나리오 완전 커버, 생태계 불필요, 독립 배포로 완전 사용 가능"
+      },
+      {
+        "title": "새로운 물리 시나리오, 생태계 지원",
+        "body": "IoT · AI 작업 · 블록체인 · 원격 모니터링 — 형제 제품 데이터가 직접 흘러 크로스 도메인 인사이트"
+      },
+      {
+        "title": "교육 플랫폼, 개발자 생태계",
+        "body": "VibeEdu 비주얼 프로그래밍 + AI 교육 지원 — 더 많은 개발자가 학습하고 플러그인 기여, 생태계 지속 확장"
+      }
+    ],
+    "footerNote": "LuminaryWorks/identity 통합 OIDC 로그인 · LuminaryWorks/shared 컴포넌트 라이브러리 · 모든 제품에서 하나의 계정"
+  },
+  "comparison": {
+    "eyebrow": "왜 DataLuminary인가",
+    "title": "한눈에 보는 전체 비교",
+    "colFeature": "기능",
+    "colDL": "DataLuminary",
+    "colTrad": "전통 BI 도구",
+    "colSaas": "폐쇄형 SaaS",
+    "rows": [
+      {
+        "feature": "엔드투엔드 AI",
+        "dl": {
+          "type": "yes",
+          "note": "차트/클렌징/레이아웃/보고서"
+        },
+        "trad": {
+          "type": "no",
+          "note": "없음 또는 매우 제한적"
+        },
+        "saas": {
+          "type": "warn",
+          "note": "유료 잠금 해제"
+        }
+      },
+      {
+        "feature": "플러그인 아키텍처",
+        "dl": {
+          "type": "yes",
+          "note": "마이크로커널, 3계층 플러그인 생태계"
+        },
+        "trad": {
+          "type": "no",
+          "note": "모놀리식"
+        },
+        "saas": {
+          "type": "no",
+          "note": "폐쇄형 생태계"
+        }
+      },
+      {
+        "feature": "대시보드 레이아웃",
+        "dl": {
+          "type": "yes",
+          "note": "빅스크린/보고서/모바일/보드"
+        },
+        "trad": {
+          "type": "warn",
+          "note": "1~2 고정 유형"
+        },
+        "saas": {
+          "type": "warn",
+          "note": "제한적"
+        }
+      },
+      {
+        "feature": "LessCode / NoCode",
+        "dl": {
+          "type": "yes",
+          "note": "전체 드래그 앤 드롭 파이프라인"
+        },
+        "trad": {
+          "type": "warn",
+          "note": "부분 지원"
+        },
+        "saas": {
+          "type": "yes",
+          "note": "지원"
+        }
+      },
+      {
+        "feature": "풀스택 TypeScript",
+        "dl": {
+          "type": "yes",
+          "note": "프론트엔드/백엔드 통합"
+        },
+        "trad": {
+          "type": "no",
+          "note": "언어 혼재"
+        },
+        "saas": {
+          "type": "lock",
+          "note": "비공개"
+        }
+      },
+      {
+        "feature": "배포 복잡도",
+        "dl": {
+          "type": "yes",
+          "note": "3개 명령, 5분"
+        },
+        "trad": {
+          "type": "no",
+          "note": "복잡한 설치"
+        },
+        "saas": {
+          "type": "text",
+          "note": "N/A 클라우드 서비스"
+        }
+      },
+      {
+        "feature": "프라이빗 배포",
+        "dl": {
+          "type": "yes",
+          "note": "완전 프라이빗"
+        },
+        "trad": {
+          "type": "yes",
+          "note": "지원"
+        },
+        "saas": {
+          "type": "warn",
+          "note": "추가 비용"
+        }
+      },
+      {
+        "feature": "데이터 보안",
+        "dl": {
+          "type": "yes",
+          "note": "데이터 온프레미스 유지"
+        },
+        "trad": {
+          "type": "yes",
+          "note": "프라이빗 가능"
+        },
+        "saas": {
+          "type": "warn",
+          "note": "클라우드 데이터"
+        }
+      },
+      {
+        "feature": "커스터마이징",
+        "dl": {
+          "type": "yes",
+          "note": "Plugin SDK, 타입 안전"
+        },
+        "trad": {
+          "type": "no",
+          "note": "가파른 학습 곡선"
+        },
+        "saas": {
+          "type": "lock",
+          "note": "미지원"
+        }
+      },
+      {
+        "feature": "오픈소스 라이선스",
+        "dl": {
+          "type": "yes",
+          "note": "MIT 오픈소스"
+        },
+        "trad": {
+          "type": "warn",
+          "note": "부분 오픈"
+        },
+        "saas": {
+          "type": "no",
+          "note": "폐쇄형"
+        }
+      },
+      {
+        "feature": "생태계 통합",
+        "dl": {
+          "type": "yes",
+          "note": "5개 제품 AI 생태계"
+        },
+        "trad": {
+          "type": "no",
+          "note": "독립 제품"
+        },
+        "saas": {
+          "type": "warn",
+          "note": "통합 제한"
+        }
+      },
+      {
+        "feature": "비용",
+        "dl": {
+          "type": "yes",
+          "note": "무료"
+        },
+        "trad": {
+          "type": "warn",
+          "note": "엔터프라이즈 에디션 요금"
+        },
+        "saas": {
+          "type": "text",
+          "note": "사용량 기반 과금"
+        }
+      }
+    ]
+  },
+  "useCases": {
+    "eyebrow": "사용 사례",
+    "title": "모든 산업의 데이터 인사이트",
+    "cases": [
+      {
+        "title": "비즈니스 운영",
+        "desc": "매출 대시보드, KPI 보드, 채널 분석 보고서",
+        "persona": "운영"
+      },
+      {
+        "title": "제조 모니터링",
+        "desc": "IoT 장치 대시보드, 생산 라인 분석, 에너지 모니터링",
+        "persona": "IT"
+      },
+      {
+        "title": "금융 컴플라이언스",
+        "desc": "리스크 보고서, 거래 분석, 감사 추적 대시보드",
+        "persona": "제품"
+      },
+      {
+        "title": "이커머스 & 리테일",
+        "desc": "사용자 프로필, 제품 분석, 물류 모니터링",
+        "persona": "운영"
+      },
+      {
+        "title": "헬스케어",
+        "desc": "환자 데이터 분석, 의료 리소스 스케줄링 대시보드",
+        "persona": "IT"
+      },
+      {
+        "title": "교육 & 트레이닝",
+        "desc": "학습 행동 분석, 교육 품질 평가 보고서",
+        "persona": "제품"
+      }
+    ]
+  },
+  "openSource": {
+    "eyebrow": "오픈소스 협업",
+    "title": "AI 데이터 인사이트 생태계를 함께 구축",
+    "subtitle": "DataLuminary는 플러그인 기반 — 플랫폼 전체가 커뮤니티에 완전 개방. 데이터 소스, 차트 라이브러리, 레이아웃 엔진 — 모든 계층에서 기능 확장",
+    "layers": [
+      {
+        "headline": "데이터 소스 플러그인 계층",
+        "sub": "소규모는 직접 연결, 수십억 행 데이터는 ClickHouse 통합",
+        "points": [
+          "핵심 데이터 기능: MySQL · PostgreSQL · MongoDB · Excel · CSV · API",
+          "소규모(수백만) → 직접 PostgreSQL, 추가 비용 제로",
+          "수천만~수억 → ClickHouse 통합, 초 단위 집계, 구성 변경 없음",
+          "사용자가 기반 선택 — 강제 DB 바인딩 없음",
+          "3단계 플러그인 프로토콜, Grafana 데이터 소스 생태계와 상호 운용"
+        ],
+        "cta": "데이터 소스 플러그인 기여"
+      },
+      {
+        "headline": "차트 플러그인 계층",
+        "sub": "차트 라이브러리 제한 없음, 시맨틱 스마트 추천",
+        "points": [
+          "내장(AntV G2): 꺾은선 · 막대 · 원 · 산점 · 레이더 · 산키...",
+          "시맨틱 추천(Alibaba AVA): 데이터가 차트를 결정, 추측 불필요",
+          "Headless BI: ECharts / AntV / Highcharts 구성에 영향 없이 자유 전환",
+          "모든 서드파티 차트 라이브러리를 차트 플러그인으로 래핑 가능"
+        ],
+        "cta": "차트 플러그인 기여"
+      },
+      {
+        "headline": "패널 레이아웃 플러그인 계층",
+        "sub": "모든 표시 요구에 맞는 멀티 시나리오 레이아웃",
+        "points": [
+          "grid-panel → 그리드 드래그, PC 분석 보고서 선호, Grafana 패널 가져오기",
+          "position-panel → 픽셀 단위 자유 배치(TMagic), 빅스크린/지휘 센터",
+          "card-panel → 보고서, 이메일, 정보 보드용 카드 뷰",
+          "list-panel → 세로 목록, 모바일 우선",
+          "레이아웃 엔진 자체가 플러그인 — 자체 엔진 구축 및 통합"
+        ],
+        "cta": "레이아웃 플러그인 기여"
+      }
+    ],
+    "codeTabs": [
+      {
+        "id": "import",
+        "label": "온디맨드 패키지 가져오기"
+      },
+      {
+        "id": "serverless",
+        "label": "Serverless 데이터 처리"
+      },
+      {
+        "id": "compose",
+        "label": "함수형 비즈니스 로직"
+      }
+    ],
+    "featureCards": [
+      {
+        "title": "Lerna 패키지 관리",
+        "body": "모든 플러그인, 컴포넌트, 함수를 Lerna로 관리 — 독립 버전, 릴리스, 가져오기"
+      },
+      {
+        "title": "함수형 데이터 처리",
+        "body": "클렌징, 변환, 집계 로직을 순수 함수로 — 조합 가능, 테스트 가능, 재사용 가능"
+      },
+      {
+        "title": "Serverless 준비 세분화",
+        "body": "코어 처리 로직은 상태 비저장 — Serverless / Edge 함수로 직접 배포, 온디맨드 컴퓨팅"
+      },
+      {
+        "title": "사용자 선택 기반",
+        "body": "강제 DB 바인딩 없음 — 소규모는 직접 PG, 수십억 행은 ClickHouse"
+      }
+    ],
+    "starGithub": "GitHub Star",
+    "commercialBadge": "오픈소스, 상업적 사용 무료",
+    "community": [
+      {
+        "title": "완전한 문서",
+        "body": "사용자 가이드 · 플러그인 개발 · API 문서"
+      },
+      {
+        "title": "활발한 커뮤니티",
+        "body": "GitHub Discussions · Discord"
+      },
+      {
+        "title": "기여자 친화적",
+        "body": "상세 기여 가이드, 완전 CI/CD 지원"
+      }
+    ],
+    "quote": "플러그인 코드의 한 줄 한 줄이 커뮤니티 주도 AI 데이터 인사이트 전진의 한 걸음."
+  },
+  "footerCta": {
+    "title": "5분 배포 — AI 네이티브 데이터 인사이트를 지금 경험",
+    "subtitle": "오픈소스 & 무료 · 신용카드 불필요 · 프라이빗 배포 · MIT 라이선스",
+    "deploy": "무료 로컬 배포",
+    "docs": "문서 보기",
+    "github": "GitHub",
+    "emailPlaceholder": "제품 업데이트 구독 이메일 입력",
+    "emailAria": "이메일 주소",
+    "subscribe": "구독",
+    "noSpam": "스팸 없음, 언제든 구독 취소",
+    "adopted": "500개 이상 기업과 개발자가 도입",
+    "rating": "커뮤니티 평점 4.9/5"
+  },
+  "siteFooter": {
+    "tagline": "오픈소스, 플러그인 기반, AI 네이티브 데이터 시각화 BI 플랫폼. 손끝의 인사이트.",
+    "socialAria": "소셜 링크",
+    "columns": [
+      {
+        "title": "제품",
+        "links": [
+          "기능",
+          "플러그인 마켓플레이스",
+          "변경 이력",
+          "로드맵"
+        ]
+      },
+      {
+        "title": "개발자",
+        "links": [
+          "플러그인 개발 가이드",
+          "API 문서",
+          "기여 가이드",
+          "GitHub"
+        ]
+      },
+      {
+        "title": "생태계",
+        "links": [
+          "LuminaryWorks",
+          "IoTChain",
+          "VistaRemote",
+          "VibeEdu"
+        ]
+      },
+      {
+        "title": "법률",
+        "links": [
+          "MIT License",
+          "개인정보 처리방침",
+          "보안 공개"
+        ]
+      }
+    ],
+    "copyright": "© 2024–2026 LuminaryWorks. Built with TypeScript.",
+    "poweredBy": "LuminaryWorks 생태계의 일원",
+    "ecosystem": {
+      "title": "LuminaryWorks 생태계",
+      "subtitle": "실세계 데이터를 DataLuminary로 전달하는 형제 제품들.",
+      "items": {
+        "blockyedu": "플러그인·함수 개발을 위한 교육 플랫폼.",
+        "syncrobrain": "IoT를 지원하는 실세계 데이터 분석 플랫폼.",
+        "vistacast": "공장·매장·창고 등 현장 맞춤형 AI 데이터 분석.",
+        "vistaremote": "직원 데이터 분석과 원격 배포 지원."
+      }
+    }
+  },
+  "terminal": {
+    "title": "DataLuminary — 5분 로컬 시작",
+    "initComment": "# 서브 저장소 초기화",
+    "bootstrapComment": "# 의존성 + PostgreSQL + 마이그레이션 + 시드 데이터",
+    "backendComment": "# 백엔드 API   → localhost:7084",
+    "frontendComment": "# 프론트엔드 UI   → localhost:3003",
+    "done": "# ✓  3개 명령, 5분, 완료!",
+    "defaultAccount": "# 기본 계정: admin / admin!@#123"
+  }
+}

@@ -1,0 +1,509 @@
+import { writeFileSync, readFileSync } from 'fs'
+import { join, dirname } from 'path'
+import { fileURLToPath } from 'url'
+
+const __dirname = dirname(fileURLToPath(import.meta.url))
+const keys = JSON.parse(readFileSync(join(__dirname, 'en-keys.json'), 'utf8'))
+
+/** @type {Record<string, string>} */
+export const enToKo = {
+  'DataLuminary — Insights Within Reach | AI-Native Open-Source BI Platform':
+    'DataLuminary — 손끝의 인사이트 | AI 네이티브 오픈소스 BI 플랫폼',
+  'DataLuminary is an open-source, plugin-based, AI-native data visualization and BI platform built with full-stack TypeScript. End-to-end AI insights, microkernel plugin ecosystem, drag-and-drop NoCode configuration, and 5-minute Docker private deployment.':
+    'DataLuminary는 풀스택 TypeScript로 구축된 오픈소스, 플러그인 기반, AI 네이티브 데이터 시각화 및 BI 플랫폼입니다. 엔드투엔드 AI 인사이트, 마이크로커널 플러그인 생태계, 드래그 앤 드롭 NoCode 구성, 5분 Docker 프라이빗 배포를 지원합니다.',
+  'BI Platform': 'BI 플랫폼',
+  'Data Visualization': '데이터 시각화',
+  'AI Insights': 'AI 인사이트',
+  'Open Source BI': '오픈소스 BI',
+  'Plugin Architecture': '플러그인 아키텍처',
+  'DataLuminary — Insights Within Reach': 'DataLuminary — 손끝의 인사이트',
+  'AI-native, plugin-based, open-source data visualization BI platform':
+    'AI 네이티브, 플러그인 기반 오픈소스 데이터 시각화 BI 플랫폼',
+  Features: '기능',
+  Plugins: '플러그인',
+  AI: 'AI',
+  Deploy: '배포',
+  About: '소개',
+  'Sign In': '로그인',
+  'DataLuminary Home': 'DataLuminary 홈',
+  'Switch language': '언어 전환',
+  'Open menu': '메뉴 열기',
+  'Close menu': '메뉴 닫기',
+  'LuminaryWorks AI Ecosystem · Open Source MIT License':
+    'LuminaryWorks AI 생태계 · 오픈소스 MIT 라이선스',
+  'Insights Within Reach': '손끝의 인사이트',
+  'End-to-end AI — report generation, charting, data cleansing, and page layout, AI assists every step':
+    '엔드투엔드 AI — 보고서 생성, 차트 작성, 데이터 클렌징, 페이지 레이아웃까지 AI가 모든 단계를 지원',
+  'Microkernel plugins — data sources, charts, and dashboard layouts, everything is extensible':
+    '마이크로커널 플러그인 — 데이터 소스, 차트, 대시보드 레이아웃, 모든 것이 확장 가능',
+  'Full-stack TypeScript — launch with Docker in 5 minutes, private deployment, zero barrier to customization':
+    '풀스택 TypeScript — Docker로 5분 시작, 프라이빗 배포, 커스터마이징 장벽 제로',
+  'Try for Free': '무료 체험',
+  'Open Source Community': '오픈소스 커뮤니티',
+  'One-Click Docker Launch': 'Docker 원클릭 시작',
+  'Full-Stack TypeScript': '풀스택 TypeScript',
+  'Private Deployment': '프라이빗 배포',
+  'AI is generating an analysis report': 'AI가 분석 보고서 생성 중',
+  'Total Sales': '총 매출',
+  'Anomaly Trends': '이상 트렌드',
+  '3 anomaly trends detected · East China Q3 YoY ↓18%':
+    '이상 트렌드 3건 감지 · 화동 Q3 전년 대비 ↓18%',
+  'AI Cleansing': 'AI 클렌징',
+  'AI Charts/Reports': 'AI 차트/보고서',
+  'Full Drag-and-Drop': '전체 드래그 앤 드롭',
+  'Plugin-Based': '플러그인 기반',
+  'Four Core Differentiators': '4가지 핵심 차별점',
+  'Redefining Enterprise Data Visualization': '엔터프라이즈 데이터 시각화 재정의',
+  'End-to-end AI · Microkernel Plugins · Drag-and-Drop NoCode · Full-Stack TypeScript':
+    '엔드투엔드 AI · 마이크로커널 플러그인 · 드래그 앤 드롭 NoCode · 풀스택 TypeScript',
+  'AI-Native, End-to-End Intelligence': 'AI 네이티브, 엔드투엔드 인텔리전스',
+  'Beyond visualization BI — DataLuminary embeds AI across every step from data to decisions. AI guides you through every stage of your reports.':
+    '시각화 BI를 넘어 — DataLuminary는 데이터에서 의사결정까지 모든 단계에 AI를 내장합니다. AI가 보고서 작성의 모든 단계를 안내합니다.',
+  'AI-Generated Analysis Reports': 'AI 생성 분석 보고서',
+  'Describe your analysis goal; AI produces a complete report':
+    '분석 목표를 설명하면 AI가 완전한 보고서를 생성',
+  'AI-Assisted Charting': 'AI 지원 차트 작성',
+  'Smart chart recommendations with automatic field mapping':
+    '자동 필드 매핑을 통한 스마트 차트 추천',
+  'AI Data Cleansing': 'AI 데이터 클렌징',
+  'Detect nulls, anomalies, and format errors — fix with one click':
+    'NULL, 이상값, 형식 오류 감지 — 원클릭 수정',
+  'AI Page Layout': 'AI 페이지 레이아웃',
+  'Analyze content hierarchy and auto-arrange dashboard layouts':
+    '콘텐츠 계층을 분석하고 대시보드 레이아웃을 자동 배치',
+  'Microkernel Architecture, Infinitely Extensible': '마이크로커널 아키텍처, 무한 확장',
+  'Dashboard Plugins': '대시보드 플러그인',
+  'Free-form big screens / PC grid reports / mobile lists / card boards':
+    '자유 배치 빅스크린 / PC 그리드 보고서 / 모바일 목록 / 카드 보드',
+  'Chart Plugins': '차트 플러그인',
+  'ECharts · AntV · Highcharts — community contributions stack infinitely':
+    'ECharts · AntV · Highcharts — 커뮤니티 기여가 무한히 쌓임',
+  'Data Source Plugins': '데이터 소스 플러그인',
+  'MySQL / PG / MongoDB / Excel / API — extend via custom SDK':
+    'MySQL / PG / MongoDB / Excel / API — 커스텀 SDK로 확장',
+  'Open SDK': '오픈 SDK',
+  'JSON Schema constraints, interoperable with the Grafana ecosystem':
+    'JSON Schema 제약, Grafana 생태계와 상호 운용',
+  'Drag-and-Drop Configuration, No Coding Required': '드래그 앤 드롭 구성, 코딩 불필요',
+  'Product, operations, and BI analysts can independently handle data cleansing, charting, and dashboard building. Developers can dive into SQL and advanced config when needed.':
+    '제품, 운영, BI 분석가가 독립적으로 데이터 클렌징, 차트 작성, 대시보드 구축 가능. 개발자는 필요 시 SQL 및 고급 구성에 깊이 들어갈 수 있습니다.',
+  'Drag-and-Drop Datasets': '드래그 앤 드롭 데이터셋',
+  'Drag fields to configure metrics/dimensions, multi-table joins, calculated fields':
+    '필드를 드래그하여 메트릭/디멘션, 멀티 테이블 조인, 계산 필드 구성',
+  'NoCode Charting': 'NoCode 차트 작성',
+  'Pick chart type, drag fields to axes, live preview, zero code':
+    '차트 유형 선택, 필드를 축에 드래그, 라이브 미리보기, 코드 제로',
+  'Visual Layout': '비주얼 레이아웃',
+  'Grid drag / free positioning, responsive adaptation':
+    '그리드 드래그 / 자유 배치, 반응형 적응',
+  'Chart Linkage & Drill-Down': '차트 연동 및 드릴다운',
+  'Visually configure filters and linkage — no interaction code':
+    '필터와 연동을 시각적으로 구성 — 인터랙션 코드 불필요',
+  'Full-Stack TS, Lightweight & Fast': '풀스택 TS, 경량 & 빠름',
+  'In the AI era, TypeScript is a first-class citizen. A unified full-stack means lower hiring barriers, faster AI-assisted development, and lighter maintenance.':
+    'AI 시대에 TypeScript는 일급 시민. 통합 풀스택은 채용 장벽 감소, AI 지원 개발 가속, 유지보수 경량화를 의미합니다.',
+  'Live in 5 Minutes': '5분 만에 가동',
+  'One-click Docker Compose launch — deploy in 3 commands':
+    'Docker Compose 원클릭 시작 — 3개 명령으로 배포',
+  'Easier Hiring': '채용 용이',
+  'Thriving TS ecosystem — frontend and backend talent interchangeable':
+    '활발한 TS 생태계 — 프론트엔드/백엔드 인재 상호 활용',
+  'AI-Assisted Development': 'AI 지원 개발',
+  'TS type information is the language LLMs understand best':
+    'TS 타입 정보는 LLM이 가장 잘 이해하는 언어',
+  'Zero Customization Barrier': '커스터마이징 장벽 제로',
+  'Type-safe, refactor-friendly, complete plugin SDK':
+    '타입 안전, 리팩터링 친화적, 완전한 플러그인 SDK',
+  'End-to-End AI Insight Capabilities': '엔드투엔드 AI 인사이트 기능',
+  'AI-Powered — Data That Speaks': 'AI 기반 — 말하는 데이터',
+  'From data cleansing to insight reports, AI spans every step':
+    '데이터 클렌징부터 인사이트 보고서까지 AI가 모든 단계를 아우름',
+  'Auto-extract key metrics · Detect anomaly trends · Output business recommendations':
+    '핵심 메트릭 자동 추출 · 이상 트렌드 감지 · 비즈니스 제언 출력',
+  'Analyze regional sales trends this quarter, focusing on the East China decline':
+    '이번 분기 지역별 매출 트렌드를 분석하고 화동 감소에 집중',
+  'Analyzing Q3 sales dataset... Found 3 anomaly trends ↓\nReport structure: Overview → Regional comparison → Root cause → Recommendations':
+    'Q3 매출 데이터셋 분석 중... 이상 트렌드 3건 감지 ↓\n보고서 구조: 개요 → 지역 비교 → 근본 원인 → 제언',
+  'Analyzing Q3 sales dataset... Found 3 anomaly trends ↓\\nReport structure: Overview → Regional comparison → Root cause → Recommendations':
+    'Q3 매출 데이터셋 분석 중... 이상 트렌드 3건 감지 ↓\n보고서 구조: 개요 → 지역 비교 → 근본 원인 → 제언',
+  'Report Preview': '보고서 미리보기',
+  Revenue: '매출',
+  Orders: '주문',
+  Conversion: '전환',
+  AOV: '평균 주문 금액',
+  'East China Q3 YoY ↓18%, mainly due to channel inventory backlog':
+    '화동 Q3 전년 대비 ↓18%, 주요 원인은 채널 재고 적체',
+  'Understand business semantics · Recommend best charts · Auto-complete configuration':
+    '비즈니스 시맨틱스 이해 · 최적 차트 추천 · 구성 자동 완료',
+  'Compare monthly growth rates across product lines over the last 6 months':
+    '최근 6개월 제품 라인별 월간 성장률 비교',
+  'Auto-selected multi-series line chart, X-axis=month / Y-axis=growth rate, recommended color scheme, suggested mean reference line':
+    '자동 선택 멀티 시리즈 꺾은선 차트, X축=월 / Y축=성장률, 추천 색상 구성, 평균 기준선 제안',
+  Before: '이전',
+  After: '이후',
+  'Smart quality detection · Batch repair · Preserve processing history':
+    '스마트 품질 감지 · 일괄 수정 · 처리 이력 보존',
+  'AI One-Click Cleanse': 'AI 원클릭 클렌징',
+  'Cleansing Complete': '클렌징 완료',
+  'Filled 3 missing values (mean imputation)': '결측값 3건 보완(평균 대체)',
+  'Flagged 1 outlier (retained and annotated)': '이상값 1건 플래그(유지 및 주석)',
+  'Standardized 8 date formats': '날짜 형식 8건 표준화',
+  'Analyze content weight · Auto-adjust size and position · Follow visual standards':
+    '콘텐츠 비중 분석 · 크기와 위치 자동 조정 · 비주얼 표준 준수',
+  'Before · Cluttered layout': '이전 · 어수선한 레이아웃',
+  'After · Clear hierarchy': '이후 · 명확한 계층',
+  'AI Optimize Layout': 'AI 레이아웃 최적화',
+  'AI analyzed content weight of 6 components and auto-optimized layout hierarchy':
+    'AI가 6개 컴포넌트의 콘텐츠 비중을 분석하고 레이아웃 계층을 자동 최적화',
+  'Microkernel Plugin Architecture': '마이크로커널 플러그인 아키텍처',
+  'Meet Every Visualization Need': '모든 시각화 요구 충족',
+  'Unlike monolithic traditional BI tools, DataLuminary is a microkernel plugin platform — panel, chart, and data source plugin ecosystems make every visualization need achievable':
+    '모놀리식 전통 BI 도구와 달리 DataLuminary는 마이크로커널 플러그인 플랫폼 — 패널, 차트, 데이터 소스 플러그인 생태계로 모든 시각화 요구 실현',
+  Microkernel: 'Microkernel',
+  'Explore Plugin Ecosystem': '플러그인 생태계 탐색',
+  'Dashboard Layout Plugins': '대시보드 레이아웃 플러그인',
+  Custom: '사용자 정의',
+  'grid-panel grid layout — react-grid-layout, PC reports preferred, import Grafana panels':
+    'grid-panel 그리드 레이아웃 — react-grid-layout, PC 보고서 선호, Grafana 패널 가져오기',
+  'position-panel free-form big screen — TMagic-based, pixel-level positioning for command centers':
+    'position-panel 자유 배치 빅스크린 — TMagic 기반, 지휘 센터용 픽셀 단위 배치',
+  'card-panel card view — reports, email, boards, and more':
+    'card-panel 카드 뷰 — 보고서, 이메일, 보드 등',
+  'list-panel list layout — mobile-first, vertical card scrolling':
+    'list-panel 목록 레이아웃 — 모바일 우선, 세로 카드 스크롤',
+  '+ Custom layout plugins — integrate via development SDK':
+    '+ 사용자 정의 레이아웃 플러그인 — 개발 SDK로 통합',
+  'Headless BI Design': 'Headless BI 설계',
+  'Chart plugins only render — data is uniformly supplied by the dataset layer, no direct data source connection':
+    '차트 플러그인은 렌더링만 — 데이터는 데이터셋 레이어에서 균일 공급, 데이터 소스 직접 연결 없음',
+  'Built-in: line · bar · area · pie · ring · scatter · radar · funnel':
+    '내장: 꺾은선 · 막대 · 영역 · 원 · 링 · 산점 · 레이더 · 퍼널',
+  'Map · word cloud · metric card · table · rich text · liquid · heatmap · sankey · candlestick · graph...':
+    '지도 · 워드 클라우드 · 메트릭 카드 · 테이블 · 리치 텍스트 · 리퀴드 · 히트맵 · 산키 · 캔들스틱 · 그래프...',
+  'Switch chart libraries: ECharts / AntV / Highcharts — swap freely without affecting configuration':
+    '차트 라이브러리 전환: ECharts / AntV / Highcharts — 구성에 영향 없이 자유 교체',
+  'Three-Stage Plugin Protocol (Grafana-inspired)':
+    '3단계 플러그인 프로토콜(Grafana 영감)',
+  'ConfigPanel data source config · QueryPanel query config · VariablePanel variable query':
+    'ConfigPanel 데이터 소스 구성 · QueryPanel 쿼리 구성 · VariablePanel 변수 쿼리',
+  'Relational: MySQL · PostgreSQL · SQL Server · ClickHouse':
+    '관계형: MySQL · PostgreSQL · SQL Server · ClickHouse',
+  'Document: MongoDB · Elasticsearch | Files: Excel · CSV · JSON':
+    '문서: MongoDB · Elasticsearch | 파일: Excel · CSV · JSON',
+  'APIs: RESTful API · GraphQL | + Plugin SDK for any custom data source':
+    'API: RESTful API · GraphQL | + 모든 커스텀 데이터 소스용 Plugin SDK',
+  'Core Pipeline': '코어 파이프라인',
+  'From Data to Decisions': '데이터에서 의사결정으로',
+  'Data Source → Dataset → Chart → Dashboard — data flows through the pipeline, every stage is plugin-extensible':
+    '데이터 소스 → 데이터셋 → 차트 → 대시보드 — 데이터가 파이프라인을 흐르며 각 단계가 플러그인 확장 가능',
+  'Headless BI Design:': 'Headless BI 설계:',
+  'Data Source': '데이터 소스',
+  'Multi-source ingestion, unified management': '멀티 소스 수집, 통합 관리',
+  'Data source plugin list': '데이터 소스 플러그인 목록',
+  'Connection test': '연결 테스트',
+  'QueryPanel preview': 'QueryPanel 미리보기',
+  Dataset: '데이터셋',
+  'Dataset · Headless BI Core': 'Dataset · Headless BI 코어',
+  'Metric/dimension modeling, data cleansing': '메트릭/디멘션 모델링, 데이터 클렌징',
+  'Configure metric / dimension fields': '메트릭 / 디멘션 필드 구성',
+  'Multi-table Join': '멀티 테이블 조인',
+  'Calculated fields and data cleansing': '계산 필드 및 데이터 클렌징',
+  'AI-assisted cleansing (coming soon)': 'AI 지원 클렌징(출시 예정)',
+  Chart: '차트',
+  'NoCode charting, drag and get results': 'NoCode 차트 작성, 드래그만으로 결과',
+  'Select chart type (plugin-based)': '차트 유형 선택(플러그인 기반)',
+  'Drag fields to X-axis/Y-axis/series': '필드를 X축/Y축/시리즈에 드래그',
+  'AI recommends best chart type': 'AI가 최적 차트 유형 추천',
+  'Live preview': '라이브 미리보기',
+  Dashboard: '대시보드',
+  'Multi-endpoint, multi-layout, flexible orchestration': '멀티 엔드포인트, 멀티 레이아웃, 유연한 오케스트레이션',
+  'Grid / Position / Card / List — four layouts': 'Grid / Position / Card / List — 4가지 레이아웃',
+  'Chart linkage, filters': '차트 연동, 필터',
+  'Version management, access control': '버전 관리, 접근 제어',
+  'AI one-click layout optimization': 'AI 원클릭 레이아웃 최적화',
+  'Veteran Team, Battle-Tested': '베테랑 팀, 실전 검증',
+  'Core Team: Years of Enterprise Data Visualization Platform Experience':
+    '코어 팀: 엔터프라이즈 데이터 시각화 플랫폼 다년 경험',
+  'From Tencent to Ping An — deep expertise in enterprise BI and visualization platforms':
+    'Tencent에서 Ping An까지 — 엔터프라이즈 BI 및 시각화 플랫폼 깊은 전문성',
+  'Having built enterprise BI platforms from 0 to 1 over many years, DataLuminary distills that experience into one product':
+    '수년간 엔터프라이즈 BI 플랫폼을 0에서 1까지 구축한 경험을 DataLuminary가 하나의 제품으로 응축',
+  'Tencent Game Experience Management Platform': 'Tencent 게임 경험 관리 플랫폼',
+  'Led Architecture Refactor': '아키텍처 리팩터링 주도',
+  'Covers data experience pipeline for all Tencent game products':
+    'Tencent 전 게임 제품의 데이터 경험 파이프라인 커버',
+  'Visualization Platform': '시각화 플랫폼',
+  'Architecture Refactor': '아키텍처 리팩터링',
+  'Large-Scale Data': '대규모 데이터',
+  'BlueKing Universal Chart Platform': 'BlueKing 범용 차트 플랫폼',
+  'Built from Scratch': '처음부터 구축',
+  'Core visualization component of Tencent Cloud operations system':
+    'Tencent Cloud 운영 시스템의 핵심 시각화 컴포넌트',
+  'From Zero': '제로에서',
+  'Chart Platform': '차트 플랫폼',
+  'Tencent Cloud Ops': 'Tencent Cloud 운영',
+  'Ping An Smart City MaxView': 'Ping An Smart City MaxView',
+  'Financial-grade enterprise and government data visualization platform':
+    '금융급 엔터프라이즈 및 정부 데이터 시각화 플랫폼',
+  'Financial Grade': '금융급',
+  'Enterprise BI': '엔터프라이즈 BI',
+  'Ping An Technology StarCanvas': 'Ping An Technology StarCanvas',
+  'Years of Continuous Iteration': '수년간 지속적 반복',
+  'Commercial BI product with deep data visualization expertise':
+    '데이터 시각화 깊은 전문성을 갖춘 상용 BI 제품',
+  'Commercial Product': '상용 제품',
+  'Long-Term Iteration': '장기 반복',
+  'BI in Production': '프로덕션 BI',
+  'Full-Stack TS, Lightweight Launch': '풀스택 TS, 경량 시작',
+  'In the AI era, TypeScript is a first-class citizen — unified stack, faster development, lighter deployment':
+    'AI 시대에 TypeScript는 일급 시민 — 통합 스택, 빠른 개발, 경량 배포',
+  'Why Full-Stack TypeScript': '왜 풀스택 TypeScript인가',
+  'The Top Choice for the AI Era': 'AI 시대의 최적 선택',
+  'TypeScript is the language Copilot, Claude, and other AI tools understand best. Full-stack TS multiplies AI-assisted development — more accurate completions, safer refactors.':
+    'TypeScript는 Copilot, Claude 등 AI 도구가 가장 잘 이해하는 언어. 풀스택 TS는 AI 지원 개발을 배가 — 더 정확한 자동완성, 더 안전한 리팩터링.',
+  'Lower Team Hiring Costs': '팀 채용 비용 절감',
+  'Unified frontend/backend stack — full-stack engineers can ship complete features independently. Rich TS talent pool dramatically lowers team expansion barriers.':
+    '프론트엔드/백엔드 통합 스택 — 풀스택 엔지니어가 독립적으로 완전한 기능 출시. 풍부한 TS 인재 풀이 팀 확장 장벽을 크게 낮춤.',
+  'Type Safety, Fearless Refactoring': '타입 안전, 두려움 없는 리팩터링',
+  'Strong typing spans frontend and backend — plugin interfaces and data contracts are type-guaranteed. Errors surface at compile time, not in production.':
+    '강력한 타입이 프론트엔드/백엔드를 관통 — 플러그인 인터페이스와 데이터 계약이 타입으로 보장. 오류는 프로덕션이 아닌 컴파일 시점에 발견.',
+  'Lightweight Deployment, Simple Ops': '경량 배포, 간단한 운영',
+  'One-click Docker Compose launch, PostgreSQL only. Skip Docker and use local DB. Full support for Windows / macOS / Linux.':
+    'Docker Compose 원클릭 시작, PostgreSQL만. Docker 생략하고 로컬 DB 사용 가능. Windows / macOS / Linux 완전 지원.',
+  'Traditional BI Platform Comparison': '전통 BI 플랫폼 비교',
+  'Complex installation, dozens of config items': '복잡한 설치, 수십 개 구성 항목',
+  'Mixed languages, frontend/backend siloed': '언어 혼재, 프론트엔드/백엔드 분리',
+  'Dedicated ops team required': '전담 운영 팀 필요',
+  'DataLuminary: 3 commands · unified TS · automated bootstrap':
+    'DataLuminary: 3개 명령 · 통합 TS · 자동 부트스트랩',
+  'Infinite Entry Points, Ecosystem-Driven': '무한 진입점, 생태계 주도',
+  'More Than a BI Tool — An Ecosystem-Driven Data Insight Platform':
+    'BI 도구를 넘어 — 생태계 주도 데이터 인사이트 플랫폼',
+  'Covers traditional BI scenarios while leveraging the LuminaryWorks ecosystem to expand into blockchain, AI tasks, IoT, remote monitoring, and other new physical-world scenarios':
+    '전통 BI 시나리오를 커버하면서 LuminaryWorks 생태계를 활용해 블록체인, AI 작업, IoT, 원격 모니터링 등 새로운 물리 세계 시나리오로 확장',
+  'Covers All Traditional Data Analysis Scenarios': '모든 전통 데이터 분석 시나리오 커버',
+  'Product, operations, and BI analysts can get started independently — from data ingestion to insight reports, full NoCode pipeline':
+    '제품, 운영, BI 분석가가 독립적으로 시작 — 데이터 수집부터 인사이트 보고서까지 완전 NoCode 파이프라인',
+  'Data Insights · See': '데이터 인사이트 · 보기',
+  'Data Aggregation Hub': '데이터 집계 허브',
+  'E-commerce Operations': '이커머스 운영',
+  'Gaming Analytics': '게임 분석',
+  'Financial Risk Control': '금융 리스크 관리',
+  'Manufacturing Lines': '제조 라인',
+  'Retail Analytics': '리테일 분석',
+  Healthcare: '헬스케어',
+  'Education Assessment': '교육 평가',
+  'Logistics Tracking': '물류 추적',
+  'Project Management': '프로젝트 관리',
+  Connect: '연결',
+  'Open-source IoT PaaS platform': '오픈소스 IoT PaaS 플랫폼',
+  'Factory floor device status → real-time monitoring dashboard':
+    '공장 현장 장치 상태 → 실시간 모니터링 대시보드',
+  Control: '제어',
+  'WebRTC remote operations platform': 'WebRTC 원격 운영 플랫폼',
+  'Remote ops audit logs → security audit reports':
+    '원격 운영 감사 로그 → 보안 감사 보고서',
+  Earn: '수익',
+  'AI Agent on-chain marketplace': 'AI Agent 온체인 마켓플레이스',
+  'Blockchain Agent revenue → performance analytics dashboard':
+    'Blockchain Agent 수익 → 성과 분석 대시보드',
+  Learn: '학습',
+  'Visual programming + AI-assisted teaching': '비주얼 프로그래밍 + AI 지원 교육',
+  'Learning data → teaching quality dashboard · nurture ecosystem developers':
+    '학습 데이터 → 교육 품질 대시보드 · 생태계 개발자 육성',
+  'Ecosystem Entry · Developer Incubator': '생태계 진입 · 개발자 인큐베이터',
+  'Traditional BI, Ready Out of the Box': '전통 BI, 즉시 사용 가능',
+  'E-commerce · gaming · finance · manufacturing — mainstream BI scenarios fully covered, no ecosystem required, fully usable on standalone deployment':
+    '이커머스 · 게임 · 금융 · 제조 — 주류 BI 시나리오 완전 커버, 생태계 불필요, 독립 배포로 완전 사용 가능',
+  'New Physical Scenarios, Ecosystem Support': '새로운 물리 시나리오, 생태계 지원',
+  'IoT · AI tasks · blockchain · remote monitoring — sibling product data flows directly for cross-domain insights':
+    'IoT · AI 작업 · 블록체인 · 원격 모니터링 — 형제 제품 데이터가 직접 흘러 크로스 도메인 인사이트',
+  'Education Platform, Developer Ecosystem': '교육 플랫폼, 개발자 생태계',
+  'VibeEdu visual programming + AI teaching assistance — more developers learn and contribute plugins, continuously expanding the ecosystem':
+    'VibeEdu 비주얼 프로그래밍 + AI 교육 지원 — 더 많은 개발자가 학습하고 플러그인 기여, 생태계 지속 확장',
+  'LuminaryWorks/identity unified OIDC login · LuminaryWorks/shared component library · one account across all products':
+    'LuminaryWorks/identity 통합 OIDC 로그인 · LuminaryWorks/shared 컴포넌트 라이브러리 · 모든 제품에서 하나의 계정',
+  'Why Choose DataLuminary': '왜 DataLuminary인가',
+  'Full Comparison at a Glance': '한눈에 보는 전체 비교',
+  Feature: '기능',
+  'Traditional BI Tools': '전통 BI 도구',
+  'Closed-Source SaaS': '폐쇄형 SaaS',
+  'End-to-End AI': '엔드투엔드 AI',
+  'Charting/cleansing/layout/reports': '차트/클렌징/레이아웃/보고서',
+  'None or very limited': '없음 또는 매우 제한적',
+  'Paid unlock': '유료 잠금 해제',
+  'Microkernel, three-layer plugin ecosystem': '마이크로커널, 3계층 플러그인 생태계',
+  Monolithic: '모놀리식',
+  'Closed ecosystem': '폐쇄형 생태계',
+  'Dashboard Layouts': '대시보드 레이아웃',
+  'Big screen/report/mobile/board': '빅스크린/보고서/모바일/보드',
+  '1-2 fixed types': '1~2 고정 유형',
+  Limited: '제한적',
+  'LessCode / NoCode': 'LessCode / NoCode',
+  'Full drag-and-drop pipeline': '전체 드래그 앤 드롭 파이프라인',
+  'Partial support': '부분 지원',
+  Supported: '지원',
+  'Unified frontend/backend': '프론트엔드/백엔드 통합',
+  'Mixed languages': '언어 혼재',
+  'Not visible': '비공개',
+  'Deployment Complexity': '배포 복잡도',
+  '3 commands, 5 minutes': '3개 명령, 5분',
+  'Complex install': '복잡한 설치',
+  'N/A cloud service': 'N/A 클라우드 서비스',
+  'Fully private': '완전 프라이빗',
+  'Extra cost': '추가 비용',
+  'Data Security': '데이터 보안',
+  'Data stays on-premises': '데이터 온프레미스 유지',
+  'Can be private': '프라이빗 가능',
+  'Data in cloud': '클라우드 데이터',
+  Customization: '커스터마이징',
+  'Plugin SDK, type-safe': 'Plugin SDK, 타입 안전',
+  'Steep learning curve': '가파른 학습 곡선',
+  'Not supported': '미지원',
+  'Open Source License': '오픈소스 라이선스',
+  'MIT open source': 'MIT 오픈소스',
+  'Partially open': '부분 오픈',
+  'Closed source': '폐쇄형',
+  'Ecosystem Integration': '생태계 통합',
+  'Five-product AI ecosystem': '5개 제품 AI 생태계',
+  'Standalone product': '독립 제품',
+  'Limited integration': '통합 제한',
+  Cost: '비용',
+  Free: '무료',
+  'Enterprise edition fees': '엔터프라이즈 에디션 요금',
+  'Usage-based billing': '사용량 기반 과금',
+  'Use Cases': '사용 사례',
+  'Data Insights for Every Industry': '모든 산업의 데이터 인사이트',
+  'Business Operations': '비즈니스 운영',
+  'Sales dashboards, KPI boards, channel analysis reports':
+    '매출 대시보드, KPI 보드, 채널 분석 보고서',
+  Operations: '운영',
+  'Manufacturing Monitoring': '제조 모니터링',
+  'IoT device dashboards, production line analytics, energy monitoring':
+    'IoT 장치 대시보드, 생산 라인 분석, 에너지 모니터링',
+  IT: 'IT',
+  'Financial Compliance': '금융 컴플라이언스',
+  'Risk reports, transaction analysis, audit trail dashboards':
+    '리스크 보고서, 거래 분석, 감사 추적 대시보드',
+  Product: '제품',
+  'E-commerce & Retail': '이커머스 & 리테일',
+  'User profiles, product analytics, logistics monitoring':
+    '사용자 프로필, 제품 분석, 물류 모니터링',
+  'Patient data analytics, medical resource scheduling dashboards':
+    '환자 데이터 분석, 의료 리소스 스케줄링 대시보드',
+  'Education & Training': '교육 & 트레이닝',
+  'Learning behavior analysis, teaching quality assessment reports':
+    '학습 행동 분석, 교육 품질 평가 보고서',
+  'Open Source Collaboration': '오픈소스 협업',
+  'Building the AI Data Insight Ecosystem Together':
+    'AI 데이터 인사이트 생태계를 함께 구축',
+  'DataLuminary is plugin-based — the entire platform is fully open to the community. Data sources, chart libraries, layout engines — extend capabilities at any layer':
+    'DataLuminary는 플러그인 기반 — 플랫폼 전체가 커뮤니티에 완전 개방. 데이터 소스, 차트 라이브러리, 레이아웃 엔진 — 모든 계층에서 기능 확장',
+  'Data Source Plugin Layer': '데이터 소스 플러그인 계층',
+  'Direct connection at small scale, ClickHouse integration for billion-row data':
+    '소규모는 직접 연결, 수십억 행 데이터는 ClickHouse 통합',
+  'Core data capabilities: MySQL · PostgreSQL · MongoDB · Excel · CSV · API':
+    '핵심 데이터 기능: MySQL · PostgreSQL · MongoDB · Excel · CSV · API',
+  'Small scale (millions) → direct PostgreSQL, zero extra cost':
+    '소규모(수백만) → 직접 PostgreSQL, 추가 비용 제로',
+  'Tens/hundreds of millions → ClickHouse integration, second-level aggregation, config unchanged':
+    '수천만~수억 → ClickHouse 통합, 초 단위 집계, 구성 변경 없음',
+  'Users choose their own foundation — no forced database binding':
+    '사용자가 기반 선택 — 강제 DB 바인딩 없음',
+  'Three-stage plugin protocol, interoperable with Grafana data source ecosystem':
+    '3단계 플러그인 프로토콜, Grafana 데이터 소스 생태계와 상호 운용',
+  'Contribute Data Source Plugins': '데이터 소스 플러그인 기여',
+  'Chart Plugin Layer': '차트 플러그인 계층',
+  'No chart library limits, semantic smart recommendations':
+    '차트 라이브러리 제한 없음, 시맨틱 스마트 추천',
+  'Built-in (AntV G2): line · bar · pie · scatter · radar · sankey...':
+    '내장(AntV G2): 꺾은선 · 막대 · 원 · 산점 · 레이더 · 산키...',
+  'Semantic recommendations (Alibaba AVA): data decides the chart, not user guesswork':
+    '시맨틱 추천(Alibaba AVA): 데이터가 차트를 결정, 추측 불필요',
+  'Headless BI: switch ECharts / AntV / Highcharts freely without affecting config':
+    'Headless BI: ECharts / AntV / Highcharts 구성에 영향 없이 자유 전환',
+  'Any third-party chart library can be wrapped as a chart plugin':
+    '모든 서드파티 차트 라이브러리를 차트 플러그인으로 래핑 가능',
+  'Contribute Chart Plugins': '차트 플러그인 기여',
+  'Panel Layout Plugin Layer': '패널 레이아웃 플러그인 계층',
+  'Multi-scenario layouts for every display need':
+    '모든 표시 요구에 맞는 멀티 시나리오 레이아웃',
+  'grid-panel → grid drag, PC analysis reports preferred, import Grafana panels':
+    'grid-panel → 그리드 드래그, PC 분석 보고서 선호, Grafana 패널 가져오기',
+  'position-panel → pixel-level free positioning (TMagic), big screens/command centers':
+    'position-panel → 픽셀 단위 자유 배치(TMagic), 빅스크린/지휘 센터',
+  'card-panel → card view for reports, email, info boards':
+    'card-panel → 보고서, 이메일, 정보 보드용 카드 뷰',
+  'list-panel → vertical list, mobile-first':
+    'list-panel → 세로 목록, 모바일 우선',
+  'Layout engine itself is a plugin — build and integrate your own engine':
+    '레이아웃 엔진 자체가 플러그인 — 자체 엔진 구축 및 통합',
+  'Contribute Layout Plugins': '레이아웃 플러그인 기여',
+  'Import Packages On Demand': '온디맨드 패키지 가져오기',
+  'Serverless Data Processing': 'Serverless 데이터 처리',
+  'Functional Business Logic': '함수형 비즈니스 로직',
+  'Lerna Package Management': 'Lerna 패키지 관리',
+  'All plugins, components, and functions managed by Lerna — independent versions, releases, and imports':
+    '모든 플러그인, 컴포넌트, 함수를 Lerna로 관리 — 독립 버전, 릴리스, 가져오기',
+  'Functional Data Processing': '함수형 데이터 처리',
+  'Cleansing, transformation, and aggregation logic as pure functions — composable, testable, reusable':
+    '클렌징, 변환, 집계 로직을 순수 함수로 — 조합 가능, 테스트 가능, 재사용 가능',
+  'Serverless-Ready Granularity': 'Serverless 준비 세분화',
+  'Core processing logic is stateless — deploy directly as Serverless / Edge functions, compute on demand':
+    '코어 처리 로직은 상태 비저장 — Serverless / Edge 함수로 직접 배포, 온디맨드 컴퓨팅',
+  'User-Chosen Foundation': '사용자 선택 기반',
+  'No forced database binding — direct PG at small scale, ClickHouse for billion-row data':
+    '강제 DB 바인딩 없음 — 소규모는 직접 PG, 수십억 행은 ClickHouse',
+  'Star on GitHub': 'GitHub Star',
+  'Open source and free for commercial use': '오픈소스, 상업적 사용 무료',
+  'Complete Documentation': '완전한 문서',
+  'User guide · plugin development · API docs':
+    '사용자 가이드 · 플러그인 개발 · API 문서',
+  'Active Community': '활발한 커뮤니티',
+  'GitHub Discussions · Discord': 'GitHub Discussions · Discord',
+  'Contributor-Friendly': '기여자 친화적',
+  'Detailed contribution guide, full CI/CD support':
+    '상세 기여 가이드, 완전 CI/CD 지원',
+  'Every line of plugin code is a step forward in AI data insight, driven by the community.':
+    '플러그인 코드의 한 줄 한 줄이 커뮤니티 주도 AI 데이터 인사이트 전진의 한 걸음.',
+  'Deploy in 5 Minutes — Experience AI-Native Data Insights Now':
+    '5분 배포 — AI 네이티브 데이터 인사이트를 지금 경험',
+  'Open source & free · No credit card · Private deployment · MIT License':
+    '오픈소스 & 무료 · 신용카드 불필요 · 프라이빗 배포 · MIT 라이선스',
+  'Deploy Locally for Free': '무료 로컬 배포',
+  'View Documentation': '문서 보기',
+  'Enter email to subscribe to product updates':
+    '제품 업데이트 구독 이메일 입력',
+  'Email address': '이메일 주소',
+  Subscribe: '구독',
+  'No spam, unsubscribe anytime': '스팸 없음, 언제든 구독 취소',
+  'Adopted by 500+ enterprises and developers':
+    '500개 이상 기업과 개발자가 도입',
+  '4.9/5 community rating': '커뮤니티 평점 4.9/5',
+  'Open-source, plugin-based, AI-native data visualization BI platform. Insights within reach.':
+    '오픈소스, 플러그인 기반, AI 네이티브 데이터 시각화 BI 플랫폼. 손끝의 인사이트.',
+  'Social links': '소셜 링크',
+  'Plugin Marketplace': '플러그인 마켓플레이스',
+  Changelog: '변경 이력',
+  Roadmap: '로드맵',
+  Developers: '개발자',
+  'Plugin Development Guide': '플러그인 개발 가이드',
+  'API Docs': 'API 문서',
+  'Contribution Guide': '기여 가이드',
+  Ecosystem: '생태계',
+  Legal: '법률',
+  'Privacy Policy': '개인정보 처리방침',
+  'Security Disclosure': '보안 공개',
+  '© 2024–2026 LuminaryWorks. Built with TypeScript.':
+    '© 2024–2026 LuminaryWorks. Built with TypeScript.',
+}
+
+writeFileSync(join(__dirname, 'en-to-ko.json'), JSON.stringify(enToKo, null, 2) + '\n')
+
+const missing = keys.filter((k) => !enToKo[k])
+if (missing.length) {
+  console.error('Missing KO keys:', missing.length)
+  missing.forEach((k) => console.error(' ', k.slice(0, 80)))
+  process.exit(1)
+}
+console.log('Wrote en-to-ko.json with', Object.keys(enToKo).length, 'entries')

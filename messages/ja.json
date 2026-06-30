@@ -1,0 +1,909 @@
+{
+  "metadata": {
+    "title": "DataLuminary — インサイトを手の届くところに | AIネイティブ オープンソース BI プラットフォーム",
+    "description": "DataLuminary は、フルスタック TypeScript で構築されたオープンソース・プラグインベース・AIネイティブのデータ可視化・BI プラットフォームです。エンドツーエンドの AI インサイト、マイクロカーネルプラグインエコシステム、ドラッグ＆ドロップ NoCode 設定、5 分の Docker プライベートデプロイに対応。",
+    "keywords": [
+      "DataLuminary",
+      "BI プラットフォーム",
+      "データ可視化",
+      "AI インサイト",
+      "オープンソース BI",
+      "TypeScript",
+      "プラグインアーキテクチャ"
+    ],
+    "openGraph": {
+      "title": "DataLuminary — インサイトを手の届くところに",
+      "description": "AIネイティブ・プラグインベースのオープンソース データ可視化 BI プラットフォーム"
+    }
+  },
+  "nav": {
+    "links": {
+      "features": "機能",
+      "plugins": "プラグイン",
+      "ai": "AI",
+      "deploy": "デプロイ",
+      "about": "概要"
+    },
+    "login": "ログイン",
+    "homeAria": "DataLuminary ホーム",
+    "toggleLang": "言語を切り替え",
+    "openMenu": "メニューを開く",
+    "closeMenu": "メニューを閉じる"
+  },
+  "hero": {
+    "badge": "LuminaryWorks AI エコシステム · オープンソース MIT ライセンス",
+    "title": "インサイトを手の届くところに",
+    "tagline": "Illuminate insights for all",
+    "values": [
+      "エンドツーエンド AI — レポート生成、グラフ作成、データクレンジング、ページレイアウトまで、AI が各ステップを支援",
+      "マイクロカーネルプラグイン — データソース、グラフ、ダッシュボードレイアウト、すべて拡張可能",
+      "フルスタック TypeScript — Docker で 5 分起動、プライベートデプロイ、カスタマイズの障壁ゼロ"
+    ],
+    "cta": "無料で試す",
+    "github": "GitHub",
+    "trust": [
+      {
+        "label": "オープンソースコミュニティ"
+      },
+      {
+        "label": "Docker ワンクリック起動"
+      },
+      {
+        "label": "フルスタック TypeScript"
+      },
+      {
+        "label": "プライベートデプロイ"
+      }
+    ],
+    "card": {
+      "aiGenerating": "AI が分析レポートを生成中",
+      "totalSales": "総売上",
+      "anomalyTrend": "異常トレンド",
+      "anomalyCount": "3",
+      "anomalyAlert": "3 件の異常トレンドを検出 · 華東 Q3 前年比 ↓18%",
+      "statusChips": [
+        {
+          "label": "AI クレンジング"
+        },
+        {
+          "label": "AI グラフ/レポート"
+        },
+        {
+          "label": "フルドラッグ＆ドロップ"
+        },
+        {
+          "label": "プラグインベース"
+        }
+      ]
+    }
+  },
+  "coreAdvantages": {
+    "eyebrow": "4 つのコア差別化要素",
+    "title": "エンタープライズ データ可視化の再定義",
+    "subtitle": "エンドツーエンド AI · マイクロカーネルプラグイン · ドラッグ＆ドロップ NoCode · フルスタック TypeScript",
+    "cards": [
+      {
+        "headline": "AIネイティブ、エンドツーエンド インテリジェンス",
+        "body": "可視化 BI を超えて — DataLuminary はデータから意思決定まで全工程に AI を組み込みます。AI がレポート作成の各段階をガイドします。",
+        "chips": [
+          {
+            "label": "AI 生成分析レポート",
+            "desc": "分析目標を記述するだけで、AI が完全なレポートを生成"
+          },
+          {
+            "label": "AI アシスト グラフ作成",
+            "desc": "自動フィールドマッピングによるスマートなグラフ推薦"
+          },
+          {
+            "label": "AI データクレンジング",
+            "desc": "NULL、異常値、フォーマットエラーを検出 — ワンクリックで修正"
+          },
+          {
+            "label": "AI ページレイアウト",
+            "desc": "コンテンツ階層を分析し、ダッシュボードレイアウトを自動配置"
+          }
+        ]
+      },
+      {
+        "headline": "マイクロカーネルアーキテクチャ、無限に拡張可能",
+        "body": "Panel, chart, and data source plugin systems form DataLuminary's visualization world — not a fixed feature list, but an ever-growing plugin ecosystem.",
+        "chips": [
+          {
+            "label": "ダッシュボードプラグイン",
+            "desc": "自由配置ビッグスクリーン / PC グリッドレポート / モバイルリスト / カードボード"
+          },
+          {
+            "label": "グラフプラグイン",
+            "desc": "ECharts · AntV · Highcharts — コミュニティ貢献が無限に積み重なる"
+          },
+          {
+            "label": "データソースプラグイン",
+            "desc": "MySQL / PG / MongoDB / Excel / API — カスタム SDK で拡張"
+          },
+          {
+            "label": "オープン SDK",
+            "desc": "JSON Schema 制約、Grafana エコシステムと相互運用"
+          }
+        ]
+      },
+      {
+        "headline": "ドラッグ＆ドロップ設定、コーディング不要",
+        "body": "プロダクト、オペレーション、BI アナリストが独立してデータクレンジング、グラフ作成、ダッシュボード構築を担当可能。開発者は必要に応じて SQL や高度な設定に深入りできます。",
+        "chips": [
+          {
+            "label": "ドラッグ＆ドロップ データセット",
+            "desc": "フィールドをドラッグしてメトリクス/ディメンション、マルチテーブル JOIN、計算フィールドを設定"
+          },
+          {
+            "label": "NoCode グラフ作成",
+            "desc": "グラフタイプを選択、フィールドを軸にドラッグ、ライブプレビュー、コードゼロ"
+          },
+          {
+            "label": "ビジュアルレイアウト",
+            "desc": "グリッドドラッグ / 自由配置、レスポンシブ対応"
+          },
+          {
+            "label": "グラフ連動とドリルダウン",
+            "desc": "フィルターと連動を視覚的に設定 — インタラクションコード不要"
+          }
+        ]
+      },
+      {
+        "headline": "フルスタック TS、軽量＆高速",
+        "body": "AI 時代において TypeScript は第一級市民。統一フルスタックは採用障壁の低減、AI アシスト開発の加速、保守の軽量化を意味します。",
+        "chips": [
+          {
+            "label": "5 分で稼働",
+            "desc": "Docker Compose ワンクリック起動 — 3 コマンドでデプロイ"
+          },
+          {
+            "label": "採用が容易",
+            "desc": "活発な TS エコシステム — フロントエンド/バックエンド人材の相互活用"
+          },
+          {
+            "label": "AI アシスト開発",
+            "desc": "TS 型情報は LLM が最も理解しやすい言語"
+          },
+          {
+            "label": "カスタマイズ障壁ゼロ",
+            "desc": "型安全、リファクタリング容易、完全なプラグイン SDK"
+          }
+        ]
+      }
+    ]
+  },
+  "aiCapabilities": {
+    "eyebrow": "エンドツーエンド AI インサイト機能",
+    "title": "AI 駆動 — 語るデータ",
+    "subtitle": "データクレンジングからインサイトレポートまで、AI が全工程をカバー",
+    "tabs": [
+      {
+        "id": "report",
+        "label": "AI 生成分析レポート"
+      },
+      {
+        "id": "chart",
+        "label": "AI アシスト グラフ作成"
+      },
+      {
+        "id": "clean",
+        "label": "AI データクレンジング"
+      },
+      {
+        "id": "layout",
+        "label": "AI ページレイアウト"
+      }
+    ],
+    "demos": {
+      "report": {
+        "tag": "主要メトリクス自動抽出 · 異常トレンド検出 · ビジネス提言を出力",
+        "user": "今四半期の地域別売上トレンドを分析し、華東の減少に焦点を当てる",
+        "ai": "Q3 売上データセットを分析中... 3 件の異常トレンドを検出 ↓\nレポート構成：概要 → 地域比較 → 根本原因 → 提言",
+        "previewLabel": "レポートプレビュー",
+        "metricLabels": [
+          "売上",
+          "注文",
+          "コンバージョン",
+          "平均注文単価"
+        ],
+        "anomalyNote": "華東 Q3 前年比 ↓18%、主因はチャネル在庫滞留"
+      },
+      "chart": {
+        "tag": "ビジネスセマンティクスを理解 · 最適なグラフを推薦 · 設定を自動完了",
+        "user": "過去 6 か月の製品ライン別月次成長率を比較",
+        "ai": "自動選択マルチシリーズ折れ線グラフ、X 軸=月 / Y 軸=成長率、推奨カラースキーム、平均参照線を提案",
+        "beforeLabel": "前",
+        "afterLabel": "後"
+      },
+      "clean": {
+        "tag": "スマート品質検出 · 一括修復 · 処理履歴を保持",
+        "cleanButton": "AI ワンクリッククレンジング",
+        "completeLabel": "クレンジング完了",
+        "results": [
+          "欠損値 3 件を補完（平均値代入）",
+          "外れ値 1 件をフラグ（保持して注釈）",
+          "日付フォーマット 8 件を標準化"
+        ]
+      },
+      "layout": {
+        "tag": "コンテンツ比重を分析 · サイズと位置を自動調整 · ビジュアル基準に準拠",
+        "beforeLabel": "前 · 散らかったレイアウト",
+        "afterLabel": "後 · 明確な階層",
+        "optimizeButton": "AI レイアウト最適化",
+        "afterNote": "AI が 6 コンポーネントのコンテンツ比重を分析し、レイアウト階層を自動最適化"
+      }
+    }
+  },
+  "pluginArchitecture": {
+    "eyebrow": "マイクロカーネルプラグインアーキテクチャ",
+    "title": "あらゆる可視化ニーズに対応",
+    "subtitle": "モノリシックな従来 BI ツールと異なり、DataLuminary はマイクロカーネルプラグインプラットフォーム — パネル、グラフ、データソースのプラグインエコシステムであらゆる可視化ニーズを実現",
+    "microkernel": "Microkernel",
+    "exploreCta": "プラグインエコシステムを探索",
+    "orbits": [
+      {
+        "id": "panel",
+        "title": "ダッシュボードレイアウトプラグイン",
+        "nodes": [
+          "Grid",
+          "Position",
+          "Card",
+          "List",
+          "カスタム"
+        ],
+        "detail": {
+          "lines": [
+            "grid-panel グリッドレイアウト — react-grid-layout、PC レポート向け、Grafana パネルをインポート",
+            "position-panel 自由配置ビッグスクリーン — TMagic ベース、コマンドセンター向けピクセル単位配置",
+            "card-panel カードビュー — レポート、メール、ボードなど",
+            "list-panel リストレイアウト — モバイルファースト、縦スクロールカード",
+            "+ カスタムレイアウトプラグイン — 開発 SDK で統合"
+          ]
+        }
+      },
+      {
+        "id": "chart",
+        "title": "グラフプラグイン",
+        "nodes": [
+          "ECharts",
+          "AntV",
+          "Highcharts",
+          "カスタム"
+        ],
+        "detail": {
+          "title": "Headless BI 設計",
+          "lines": [
+            "グラフプラグインはレンダリングのみ — データはデータセット層から統一供給、データソース直接接続なし",
+            "組み込み：折れ線 · 棒 · 面 · 円 · リング · 散布 · レーダー · ファネル",
+            "地図 · ワードクラウド · メトリクスカード · テーブル · リッチテキスト · リキッド · ヒートマップ · サンキー · ローソク足 · グラフ...",
+            "グラフライブラリ切替：ECharts / AntV / Highcharts — 設定に影響なく自由に交換"
+          ]
+        }
+      },
+      {
+        "id": "datasource",
+        "title": "データソースプラグイン",
+        "nodes": [
+          "MySQL",
+          "PG",
+          "MongoDB",
+          "Excel",
+          "API",
+          "カスタム"
+        ],
+        "detail": {
+          "title": "3 段階プラグインプロトコル（Grafana インスパイア）",
+          "lines": [
+            "ConfigPanel データソース設定 · QueryPanel クエリ設定 · VariablePanel 変数クエリ",
+            "リレーショナル：MySQL · PostgreSQL · SQL Server · ClickHouse",
+            "ドキュメント：MongoDB · Elasticsearch | ファイル：Excel · CSV · JSON",
+            "API：RESTful API · GraphQL | + 任意のカスタムデータソース用 Plugin SDK"
+          ]
+        }
+      }
+    ]
+  },
+  "dataPipeline": {
+    "eyebrow": "コアパイプライン",
+    "title": "データから意思決定へ",
+    "subtitle": "データソース → データセット → グラフ → ダッシュボード — データがパイプラインを流れ、各段階がプラグイン拡張可能",
+    "headlessLabel": "Headless BI 設計：",
+    "headlessNote": "Charts do not connect directly to data sources — datasets supply data uniformly. This is DataLuminary's core architectural difference from traditional tools.",
+    "steps": [
+      {
+        "label": "データソース",
+        "en": "Datasource",
+        "desc": "マルチソース取り込み、統合管理",
+        "popup": [
+          "データソースプラグイン一覧",
+          "接続テスト",
+          "QueryPanel プレビュー"
+        ]
+      },
+      {
+        "label": "データセット",
+        "en": "Dataset · Headless BI コア",
+        "desc": "メトリクス/ディメンション モデリング、データクレンジング",
+        "popup": [
+          "メトリクス / ディメンションフィールドを設定",
+          "マルチテーブル JOIN",
+          "計算フィールドとデータクレンジング",
+          "AI アシストクレンジング（近日公開）"
+        ]
+      },
+      {
+        "label": "グラフ",
+        "en": "グラフ",
+        "desc": "NoCode グラフ作成、ドラッグするだけで結果取得",
+        "popup": [
+          "グラフタイプを選択（プラグインベース）",
+          "フィールドを X 軸/Y 軸/系列にドラッグ",
+          "AI が最適なグラフタイプを推薦",
+          "ライブプレビュー"
+        ]
+      },
+      {
+        "label": "ダッシュボード",
+        "en": "ダッシュボード",
+        "desc": "マルチエンドポイント、マルチレイアウト、柔軟なオーケストレーション",
+        "popup": [
+          "Grid / Position / Card / List — 4 レイアウト",
+          "グラフ連動、フィルター",
+          "バージョン管理、アクセス制御",
+          "AI ワンクリックレイアウト最適化"
+        ]
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "ベテランチーム、実戦検証済み",
+    "title": "コアチーム：エンタープライズ データ可視化プラットフォームの長年の経験",
+    "subtitle": "Tencent から Ping An まで — エンタープライズ BI と可視化プラットフォームの深い専門性",
+    "quote": "長年にわたりエンタープライズ BI プラットフォームを 0 から 1 まで構築してきた経験を、DataLuminary が一つの製品に凝縮",
+    "cards": [
+      {
+        "company": "Tencent ゲーム体験管理プラットフォーム",
+        "role": "アーキテクチャリファクタリングを主導",
+        "impact": "Tencent 全ゲーム製品のデータ体験パイプラインをカバー",
+        "chips": [
+          "可視化プラットフォーム",
+          "アーキテクチャリファクタリング",
+          "大規模データ"
+        ]
+      },
+      {
+        "company": "腾讯 BlueKing 汎用グラフプラットフォーム",
+        "role": "ゼロから構築",
+        "impact": "Tencent Cloud 運用システムのコア可視化コンポーネント",
+        "chips": [
+          "ゼロから",
+          "グラフプラットフォーム",
+          "Tencent Cloud 運用"
+        ]
+      },
+      {
+        "company": "Ping An Smart City MaxView",
+        "role": "ゼロから構築",
+        "impact": "金融グレードのエンタープライズ・政府向けデータ可視化プラットフォーム",
+        "chips": [
+          "金融グレード",
+          "ゼロから",
+          "エンタープライズ BI"
+        ]
+      },
+      {
+        "company": "Ping An Technology StarCanvas",
+        "role": "長年の継続的イテレーション",
+        "impact": "データ可視化の深い専門性を持つ商用 BI 製品",
+        "chips": [
+          "商用製品",
+          "長期イテレーション",
+          "本番 BI"
+        ]
+      }
+    ]
+  },
+  "typescriptDeploy": {
+    "eyebrow": "フルスタック TypeScript",
+    "title": "フルスタック TS、軽量起動",
+    "subtitle": "AI 時代において TypeScript は第一級市民 — 統一スタック、高速開発、軽量デプロイ",
+    "whyTitle": "なぜフルスタック TypeScript か",
+    "reasons": [
+      {
+        "title": "AI 時代の最適解",
+        "body": "TypeScript は Copilot、Claude など AI ツールが最も理解する言語。フルスタック TS は AI アシスト開発を倍増 — より正確な補完、より安全なリファクタリング。"
+      },
+      {
+        "title": "チーム採用コストの低減",
+        "body": "フロントエンド/バックエンド統一スタック — フルスタックエンジニアが独立して完全な機能をリリース。豊富な TS 人材プールがチーム拡大の障壁を大幅に低減。"
+      },
+      {
+        "title": "型安全性、恐れないリファクタリング",
+        "body": "強力な型付けがフロントエンド/バックエンドを貫通 — プラグインインターフェースとデータ契約が型で保証。エラーは本番ではなくコンパイル時に検出。"
+      },
+      {
+        "title": "軽量デプロイ、シンプルな運用",
+        "body": "Docker Compose ワンクリック起動、PostgreSQL のみ。Docker をスキップしてローカル DB も可。Windows / macOS / Linux 完全対応。"
+      }
+    ],
+    "compareTitle": "従来 BI プラットフォームとの比較",
+    "compareBad": [
+      "複雑なインストール、数十の設定項目",
+      "言語混在、フロントエンド/バックエンド分離",
+      "専任運用チームが必要"
+    ],
+    "compareGood": "DataLuminary：3 コマンド · 統一 TS · 自動ブートストラップ"
+  },
+  "ecosystem": {
+    "eyebrow": "無限のエントリーポイント、エコシステム駆動",
+    "title": "BI ツールを超えて — エコシステム駆動のデータインサイトプラットフォーム",
+    "subtitle": "従来 BI シナリオをカバーしつつ、LuminaryWorks エコシステムを活用してブロックチェーン、AI タスク、IoT、リモート監視など新たな物理世界シナリオへ拡張",
+    "industriesTitle": "従来のデータ分析シナリオをすべてカバー",
+    "industriesNote": "プロダクト、オペレーション、BI アナリストが独立して開始 — データ取り込みからインサイトレポートまで、完全 NoCode パイプライン",
+    "hubTag": "データインサイト · 見る",
+    "hubBadge": "データ集約ハブ",
+    "industries": [
+      {
+        "label": "E コマースオペレーション"
+      },
+      {
+        "label": "ゲーム分析"
+      },
+      {
+        "label": "金融リスク管理"
+      },
+      {
+        "label": "製造ライン"
+      },
+      {
+        "label": "小売分析"
+      },
+      {
+        "label": "ヘルスケア"
+      },
+      {
+        "label": "教育評価"
+      },
+      {
+        "label": "物流追跡"
+      },
+      {
+        "label": "プロジェクト管理"
+      }
+    ],
+    "nodes": [
+      {
+        "name": "LuminaryIoTChain",
+        "role": "接続",
+        "desc": "オープンソース IoT PaaS プラットフォーム",
+        "scenario": "工場フロアのデバイス状態 → リアルタイム監視ダッシュボード"
+      },
+      {
+        "name": "VistaRemote",
+        "role": "制御",
+        "desc": "WebRTC リモートオペレーションプラットフォーム",
+        "scenario": "リモートオペレーション監査ログ → セキュリティ監査レポート"
+      },
+      {
+        "name": "VibeAgent",
+        "role": "収益",
+        "desc": "AI Agent オンチェーンマーケットプレイス",
+        "scenario": "Blockchain Agent 収益 → パフォーマンス分析ダッシュボード"
+      },
+      {
+        "name": "VibeEdu / BlockyEdu",
+        "role": "学習",
+        "desc": "ビジュアルプログラミング + AI アシスト教育",
+        "scenario": "学習データ → 教育品質ダッシュボード · エコシステム開発者を育成",
+        "badge": "エコシステム参入 · 開発者インキュベーター"
+      }
+    ],
+    "valueCards": [
+      {
+        "title": "従来 BI、すぐに使える",
+        "body": "E コマース · ゲーム · 金融 · 製造 — 主流 BI シナリオを完全カバー、エコシステム不要、スタンドアロンデプロイで完全利用可能"
+      },
+      {
+        "title": "新たな物理シナリオ、エコシステム支援",
+        "body": "IoT · AI タスク · ブロックチェーン · リモート監視 — 兄弟製品データが直接流れ、クロスドメインインサイトを実現"
+      },
+      {
+        "title": "教育プラットフォーム、開発者エコシステム",
+        "body": "VibeEdu ビジュアルプログラミング + AI 教育支援 — より多くの開発者が学びプラグインを貢献、エコシステムを継続拡大"
+      }
+    ],
+    "footerNote": "LuminaryWorks/identity 統一 OIDC ログイン · LuminaryWorks/shared コンポーネントライブラリ · 全製品で一アカウント"
+  },
+  "comparison": {
+    "eyebrow": "なぜ DataLuminary か",
+    "title": "一覧で完全比較",
+    "colFeature": "機能",
+    "colDL": "DataLuminary",
+    "colTrad": "従来 BI ツール",
+    "colSaas": "クローズドソース SaaS",
+    "rows": [
+      {
+        "feature": "エンドツーエンド AI",
+        "dl": {
+          "type": "yes",
+          "note": "グラフ/クレンジング/レイアウト/レポート"
+        },
+        "trad": {
+          "type": "no",
+          "note": "なしまたは非常に限定的"
+        },
+        "saas": {
+          "type": "warn",
+          "note": "有料アンロック"
+        }
+      },
+      {
+        "feature": "プラグインアーキテクチャ",
+        "dl": {
+          "type": "yes",
+          "note": "マイクロカーネル、3 層プラグインエコシステム"
+        },
+        "trad": {
+          "type": "no",
+          "note": "モノリシック"
+        },
+        "saas": {
+          "type": "no",
+          "note": "クローズドエコシステム"
+        }
+      },
+      {
+        "feature": "ダッシュボードレイアウト",
+        "dl": {
+          "type": "yes",
+          "note": "ビッグスクリーン/レポート/モバイル/ボード"
+        },
+        "trad": {
+          "type": "warn",
+          "note": "1〜2 固定タイプ"
+        },
+        "saas": {
+          "type": "warn",
+          "note": "限定"
+        }
+      },
+      {
+        "feature": "LessCode / NoCode",
+        "dl": {
+          "type": "yes",
+          "note": "フルドラッグ＆ドロップ パイプライン"
+        },
+        "trad": {
+          "type": "warn",
+          "note": "部分対応"
+        },
+        "saas": {
+          "type": "yes",
+          "note": "対応"
+        }
+      },
+      {
+        "feature": "フルスタック TypeScript",
+        "dl": {
+          "type": "yes",
+          "note": "フロントエンド/バックエンド統一"
+        },
+        "trad": {
+          "type": "no",
+          "note": "言語混在"
+        },
+        "saas": {
+          "type": "lock",
+          "note": "非公開"
+        }
+      },
+      {
+        "feature": "デプロイの複雑さ",
+        "dl": {
+          "type": "yes",
+          "note": "3 コマンド、5 分"
+        },
+        "trad": {
+          "type": "no",
+          "note": "複雑なインストール"
+        },
+        "saas": {
+          "type": "text",
+          "note": "N/A クラウドサービス"
+        }
+      },
+      {
+        "feature": "プライベートデプロイ",
+        "dl": {
+          "type": "yes",
+          "note": "完全プライベート"
+        },
+        "trad": {
+          "type": "yes",
+          "note": "対応"
+        },
+        "saas": {
+          "type": "warn",
+          "note": "追加コスト"
+        }
+      },
+      {
+        "feature": "データセキュリティ",
+        "dl": {
+          "type": "yes",
+          "note": "データはオンプレミスに保持"
+        },
+        "trad": {
+          "type": "yes",
+          "note": "プライベート可能"
+        },
+        "saas": {
+          "type": "warn",
+          "note": "クラウド上のデータ"
+        }
+      },
+      {
+        "feature": "カスタマイズ",
+        "dl": {
+          "type": "yes",
+          "note": "Plugin SDK、型安全"
+        },
+        "trad": {
+          "type": "no",
+          "note": "学習曲線が急"
+        },
+        "saas": {
+          "type": "lock",
+          "note": "非対応"
+        }
+      },
+      {
+        "feature": "オープンソースライセンス",
+        "dl": {
+          "type": "yes",
+          "note": "MIT オープンソース"
+        },
+        "trad": {
+          "type": "warn",
+          "note": "部分オープン"
+        },
+        "saas": {
+          "type": "no",
+          "note": "クローズドソース"
+        }
+      },
+      {
+        "feature": "エコシステム統合",
+        "dl": {
+          "type": "yes",
+          "note": "5 製品 AI エコシステム"
+        },
+        "trad": {
+          "type": "no",
+          "note": "スタンドアロン製品"
+        },
+        "saas": {
+          "type": "warn",
+          "note": "統合限定"
+        }
+      },
+      {
+        "feature": "コスト",
+        "dl": {
+          "type": "yes",
+          "note": "無料"
+        },
+        "trad": {
+          "type": "warn",
+          "note": "エンタープライズ版料金"
+        },
+        "saas": {
+          "type": "text",
+          "note": "従量課金"
+        }
+      }
+    ]
+  },
+  "useCases": {
+    "eyebrow": "ユースケース",
+    "title": "あらゆる業界のデータインサイト",
+    "cases": [
+      {
+        "title": "ビジネスオペレーション",
+        "desc": "売上ダッシュボード、KPI ボード、チャネル分析レポート",
+        "persona": "オペレーション"
+      },
+      {
+        "title": "製造監視",
+        "desc": "IoT デバイスダッシュボード、生産ライン分析、エネルギー監視",
+        "persona": "IT"
+      },
+      {
+        "title": "金融コンプライアンス",
+        "desc": "リスクレポート、取引分析、監査証跡ダッシュボード",
+        "persona": "プロダクト"
+      },
+      {
+        "title": "E コマース＆小売",
+        "desc": "ユーザープロファイル、プロダクト分析、物流監視",
+        "persona": "オペレーション"
+      },
+      {
+        "title": "ヘルスケア",
+        "desc": "患者データ分析、医療リソーススケジューリングダッシュボード",
+        "persona": "IT"
+      },
+      {
+        "title": "教育＆トレーニング",
+        "desc": "学習行動分析、教育品質評価レポート",
+        "persona": "プロダクト"
+      }
+    ]
+  },
+  "openSource": {
+    "eyebrow": "オープンソースコラボレーション",
+    "title": "AI データインサイトエコシステムを共に構築",
+    "subtitle": "DataLuminary はプラグインベース — プラットフォーム全体がコミュニティに完全開放。データソース、グラフライブラリ、レイアウトエンジン — あらゆる層で機能を拡張",
+    "layers": [
+      {
+        "headline": "データソースプラグイン層",
+        "sub": "小規模は直接接続、数十億行データは ClickHouse 統合",
+        "points": [
+          "コアデータ機能：MySQL · PostgreSQL · MongoDB · Excel · CSV · API",
+          "小規模（数百万）→ 直接 PostgreSQL、追加コストゼロ",
+          "数千万〜数億 → ClickHouse 統合、秒級集計、設定変更なし",
+          "ユーザーが基盤を選択 — データベース強制バインドなし",
+          "3 段階プラグインプロトコル、Grafana データソースエコシステムと相互運用"
+        ],
+        "cta": "データソースプラグインに貢献"
+      },
+      {
+        "headline": "グラフプラグイン層",
+        "sub": "グラフライブラリ制限なし、セマンティック スマート推薦",
+        "points": [
+          "組み込み（AntV G2）：折れ線 · 棒 · 円 · 散布 · レーダー · サンキー...",
+          "セマンティック推薦（Alibaba AVA）：データがグラフを決定、推測不要",
+          "Headless BI：ECharts / AntV / Highcharts を設定に影響なく自由切替",
+          "任意のサードパーティグラフライブラリをグラフプラグインとしてラップ可能"
+        ],
+        "cta": "グラフプラグインに貢献"
+      },
+      {
+        "headline": "パネルレイアウトプラグイン層",
+        "sub": "あらゆる表示ニーズに対応するマルチシナリオレイアウト",
+        "points": [
+          "grid-panel → グリッドドラッグ、PC 分析レポート向け、Grafana パネルをインポート",
+          "position-panel → ピクセル単位自由配置（TMagic）、ビッグスクリーン/コマンドセンター",
+          "card-panel → レポート、メール、情報ボード向けカードビュー",
+          "list-panel → 縦リスト、モバイルファースト",
+          "レイアウトエンジン自体がプラグイン — 独自エンジンを構築・統合"
+        ],
+        "cta": "レイアウトプラグインに貢献"
+      }
+    ],
+    "codeTabs": [
+      {
+        "id": "import",
+        "label": "オンデマンドパッケージインポート"
+      },
+      {
+        "id": "serverless",
+        "label": "Serverless データ処理"
+      },
+      {
+        "id": "compose",
+        "label": "関数型ビジネスロジック"
+      }
+    ],
+    "featureCards": [
+      {
+        "title": "Lerna パッケージ管理",
+        "body": "すべてのプラグイン、コンポーネント、関数を Lerna で管理 — 独立バージョン、リリース、インポート"
+      },
+      {
+        "title": "関数型データ処理",
+        "body": "クレンジング、変換、集計ロジックを純関数として — 合成可能、テスト可能、再利用可能"
+      },
+      {
+        "title": "Serverless 対応粒度",
+        "body": "コア処理ロジックはステートレス — Serverless / Edge 関数として直接デプロイ、オンデマンド計算"
+      },
+      {
+        "title": "ユーザー選択基盤",
+        "body": "データベース強制バインドなし — 小規模は直接 PG、数十億行は ClickHouse"
+      }
+    ],
+    "starGithub": "GitHub で Star",
+    "commercialBadge": "オープンソース、商用利用無料",
+    "community": [
+      {
+        "title": "完全ドキュメント",
+        "body": "ユーザーガイド · プラグイン開発 · API ドキュメント"
+      },
+      {
+        "title": "アクティブコミュニティ",
+        "body": "GitHub Discussions · Discord"
+      },
+      {
+        "title": "コントリビューターフレンドリー",
+        "body": "詳細な貢献ガイド、完全 CI/CD サポート"
+      }
+    ],
+    "quote": "プラグインコードの一行一行が、コミュニティ主導の AI データインサイト前進の一歩。"
+  },
+  "footerCta": {
+    "title": "5 分でデプロイ — AIネイティブ データインサイトを今すぐ体験",
+    "subtitle": "オープンソース＆無料 · クレジットカード不要 · プライベートデプロイ · MIT ライセンス",
+    "deploy": "無料でローカルデプロイ",
+    "docs": "ドキュメントを見る",
+    "github": "GitHub",
+    "emailPlaceholder": "製品アップデートを購読するメールアドレスを入力",
+    "emailAria": "メールアドレス",
+    "subscribe": "購読",
+    "noSpam": "スパムなし、いつでも配信停止",
+    "adopted": "500 社以上の企業と開発者に採用",
+    "rating": "コミュニティ評価 4.9/5"
+  },
+  "siteFooter": {
+    "tagline": "オープンソース・プラグインベース・AIネイティブ データ可視化 BI プラットフォーム。インサイトを手の届くところに。",
+    "socialAria": "ソーシャルリンク",
+    "columns": [
+      {
+        "title": "プロダクト",
+        "links": [
+          "機能",
+          "プラグインマーケットプレイス",
+          "変更履歴",
+          "ロードマップ"
+        ]
+      },
+      {
+        "title": "開発者",
+        "links": [
+          "プラグイン開発ガイド",
+          "API ドキュメント",
+          "貢献ガイド",
+          "GitHub"
+        ]
+      },
+      {
+        "title": "エコシステム",
+        "links": [
+          "LuminaryWorks",
+          "IoTChain",
+          "VistaRemote",
+          "VibeEdu"
+        ]
+      },
+      {
+        "title": "法的情報",
+        "links": [
+          "MIT License",
+          "プライバシーポリシー",
+          "セキュリティ開示"
+        ]
+      }
+    ],
+    "copyright": "© 2024–2026 LuminaryWorks. Built with TypeScript.",
+    "poweredBy": "LuminaryWorks エコシステムの一員",
+    "ecosystem": {
+      "title": "LuminaryWorks エコシステム",
+      "subtitle": "現実世界のデータを DataLuminary に届ける関連プロダクト群。",
+      "items": {
+        "blockyedu": "プラグイン・関数開発を学ぶ教育プラットフォーム。",
+        "syncrobrain": "IoT に対応し、実世界のデータ分析を提供。",
+        "vistacast": "工場・店舗・倉庫など現場特化の AI データ分析。",
+        "vistaremote": "従業員データ分析とリモート導入支援を提供。"
+      }
+    }
+  },
+  "terminal": {
+    "title": "DataLuminary — 5 分でローカル起動",
+    "initComment": "# サブリポジトリを初期化",
+    "bootstrapComment": "# 依存関係 + PostgreSQL + マイグレーション + シードデータ",
+    "backendComment": "# バックエンド API   → localhost:7084",
+    "frontendComment": "# フロントエンド UI   → localhost:3003",
+    "done": "# ✓  3 コマンド、5 分で完了！",
+    "defaultAccount": "# デフォルトアカウント: admin / admin!@#123"
+  }
+}

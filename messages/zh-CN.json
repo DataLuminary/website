@@ -1,0 +1,909 @@
+{
+  "metadata": {
+    "title": "DataLuminary — 让数据洞察触手可及 | AI 原生开源 BI 平台",
+    "description": "DataLuminary 是开源、插件化、AI 原生的数据可视化与 BI 平台，全栈 TypeScript 构建。AI 全链路洞察、微内核插件生态、拖拽 NoCode 配置、5 分钟 Docker 私有化部署。",
+    "keywords": [
+      "DataLuminary",
+      "BI 平台",
+      "数据可视化",
+      "AI 洞察",
+      "开源 BI",
+      "TypeScript",
+      "插件化"
+    ],
+    "openGraph": {
+      "title": "DataLuminary — 让数据洞察触手可及",
+      "description": "AI 原生、插件化、开源的数据可视化 BI 平台"
+    }
+  },
+  "nav": {
+    "links": {
+      "features": "产品特性",
+      "plugins": "插件生态",
+      "ai": "AI 能力",
+      "deploy": "部署文档",
+      "about": "关于"
+    },
+    "login": "登录",
+    "homeAria": "DataLuminary 首页",
+    "toggleLang": "切换语言",
+    "openMenu": "打开菜单",
+    "closeMenu": "关闭菜单"
+  },
+  "hero": {
+    "badge": "LuminaryWorks AI 生态 · 开源 MIT 协议",
+    "title": "让数据洞察触手可及",
+    "tagline": "Illuminate insights for all",
+    "values": [
+      "AI 全链路 — 报表生成、配图、数据清洗、页面布局，AI 全程辅助",
+      "微内核插件 — 数据源、图表、仪表盘布局，一切皆可扩展",
+      "全栈 TypeScript — 5 分钟 Docker 启动，私有化部署，二开无门槛"
+    ],
+    "cta": "免费体验",
+    "github": "GitHub",
+    "trust": [
+      {
+        "label": "开源社区"
+      },
+      {
+        "label": "Docker 一键启动"
+      },
+      {
+        "label": "全栈 TypeScript"
+      },
+      {
+        "label": "私有化部署"
+      }
+    ],
+    "card": {
+      "aiGenerating": "AI 正在生成分析报告",
+      "totalSales": "总销售额",
+      "anomalyTrend": "异常趋势",
+      "anomalyCount": "3 个",
+      "anomalyAlert": "发现 3 个异常趋势 · 华东区 Q3 同比 ↓18%",
+      "statusChips": [
+        {
+          "label": "AI清洗"
+        },
+        {
+          "label": "AI洞察图/报表"
+        },
+        {
+          "label": "全链路支持拖拽"
+        },
+        {
+          "label": "插件化"
+        }
+      ]
+    }
+  },
+  "coreAdvantages": {
+    "eyebrow": "四大核心差异化",
+    "title": "重新定义企业级数据可视化",
+    "subtitle": "AI 全链路 · 微内核插件 · 拖拽零码 · 全栈 TypeScript",
+    "cards": [
+      {
+        "headline": "AI 原生，全链路智能",
+        "body": "不止步于可视化BI——DataLuminary 让 AI 贯穿从数据到决策的每个环节。AI领航，让你掌控报告的每个环节。",
+        "chips": [
+          {
+            "label": "AI 生成分析报表",
+            "desc": "描述分析目标，AI 输出完整报表"
+          },
+          {
+            "label": "AI 辅助配图",
+            "desc": "智能推荐图表类型，自动完成字段映射"
+          },
+          {
+            "label": "AI 清洗数据",
+            "desc": "识别空值、异常、格式错误，一键修复"
+          },
+          {
+            "label": "AI 页面布局",
+            "desc": "分析内容层级，自动排版仪表盘布局"
+          }
+        ]
+      },
+      {
+        "headline": "微内核架构，一切皆可扩展",
+        "body": "面板、图表、数据源三大插件体系构成 DataLuminary 的可视化世界——不是固定功能清单，而是无限生长的插件生态。",
+        "chips": [
+          {
+            "label": "仪表盘插件",
+            "desc": "大屏自由布局 / PC 网格报表 / 移动列表 / 卡片看板"
+          },
+          {
+            "label": "图表插件",
+            "desc": "ECharts · AntV · Highcharts，社区贡献可无限叠加"
+          },
+          {
+            "label": "数据源插件",
+            "desc": "MySQL / PG / MongoDB / Excel / API，自定义 SDK 扩展"
+          },
+          {
+            "label": "开放 SDK",
+            "desc": "JSON Schema 约束，与 Grafana 生态互通"
+          }
+        ]
+      },
+      {
+        "headline": "拖拽配置，无需编码",
+        "body": "产品、运营、BI 分析师都能独立完成：数据清洗、图表配图、仪表盘搭建。必要时开发者可深入 SQL 与高级配置。",
+        "chips": [
+          {
+            "label": "拖拽建数据集",
+            "desc": "拖拽字段配置指标/维度，多表关联，计算字段"
+          },
+          {
+            "label": "NoCode 配图",
+            "desc": "选图表类型，拖字段到轴，实时预览，零代码"
+          },
+          {
+            "label": "可视化布局",
+            "desc": "网格拖拽 / 自由定位，响应式适配"
+          },
+          {
+            "label": "图表联动下钻",
+            "desc": "可视化配置筛选与联动，无需写交互代码"
+          }
+        ]
+      },
+      {
+        "headline": "全栈 TS，轻量快捷",
+        "body": "AI 时代，TypeScript 是第一等公民。全栈统一技术栈意味着更低的招聘门槛、更快的 AI 辅助开发速度，与更轻的维护成本。",
+        "chips": [
+          {
+            "label": "5 分钟上线",
+            "desc": "Docker Compose 一键启动，3 条命令完成部署"
+          },
+          {
+            "label": "招人更容易",
+            "desc": "TS 生态繁荣，前后端人才通用"
+          },
+          {
+            "label": "AI 辅助开发",
+            "desc": "TS 类型信息是 LLM 最理解的代码语言"
+          },
+          {
+            "label": "二开零门槛",
+            "desc": "类型安全，重构友好，插件 SDK 完善"
+          }
+        ]
+      }
+    ]
+  },
+  "aiCapabilities": {
+    "eyebrow": "AI 全链路洞察能力",
+    "title": "AI 赋能，数据开口说话",
+    "subtitle": "从数据清洗到洞察报告，AI 贯穿每个环节",
+    "tabs": [
+      {
+        "id": "report",
+        "label": "AI 生成分析报表"
+      },
+      {
+        "id": "chart",
+        "label": "AI 辅助配图"
+      },
+      {
+        "id": "clean",
+        "label": "AI 清洗数据"
+      },
+      {
+        "id": "layout",
+        "label": "AI 页面布局"
+      }
+    ],
+    "demos": {
+      "report": {
+        "tag": "自动提取关键指标 · 识别异常趋势 · 输出业务建议",
+        "user": "分析本季度各区域销售趋势，重点关注华东异常下滑原因",
+        "ai": "正在分析 Q3 销售数据集... 发现 3 处异常趋势 ↓\n生成报表结构：总览 → 区域对比 → 异常归因 → 建议",
+        "previewLabel": "报表预览",
+        "metricLabels": [
+          "营收",
+          "订单",
+          "转化",
+          "客单"
+        ],
+        "anomalyNote": "华东区 Q3 同比 ↓18%，主因渠道库存积压"
+      },
+      "chart": {
+        "tag": "理解业务语义 · 推荐最佳图表 · 自动完成配置",
+        "user": "对比各产品线近 6 个月的月度增长率",
+        "ai": "自动选择多系列折线图，配置 X轴=月份 / Y轴=增长率，推荐配色方案，建议添加均值参考线",
+        "beforeLabel": "配置前",
+        "afterLabel": "配置后"
+      },
+      "clean": {
+        "tag": "智能识别质量问题 · 批量修复 · 保留处理记录",
+        "cleanButton": "AI 一键清洗",
+        "completeLabel": "清洗完成",
+        "results": [
+          "填补 3 个缺失值（均值填充）",
+          "标记 1 个离群值（保留并标注）",
+          "统一 8 处日期格式"
+        ]
+      },
+      "layout": {
+        "tag": "分析内容权重 · 自动调整大小位置 · 符合视觉规范",
+        "beforeLabel": "优化前 · 布局凌乱",
+        "afterLabel": "优化后 · 层级清晰",
+        "optimizeButton": "AI 优化布局",
+        "afterNote": "AI 分析了 6 个组件的内容权重，自动优化布局层级"
+      }
+    }
+  },
+  "pluginArchitecture": {
+    "eyebrow": "微内核插件化",
+    "title": "满足一切可视化需求",
+    "subtitle": "有别于传统 BI 工具的单体架构，DataLuminary 是微内核插件化平台——面板、图表、数据源三大插件生态，让一切可视化需求皆可实现",
+    "microkernel": "微内核",
+    "exploreCta": "探索插件生态",
+    "orbits": [
+      {
+        "id": "panel",
+        "title": "仪表盘布局插件",
+        "nodes": [
+          "Grid",
+          "Position",
+          "Card",
+          "List",
+          "自定义"
+        ],
+        "detail": {
+          "lines": [
+            "grid-panel 网格布局 — react-grid-layout，PC 报表首选，可导入 Grafana 面板",
+            "position-panel 自由布局大屏 — 基于 TMagic，像素级自由定位，适合指挥中心",
+            "card-panel 卡片视图 — 适合报表、邮件、看板等场景",
+            "list-panel 列表布局 — 移动端首选，卡片纵向滚动",
+            "＋ 自定义布局插件 — 开发 SDK 接入"
+          ]
+        }
+      },
+      {
+        "id": "chart",
+        "title": "图表插件",
+        "nodes": [
+          "ECharts",
+          "AntV",
+          "Highcharts",
+          "Custom"
+        ],
+        "detail": {
+          "title": "Headless BI 设计",
+          "lines": [
+            "图表插件只负责渲染，数据统一由数据集层提供，不直连数据源",
+            "内置：折线 · 柱状 · 面积 · 饼图 · 环形 · 散点 · 雷达 · 漏斗",
+            "地图 · 词云 · 指标卡 · 表格 · 富文本 · 水球图 · 热力图 · 桑基图 · K线 · 关系图...",
+            "切换图表库：ECharts / AntV / Highcharts 任意替换，不影响配置"
+          ]
+        }
+      },
+      {
+        "id": "datasource",
+        "title": "数据源插件",
+        "nodes": [
+          "MySQL",
+          "PG",
+          "MongoDB",
+          "Excel",
+          "API",
+          "Custom"
+        ],
+        "detail": {
+          "title": "三段式插件协议（参考 Grafana）",
+          "lines": [
+            "ConfigPanel 数据源配置 · QueryPanel 查询配置 · VariablePanel 变量查询",
+            "关系型：MySQL · PostgreSQL · SQL Server · ClickHouse",
+            "文档型：MongoDB · Elasticsearch ｜ 文件：Excel · CSV · JSON",
+            "接口：RESTful API · GraphQL ｜ ＋ 插件 SDK 自定义接入任意数据源"
+          ]
+        }
+      }
+    ]
+  },
+  "dataPipeline": {
+    "eyebrow": "核心链路",
+    "title": "从数据到决策",
+    "subtitle": "数据源 → 数据集 → 图表 → 仪表盘，数据在管道中流动，每个环节皆可插件化扩展",
+    "headlessLabel": "Headless BI 设计：",
+    "headlessNote": "图表不直连数据源，数据集统一供给——这是 DataLuminary 区别于传统工具的核心架构差异。",
+    "steps": [
+      {
+        "label": "数据源",
+        "en": "Datasource",
+        "desc": "多源接入，统一管理",
+        "popup": [
+          "数据源插件列表",
+          "连接测试",
+          "QueryPanel 预览"
+        ]
+      },
+      {
+        "label": "数据集",
+        "en": "Dataset · Headless BI Core",
+        "desc": "指标维度建模，数据清洗",
+        "popup": [
+          "配置指标字段 / 维度字段",
+          "多表关联 Join",
+          "计算字段与数据清洗",
+          "AI 辅助清洗（coming soon）"
+        ]
+      },
+      {
+        "label": "图表",
+        "en": "Chart",
+        "desc": "NoCode 配图，拖拽即得",
+        "popup": [
+          "选择图表类型（插件化）",
+          "拖拽字段到 X轴/Y轴/系列",
+          "AI 推荐最佳图表类型",
+          "实时预览"
+        ]
+      },
+      {
+        "label": "仪表盘",
+        "en": "Dashboard",
+        "desc": "多端多布局，灵活编排",
+        "popup": [
+          "Grid / Position / Card / List 四种布局",
+          "图表联动、筛选器",
+          "版本管理、权限控制",
+          "AI 一键优化布局"
+        ]
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "资深团队，久经验证",
+    "title": "主创团队：多年数据可视化平台核心经历",
+    "subtitle": "从腾讯到平安，深耕企业级 BI 与可视化平台建设",
+    "quote": "多年亲历企业级 BI 平台从 0 到 1 的建设，DataLuminary 凝结了这些经验的精华",
+    "cards": [
+      {
+        "company": "腾讯游戏体验管理平台",
+        "role": "主导架构重构",
+        "impact": "覆盖腾讯游戏全线产品数据体验链路",
+        "chips": [
+          "可视化平台",
+          "架构重构",
+          "大规模数据"
+        ]
+      },
+      {
+        "company": "腾讯 蓝鲸通用图表平台",
+        "role": "从零创建",
+        "impact": "腾讯云运维体系核心可视化组件",
+        "chips": [
+          "从零到一",
+          "图表平台",
+          "腾讯云运维"
+        ]
+      },
+      {
+        "company": "平安智慧城市 MaxView",
+        "role": "从零创建",
+        "impact": "金融级企业、政府数据可视化平台",
+        "chips": [
+          "金融级",
+          "从零到一",
+          "政企 BI"
+        ]
+      },
+      {
+        "company": "平安科技 星空画板",
+        "role": "多年持续迭代",
+        "impact": "商业级 BI 产品，数据可视化深度积累",
+        "chips": [
+          "商业产品",
+          "长期迭代",
+          "BI 实战"
+        ]
+      }
+    ]
+  },
+  "typescriptDeploy": {
+    "eyebrow": "全栈 TypeScript",
+    "title": "全栈 TS，轻量上线",
+    "subtitle": "AI 时代，TypeScript 是第一等公民——统一技术栈，更快开发，更轻部署",
+    "whyTitle": "为什么全栈 TypeScript",
+    "reasons": [
+      {
+        "title": "AI 时代的第一选择",
+        "body": "TypeScript 是 Copilot、Claude 等 AI 工具理解最深的语言。全栈 TS 让 AI 辅助开发效率倍增——代码补全更准，重构更安全。"
+      },
+      {
+        "title": "更低的团队招聘成本",
+        "body": "前后端统一技术栈，全栈工程师可独立开发完整功能。TS 开发者储备丰富，团队扩充门槛大幅降低。"
+      },
+      {
+        "title": "类型安全，重构无惧",
+        "body": "强类型约束贯穿前后端，插件接口、数据契约均有类型保障。大规模重构时错误在编译期暴露，而非生产环境。"
+      },
+      {
+        "title": "部署轻量，运维简单",
+        "body": "Docker Compose 一键启动，仅依赖 PostgreSQL。支持跳过 Docker 使用本机数据库。全平台支持 Windows / macOS / Linux。"
+      }
+    ],
+    "compareTitle": "传统 BI 平台对比",
+    "compareBad": [
+      "安装复杂，数十个配置项",
+      "多语言混合，前后端割裂",
+      "运维团队专人维护"
+    ],
+    "compareGood": "DataLuminary：3 条命令 · 统一 TS · 自动化 bootstrap"
+  },
+  "ecosystem": {
+    "eyebrow": "无限切入，生态驱动",
+    "title": "不止是 BI 工具——生态驱动的数据洞察平台",
+    "subtitle": "覆盖传统 BI 场景，同时借助 LuminaryWorks 生态，无限切入区块链、AI 任务、物联网、远程监控等全新实体场景",
+    "industriesTitle": "覆盖所有传统数据分析场景",
+    "industriesNote": "产品、运营、BI 分析师均可独立上手——从数据接入到洞察报告，全链路 NoCode 完成",
+    "hubTag": "数据洞察 · 看见",
+    "hubBadge": "数据汇聚中枢",
+    "industries": [
+      {
+        "label": "电商运营"
+      },
+      {
+        "label": "游戏数据"
+      },
+      {
+        "label": "金融风控"
+      },
+      {
+        "label": "制造产线"
+      },
+      {
+        "label": "零售分析"
+      },
+      {
+        "label": "医疗健康"
+      },
+      {
+        "label": "教育评估"
+      },
+      {
+        "label": "物流追踪"
+      },
+      {
+        "label": "项目管理"
+      }
+    ],
+    "nodes": [
+      {
+        "name": "LuminaryIoTChain",
+        "role": "连",
+        "desc": "开源 IoT PaaS 平台",
+        "scenario": "制造车间设备状态 → 实时监控大屏"
+      },
+      {
+        "name": "VistaRemote",
+        "role": "控",
+        "desc": "WebRTC 远程运维平台",
+        "scenario": "远程运维操作记录 → 安全审计报表"
+      },
+      {
+        "name": "VibeAgent",
+        "role": "赚",
+        "desc": "AI Agent 链上交易市场",
+        "scenario": "区块链 Agent 收益 → 效能分析看板"
+      },
+      {
+        "name": "VibeEdu / BlockyEdu",
+        "role": "学",
+        "desc": "可视化编程 + AI 辅助教学",
+        "scenario": "学习数据 → 教学质量看板 · 培育生态开发者",
+        "badge": "生态入口 · 开发者孵化器"
+      }
+    ],
+    "valueCards": [
+      {
+        "title": "传统 BI，开箱即用",
+        "body": "电商 · 游戏 · 金融 · 制造，主流 BI 场景全覆盖，无需生态，独立部署即完整可用"
+      },
+      {
+        "title": "实体新场景，生态支撑",
+        "body": "IoT 物联网 · AI 任务 · 区块链 · 远程监控，兄弟产品数据直通，实现跨领域数据洞察"
+      },
+      {
+        "title": "教育平台，开发者生态",
+        "body": "VibeEdu 可视化编程 + AI 教学辅助，让更多开发者学习并贡献插件，持续扩展生态边界"
+      }
+    ],
+    "footerNote": "LuminaryWorks/identity 统一 OIDC 登录 · LuminaryWorks/shared 共享组件库 · 同一账号贯通所有产品"
+  },
+  "comparison": {
+    "eyebrow": "为什么选择 DataLuminary",
+    "title": "全面对比，一目了然",
+    "colFeature": "特性维度",
+    "colDL": "DataLuminary",
+    "colTrad": "传统 BI 工具",
+    "colSaas": "闭源 SaaS",
+    "rows": [
+      {
+        "feature": "AI 全链路能力",
+        "dl": {
+          "type": "yes",
+          "note": "配图/清洗/布局/报表"
+        },
+        "trad": {
+          "type": "no",
+          "note": "无或极有限"
+        },
+        "saas": {
+          "type": "warn",
+          "note": "付费解锁"
+        }
+      },
+      {
+        "feature": "插件化架构",
+        "dl": {
+          "type": "yes",
+          "note": "微内核，三层插件生态"
+        },
+        "trad": {
+          "type": "no",
+          "note": "单体架构"
+        },
+        "saas": {
+          "type": "no",
+          "note": "封闭生态"
+        }
+      },
+      {
+        "feature": "仪表盘布局",
+        "dl": {
+          "type": "yes",
+          "note": "大屏/报表/移动/看板"
+        },
+        "trad": {
+          "type": "warn",
+          "note": "1-2 种固定"
+        },
+        "saas": {
+          "type": "warn",
+          "note": "有限"
+        }
+      },
+      {
+        "feature": "LessCode / NoCode",
+        "dl": {
+          "type": "yes",
+          "note": "全链路拖拽配置"
+        },
+        "trad": {
+          "type": "warn",
+          "note": "部分支持"
+        },
+        "saas": {
+          "type": "yes",
+          "note": "支持"
+        }
+      },
+      {
+        "feature": "全栈 TypeScript",
+        "dl": {
+          "type": "yes",
+          "note": "前后端统一"
+        },
+        "trad": {
+          "type": "no",
+          "note": "多语言混合"
+        },
+        "saas": {
+          "type": "lock",
+          "note": "不可见"
+        }
+      },
+      {
+        "feature": "部署复杂度",
+        "dl": {
+          "type": "yes",
+          "note": "3 条命令，5 分钟"
+        },
+        "trad": {
+          "type": "no",
+          "note": "复杂安装流程"
+        },
+        "saas": {
+          "type": "text",
+          "note": "N/A 云服务"
+        }
+      },
+      {
+        "feature": "私有化部署",
+        "dl": {
+          "type": "yes",
+          "note": "完全私有化"
+        },
+        "trad": {
+          "type": "yes",
+          "note": "支持"
+        },
+        "saas": {
+          "type": "warn",
+          "note": "额外费用"
+        }
+      },
+      {
+        "feature": "数据安全",
+        "dl": {
+          "type": "yes",
+          "note": "数据不出内网"
+        },
+        "trad": {
+          "type": "yes",
+          "note": "可私有"
+        },
+        "saas": {
+          "type": "warn",
+          "note": "数据上云"
+        }
+      },
+      {
+        "feature": "二次开发",
+        "dl": {
+          "type": "yes",
+          "note": "插件 SDK，类型安全"
+        },
+        "trad": {
+          "type": "no",
+          "note": "学习曲线陡峭"
+        },
+        "saas": {
+          "type": "lock",
+          "note": "不支持"
+        }
+      },
+      {
+        "feature": "开源协议",
+        "dl": {
+          "type": "yes",
+          "note": "MIT 开源"
+        },
+        "trad": {
+          "type": "warn",
+          "note": "部分开源"
+        },
+        "saas": {
+          "type": "no",
+          "note": "闭源"
+        }
+      },
+      {
+        "feature": "生态整合",
+        "dl": {
+          "type": "yes",
+          "note": "AI 五产品联动"
+        },
+        "trad": {
+          "type": "no",
+          "note": "独立产品"
+        },
+        "saas": {
+          "type": "warn",
+          "note": "有限集成"
+        }
+      },
+      {
+        "feature": "成本",
+        "dl": {
+          "type": "yes",
+          "note": "免费"
+        },
+        "trad": {
+          "type": "warn",
+          "note": "企业版收费"
+        },
+        "saas": {
+          "type": "text",
+          "note": "按量计费"
+        }
+      }
+    ]
+  },
+  "useCases": {
+    "eyebrow": "适用场景",
+    "title": "覆盖各行各业的数据洞察需求",
+    "cases": [
+      {
+        "title": "业务运营",
+        "desc": "销售看板、KPI 仪表盘、渠道分析报表",
+        "persona": "运营"
+      },
+      {
+        "title": "制造监控",
+        "desc": "IoT 设备大屏、产线数据分析、能耗监控",
+        "persona": "IT"
+      },
+      {
+        "title": "金融合规",
+        "desc": "风控报表、交易分析、审计追溯看板",
+        "persona": "产品"
+      },
+      {
+        "title": "电商零售",
+        "desc": "用户画像、商品分析、物流配送监控",
+        "persona": "运营"
+      },
+      {
+        "title": "医疗健康",
+        "desc": "患者数据分析、医疗资源调度大屏",
+        "persona": "IT"
+      },
+      {
+        "title": "教育培训",
+        "desc": "学习行为分析、教学质量评估报告",
+        "persona": "产品"
+      }
+    ]
+  },
+  "openSource": {
+    "eyebrow": "开源协作",
+    "title": "共建 AI 数据洞察生态",
+    "subtitle": "DataLuminary 是插件化架构——整个平台对社区完全开放。数据源、图表库、布局引擎，用户可在任意层扩展能力",
+    "layers": [
+      {
+        "headline": "数据源插件层",
+        "sub": "小规模直连，亿级大数据 ClickHouse 联动",
+        "points": [
+          "基础数据能力：MySQL · PostgreSQL · MongoDB · Excel · CSV · API",
+          "小规模（百万级）→ 直连 PostgreSQL，零额外成本",
+          "千万/亿级 → ClickHouse 联动，秒级聚合，配置完全不变",
+          "用户自主选择基座，不强制绑定任何数据库",
+          "三段式插件协议，与 Grafana 数据源生态互通"
+        ],
+        "cta": "贡献数据源插件"
+      },
+      {
+        "headline": "图表插件层",
+        "sub": "不限图表库，语义化智能推荐",
+        "points": [
+          "已内置（基于 AntV G2）：折线 · 柱状 · 饼图 · 散点 · 雷达 · 桑基图...",
+          "语义化推荐（阿里 AVA）：数据决定图表，而非用户猜测",
+          "Headless BI：ECharts / AntV / Highcharts 任意切换，不影响配置",
+          "任意第三方图表库均可封装为图表插件"
+        ],
+        "cta": "贡献图表插件"
+      },
+      {
+        "headline": "面板布局插件层",
+        "sub": "多场景布局，适配一切展示需求",
+        "points": [
+          "grid-panel → 网格拖拽，PC 分析报表首选，可导入 Grafana 面板",
+          "position-panel → 像素级自由定位（TMagic），大屏/指挥中心",
+          "card-panel → 卡片视图，适合报表、邮件、信息看板",
+          "list-panel → 纵向列表，移动端首选",
+          "布局引擎本身即插件，可自研新引擎接入平台"
+        ],
+        "cta": "贡献布局插件"
+      }
+    ],
+    "codeTabs": [
+      {
+        "id": "import",
+        "label": "按需引入包"
+      },
+      {
+        "id": "serverless",
+        "label": "Serverless 数据处理"
+      },
+      {
+        "id": "compose",
+        "label": "业务逻辑函数化"
+      }
+    ],
+    "featureCards": [
+      {
+        "title": "Lerna 包管理",
+        "body": "所有插件、组件、函数均由 Lerna 统一管理，独立版本、独立发布、独立引入"
+      },
+      {
+        "title": "函数式数据处理",
+        "body": "数据清洗、转换、聚合逻辑均为纯函数，可组合、可测试、可复用"
+      },
+      {
+        "title": "Serverless 最小粒度",
+        "body": "核心处理逻辑无状态化，可直接部署为 Serverless / Edge 函数，按需计算"
+      },
+      {
+        "title": "用户自主选择基座",
+        "body": "不强绑底层数据库，小规模直连 PG，亿级数据 ClickHouse 联动"
+      }
+    ],
+    "starGithub": "Star on GitHub",
+    "commercialBadge": "Open source and free for commercial use",
+    "community": [
+      {
+        "title": "完善文档",
+        "body": "用户指南 · 插件开发 · API 文档"
+      },
+      {
+        "title": "活跃社区",
+        "body": "GitHub Discussions · Discord"
+      },
+      {
+        "title": "贡献友好",
+        "body": "详细贡献指南，CI/CD 全流程支持"
+      }
+    ],
+    "quote": "每行插件，都是社区共同推动 AI 数据洞察进化的一步。"
+  },
+  "footerCta": {
+    "title": "5 分钟部署，立即体验 AI 原生数据洞察",
+    "subtitle": "开源免费 · 无需信用卡 · 支持私有化部署 · MIT 协议",
+    "deploy": "免费本地部署",
+    "docs": "查看文档",
+    "github": "GitHub",
+    "emailPlaceholder": "输入邮箱，订阅产品更新",
+    "emailAria": "邮箱地址",
+    "subscribe": "订阅",
+    "noSpam": "不发垃圾邮件，随时退订",
+    "adopted": "已被 500+ 企业与开发者采用",
+    "rating": "4.9/5 社区评分"
+  },
+  "terminal": {
+    "title": "DataLuminary — 5 分钟本地启动",
+    "initComment": "# 初始化子仓库",
+    "bootstrapComment": "# 依赖 + PostgreSQL + 迁移 + 种子数据",
+    "backendComment": "# 后端 API   → localhost:7084",
+    "frontendComment": "# 前端界面   → localhost:3003",
+    "done": "# ✓  3 条命令，5 分钟，完成！",
+    "defaultAccount": "# 默认账号: admin / admin!@#123"
+  },
+  "siteFooter": {
+    "tagline": "开源、插件化、AI 原生的数据可视化 BI 平台。让数据洞察触手可及。",
+    "socialAria": "社交链接",
+    "columns": [
+      {
+        "title": "产品",
+        "links": [
+          "功能特性",
+          "插件市场",
+          "更新日志",
+          "路线图"
+        ]
+      },
+      {
+        "title": "开发者",
+        "links": [
+          "插件开发指南",
+          "API 文档",
+          "贡献指南",
+          "GitHub"
+        ]
+      },
+      {
+        "title": "生态",
+        "links": [
+          "LuminaryWorks",
+          "IoTChain",
+          "VistaRemote",
+          "VibeEdu"
+        ]
+      },
+      {
+        "title": "法律",
+        "links": [
+          "MIT License",
+          "隐私政策",
+          "安全披露"
+        ]
+      }
+    ],
+    "copyright": "© 2024–2026 LuminaryWorks. Built with TypeScript.",
+    "poweredBy": "LuminaryWorks 生态成员",
+    "ecosystem": {
+      "title": "LuminaryWorks 生态",
+      "subtitle": "将现实世界数据汇入 DataLuminary 的兄弟产品。",
+      "items": {
+        "blockyedu": "面向插件与函数开发的教育平台。",
+        "syncrobrain": "面向物联网，提供实体世界数据分析。",
+        "vistacast": "面向工厂、门店、仓储等场景的 AI 数据分析。",
+        "vistaremote": "提供员工数据分析与远程部署协助。"
+      }
+    }
+  }
+}

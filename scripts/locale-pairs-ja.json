@@ -1,0 +1,1486 @@
+[
+  [
+    "DataLuminary — Insights Within Reach | AI-Native Open-Source BI Platform",
+    "DataLuminary — インサイトを手の届くところに | AIネイティブ オープンソース BI プラットフォーム"
+  ],
+  [
+    "DataLuminary is an open-source, plugin-based, AI-native data visualization and BI platform built with full-stack TypeScript. End-to-end AI insights, microkernel plugin ecosystem, drag-and-drop NoCode configuration, and 5-minute Docker private deployment.",
+    "DataLuminary は、フルスタック TypeScript で構築されたオープンソース・プラグインベース・AIネイティブのデータ可視化・BI プラットフォームです。エンドツーエンドの AI インサイト、マイクロカーネルプラグインエコシステム、ドラッグ＆ドロップ NoCode 設定、5 分の Docker プライベートデプロイに対応。"
+  ],
+  [
+    "BI Platform",
+    "BI プラットフォーム"
+  ],
+  [
+    "Data Visualization",
+    "データ可視化"
+  ],
+  [
+    "AI Insights",
+    "AI インサイト"
+  ],
+  [
+    "Open Source BI",
+    "オープンソース BI"
+  ],
+  [
+    "Plugin Architecture",
+    "プラグインアーキテクチャ"
+  ],
+  [
+    "DataLuminary — Insights Within Reach",
+    "DataLuminary — インサイトを手の届くところに"
+  ],
+  [
+    "AI-native, plugin-based, open-source data visualization BI platform",
+    "AIネイティブ・プラグインベースのオープンソース データ可視化 BI プラットフォーム"
+  ],
+  [
+    "Features",
+    "機能"
+  ],
+  [
+    "Plugins",
+    "プラグイン"
+  ],
+  [
+    "AI",
+    "AI"
+  ],
+  [
+    "Deploy",
+    "デプロイ"
+  ],
+  [
+    "About",
+    "概要"
+  ],
+  [
+    "Sign In",
+    "ログイン"
+  ],
+  [
+    "DataLuminary Home",
+    "DataLuminary ホーム"
+  ],
+  [
+    "Switch language",
+    "言語を切り替え"
+  ],
+  [
+    "Open menu",
+    "メニューを開く"
+  ],
+  [
+    "Close menu",
+    "メニューを閉じる"
+  ],
+  [
+    "LuminaryWorks AI Ecosystem · Open Source MIT License",
+    "LuminaryWorks AI エコシステム · オープンソース MIT ライセンス"
+  ],
+  [
+    "Insights Within Reach",
+    "インサイトを手の届くところに"
+  ],
+  [
+    "End-to-end AI — report generation, charting, data cleansing, and page layout, AI assists every step",
+    "エンドツーエンド AI — レポート生成、グラフ作成、データクレンジング、ページレイアウトまで、AI が各ステップを支援"
+  ],
+  [
+    "Microkernel plugins — data sources, charts, and dashboard layouts, everything is extensible",
+    "マイクロカーネルプラグイン — データソース、グラフ、ダッシュボードレイアウト、すべて拡張可能"
+  ],
+  [
+    "Full-stack TypeScript — launch with Docker in 5 minutes, private deployment, zero barrier to customization",
+    "フルスタック TypeScript — Docker で 5 分起動、プライベートデプロイ、カスタマイズの障壁ゼロ"
+  ],
+  [
+    "Try for Free",
+    "無料で試す"
+  ],
+  [
+    "Open Source Community",
+    "オープンソースコミュニティ"
+  ],
+  [
+    "One-Click Docker Launch",
+    "Docker ワンクリック起動"
+  ],
+  [
+    "Full-Stack TypeScript",
+    "フルスタック TypeScript"
+  ],
+  [
+    "Private Deployment",
+    "プライベートデプロイ"
+  ],
+  [
+    "AI is generating an analysis report",
+    "AI が分析レポートを生成中"
+  ],
+  [
+    "Total Sales",
+    "総売上"
+  ],
+  [
+    "Anomaly Trends",
+    "異常トレンド"
+  ],
+  [
+    "3 anomaly trends detected · East China Q3 YoY ↓18%",
+    "3 件の異常トレンドを検出 · 華東 Q3 前年比 ↓18%"
+  ],
+  [
+    "AI Cleansing",
+    "AI クレンジング"
+  ],
+  [
+    "AI Charts/Reports",
+    "AI グラフ/レポート"
+  ],
+  [
+    "Full Drag-and-Drop",
+    "フルドラッグ＆ドロップ"
+  ],
+  [
+    "Plugin-Based",
+    "プラグインベース"
+  ],
+  [
+    "Four Core Differentiators",
+    "4 つのコア差別化要素"
+  ],
+  [
+    "Redefining Enterprise Data Visualization",
+    "エンタープライズ データ可視化の再定義"
+  ],
+  [
+    "End-to-end AI · Microkernel Plugins · Drag-and-Drop NoCode · Full-Stack TypeScript",
+    "エンドツーエンド AI · マイクロカーネルプラグイン · ドラッグ＆ドロップ NoCode · フルスタック TypeScript"
+  ],
+  [
+    "AI-Native, End-to-End Intelligence",
+    "AIネイティブ、エンドツーエンド インテリジェンス"
+  ],
+  [
+    "Beyond visualization BI — DataLuminary embeds AI across every step from data to decisions. AI guides you through every stage of your reports.",
+    "可視化 BI を超えて — DataLuminary はデータから意思決定まで全工程に AI を組み込みます。AI がレポート作成の各段階をガイドします。"
+  ],
+  [
+    "AI-Generated Analysis Reports",
+    "AI 生成分析レポート"
+  ],
+  [
+    "Describe your analysis goal; AI produces a complete report",
+    "分析目標を記述するだけで、AI が完全なレポートを生成"
+  ],
+  [
+    "AI-Assisted Charting",
+    "AI アシスト グラフ作成"
+  ],
+  [
+    "Smart chart recommendations with automatic field mapping",
+    "自動フィールドマッピングによるスマートなグラフ推薦"
+  ],
+  [
+    "AI Data Cleansing",
+    "AI データクレンジング"
+  ],
+  [
+    "Detect nulls, anomalies, and format errors — fix with one click",
+    "NULL、異常値、フォーマットエラーを検出 — ワンクリックで修正"
+  ],
+  [
+    "AI Page Layout",
+    "AI ページレイアウト"
+  ],
+  [
+    "Analyze content hierarchy and auto-arrange dashboard layouts",
+    "コンテンツ階層を分析し、ダッシュボードレイアウトを自動配置"
+  ],
+  [
+    "Microkernel Architecture, Infinitely Extensible",
+    "マイクロカーネルアーキテクチャ、無限に拡張可能"
+  ],
+  [
+    "Dashboard Plugins",
+    "ダッシュボードプラグイン"
+  ],
+  [
+    "Free-form big screens / PC grid reports / mobile lists / card boards",
+    "自由配置ビッグスクリーン / PC グリッドレポート / モバイルリスト / カードボード"
+  ],
+  [
+    "Chart Plugins",
+    "グラフプラグイン"
+  ],
+  [
+    "ECharts · AntV · Highcharts — community contributions stack infinitely",
+    "ECharts · AntV · Highcharts — コミュニティ貢献が無限に積み重なる"
+  ],
+  [
+    "Data Source Plugins",
+    "データソースプラグイン"
+  ],
+  [
+    "MySQL / PG / MongoDB / Excel / API — extend via custom SDK",
+    "MySQL / PG / MongoDB / Excel / API — カスタム SDK で拡張"
+  ],
+  [
+    "Open SDK",
+    "オープン SDK"
+  ],
+  [
+    "JSON Schema constraints, interoperable with the Grafana ecosystem",
+    "JSON Schema 制約、Grafana エコシステムと相互運用"
+  ],
+  [
+    "Drag-and-Drop Configuration, No Coding Required",
+    "ドラッグ＆ドロップ設定、コーディング不要"
+  ],
+  [
+    "Product, operations, and BI analysts can independently handle data cleansing, charting, and dashboard building. Developers can dive into SQL and advanced config when needed.",
+    "プロダクト、オペレーション、BI アナリストが独立してデータクレンジング、グラフ作成、ダッシュボード構築を担当可能。開発者は必要に応じて SQL や高度な設定に深入りできます。"
+  ],
+  [
+    "Drag-and-Drop Datasets",
+    "ドラッグ＆ドロップ データセット"
+  ],
+  [
+    "Drag fields to configure metrics/dimensions, multi-table joins, calculated fields",
+    "フィールドをドラッグしてメトリクス/ディメンション、マルチテーブル JOIN、計算フィールドを設定"
+  ],
+  [
+    "NoCode Charting",
+    "NoCode グラフ作成"
+  ],
+  [
+    "Pick chart type, drag fields to axes, live preview, zero code",
+    "グラフタイプを選択、フィールドを軸にドラッグ、ライブプレビュー、コードゼロ"
+  ],
+  [
+    "Visual Layout",
+    "ビジュアルレイアウト"
+  ],
+  [
+    "Grid drag / free positioning, responsive adaptation",
+    "グリッドドラッグ / 自由配置、レスポンシブ対応"
+  ],
+  [
+    "Chart Linkage & Drill-Down",
+    "グラフ連動とドリルダウン"
+  ],
+  [
+    "Visually configure filters and linkage — no interaction code",
+    "フィルターと連動を視覚的に設定 — インタラクションコード不要"
+  ],
+  [
+    "Full-Stack TS, Lightweight & Fast",
+    "フルスタック TS、軽量＆高速"
+  ],
+  [
+    "In the AI era, TypeScript is a first-class citizen. A unified full-stack means lower hiring barriers, faster AI-assisted development, and lighter maintenance.",
+    "AI 時代において TypeScript は第一級市民。統一フルスタックは採用障壁の低減、AI アシスト開発の加速、保守の軽量化を意味します。"
+  ],
+  [
+    "Live in 5 Minutes",
+    "5 分で稼働"
+  ],
+  [
+    "One-click Docker Compose launch — deploy in 3 commands",
+    "Docker Compose ワンクリック起動 — 3 コマンドでデプロイ"
+  ],
+  [
+    "Easier Hiring",
+    "採用が容易"
+  ],
+  [
+    "Thriving TS ecosystem — frontend and backend talent interchangeable",
+    "活発な TS エコシステム — フロントエンド/バックエンド人材の相互活用"
+  ],
+  [
+    "AI-Assisted Development",
+    "AI アシスト開発"
+  ],
+  [
+    "TS type information is the language LLMs understand best",
+    "TS 型情報は LLM が最も理解しやすい言語"
+  ],
+  [
+    "Zero Customization Barrier",
+    "カスタマイズ障壁ゼロ"
+  ],
+  [
+    "Type-safe, refactor-friendly, complete plugin SDK",
+    "型安全、リファクタリング容易、完全なプラグイン SDK"
+  ],
+  [
+    "End-to-End AI Insight Capabilities",
+    "エンドツーエンド AI インサイト機能"
+  ],
+  [
+    "AI-Powered — Data That Speaks",
+    "AI 駆動 — 語るデータ"
+  ],
+  [
+    "From data cleansing to insight reports, AI spans every step",
+    "データクレンジングからインサイトレポートまで、AI が全工程をカバー"
+  ],
+  [
+    "Auto-extract key metrics · Detect anomaly trends · Output business recommendations",
+    "主要メトリクス自動抽出 · 異常トレンド検出 · ビジネス提言を出力"
+  ],
+  [
+    "Analyze regional sales trends this quarter, focusing on the East China decline",
+    "今四半期の地域別売上トレンドを分析し、華東の減少に焦点を当てる"
+  ],
+  [
+    "Analyzing Q3 sales dataset... Found 3 anomaly trends ↓\\nReport structure: Overview → Regional comparison → Root cause → Recommendations",
+    "Q3 売上データセットを分析中... 3 件の異常トレンドを検出 ↓\nレポート構成：概要 → 地域比較 → 根本原因 → 提言"
+  ],
+  [
+    "Report Preview",
+    "レポートプレビュー"
+  ],
+  [
+    "Revenue",
+    "売上"
+  ],
+  [
+    "Orders",
+    "注文"
+  ],
+  [
+    "Conversion",
+    "コンバージョン"
+  ],
+  [
+    "AOV",
+    "平均注文単価"
+  ],
+  [
+    "East China Q3 YoY ↓18%, mainly due to channel inventory backlog",
+    "華東 Q3 前年比 ↓18%、主因はチャネル在庫滞留"
+  ],
+  [
+    "Understand business semantics · Recommend best charts · Auto-complete configuration",
+    "ビジネスセマンティクスを理解 · 最適なグラフを推薦 · 設定を自動完了"
+  ],
+  [
+    "Compare monthly growth rates across product lines over the last 6 months",
+    "過去 6 か月の製品ライン別月次成長率を比較"
+  ],
+  [
+    "Auto-selected multi-series line chart, X-axis=month / Y-axis=growth rate, recommended color scheme, suggested mean reference line",
+    "自動選択マルチシリーズ折れ線グラフ、X 軸=月 / Y 軸=成長率、推奨カラースキーム、平均参照線を提案"
+  ],
+  [
+    "Before",
+    "前"
+  ],
+  [
+    "After",
+    "後"
+  ],
+  [
+    "Smart quality detection · Batch repair · Preserve processing history",
+    "スマート品質検出 · 一括修復 · 処理履歴を保持"
+  ],
+  [
+    "AI One-Click Cleanse",
+    "AI ワンクリッククレンジング"
+  ],
+  [
+    "Cleansing Complete",
+    "クレンジング完了"
+  ],
+  [
+    "Filled 3 missing values (mean imputation)",
+    "欠損値 3 件を補完（平均値代入）"
+  ],
+  [
+    "Flagged 1 outlier (retained and annotated)",
+    "外れ値 1 件をフラグ（保持して注釈）"
+  ],
+  [
+    "Standardized 8 date formats",
+    "日付フォーマット 8 件を標準化"
+  ],
+  [
+    "Analyze content weight · Auto-adjust size and position · Follow visual standards",
+    "コンテンツ比重を分析 · サイズと位置を自動調整 · ビジュアル基準に準拠"
+  ],
+  [
+    "Before · Cluttered layout",
+    "前 · 散らかったレイアウト"
+  ],
+  [
+    "After · Clear hierarchy",
+    "後 · 明確な階層"
+  ],
+  [
+    "AI Optimize Layout",
+    "AI レイアウト最適化"
+  ],
+  [
+    "AI analyzed content weight of 6 components and auto-optimized layout hierarchy",
+    "AI が 6 コンポーネントのコンテンツ比重を分析し、レイアウト階層を自動最適化"
+  ],
+  [
+    "Microkernel Plugin Architecture",
+    "マイクロカーネルプラグインアーキテクチャ"
+  ],
+  [
+    "Meet Every Visualization Need",
+    "あらゆる可視化ニーズに対応"
+  ],
+  [
+    "Unlike monolithic traditional BI tools, DataLuminary is a microkernel plugin platform — panel, chart, and data source plugin ecosystems make every visualization need achievable",
+    "モノリシックな従来 BI ツールと異なり、DataLuminary はマイクロカーネルプラグインプラットフォーム — パネル、グラフ、データソースのプラグインエコシステムであらゆる可視化ニーズを実現"
+  ],
+  [
+    "Microkernel",
+    "Microkernel"
+  ],
+  [
+    "Explore Plugin Ecosystem",
+    "プラグインエコシステムを探索"
+  ],
+  [
+    "Dashboard Layout Plugins",
+    "ダッシュボードレイアウトプラグイン"
+  ],
+  [
+    "Custom",
+    "カスタム"
+  ],
+  [
+    "grid-panel grid layout — react-grid-layout, PC reports preferred, import Grafana panels",
+    "grid-panel グリッドレイアウト — react-grid-layout、PC レポート向け、Grafana パネルをインポート"
+  ],
+  [
+    "position-panel free-form big screen — TMagic-based, pixel-level positioning for command centers",
+    "position-panel 自由配置ビッグスクリーン — TMagic ベース、コマンドセンター向けピクセル単位配置"
+  ],
+  [
+    "card-panel card view — reports, email, boards, and more",
+    "card-panel カードビュー — レポート、メール、ボードなど"
+  ],
+  [
+    "list-panel list layout — mobile-first, vertical card scrolling",
+    "list-panel リストレイアウト — モバイルファースト、縦スクロールカード"
+  ],
+  [
+    "+ Custom layout plugins — integrate via development SDK",
+    "+ カスタムレイアウトプラグイン — 開発 SDK で統合"
+  ],
+  [
+    "Headless BI Design",
+    "Headless BI 設計"
+  ],
+  [
+    "Chart plugins only render — data is uniformly supplied by the dataset layer, no direct data source connection",
+    "グラフプラグインはレンダリングのみ — データはデータセット層から統一供給、データソース直接接続なし"
+  ],
+  [
+    "Built-in: line · bar · area · pie · ring · scatter · radar · funnel",
+    "組み込み：折れ線 · 棒 · 面 · 円 · リング · 散布 · レーダー · ファネル"
+  ],
+  [
+    "Map · word cloud · metric card · table · rich text · liquid · heatmap · sankey · candlestick · graph...",
+    "地図 · ワードクラウド · メトリクスカード · テーブル · リッチテキスト · リキッド · ヒートマップ · サンキー · ローソク足 · グラフ..."
+  ],
+  [
+    "Switch chart libraries: ECharts / AntV / Highcharts — swap freely without affecting configuration",
+    "グラフライブラリ切替：ECharts / AntV / Highcharts — 設定に影響なく自由に交換"
+  ],
+  [
+    "Three-Stage Plugin Protocol (Grafana-inspired)",
+    "3 段階プラグインプロトコル（Grafana インスパイア）"
+  ],
+  [
+    "ConfigPanel data source config · QueryPanel query config · VariablePanel variable query",
+    "ConfigPanel データソース設定 · QueryPanel クエリ設定 · VariablePanel 変数クエリ"
+  ],
+  [
+    "Relational: MySQL · PostgreSQL · SQL Server · ClickHouse",
+    "リレーショナル：MySQL · PostgreSQL · SQL Server · ClickHouse"
+  ],
+  [
+    "Document: MongoDB · Elasticsearch | Files: Excel · CSV · JSON",
+    "ドキュメント：MongoDB · Elasticsearch | ファイル：Excel · CSV · JSON"
+  ],
+  [
+    "APIs: RESTful API · GraphQL | + Plugin SDK for any custom data source",
+    "API：RESTful API · GraphQL | + 任意のカスタムデータソース用 Plugin SDK"
+  ],
+  [
+    "Core Pipeline",
+    "コアパイプライン"
+  ],
+  [
+    "From Data to Decisions",
+    "データから意思決定へ"
+  ],
+  [
+    "Data Source → Dataset → Chart → Dashboard — data flows through the pipeline, every stage is plugin-extensible",
+    "データソース → データセット → グラフ → ダッシュボード — データがパイプラインを流れ、各段階がプラグイン拡張可能"
+  ],
+  [
+    "Headless BI Design:",
+    "Headless BI 設計："
+  ],
+  [
+    "Data Source",
+    "データソース"
+  ],
+  [
+    "Multi-source ingestion, unified management",
+    "マルチソース取り込み、統合管理"
+  ],
+  [
+    "Data source plugin list",
+    "データソースプラグイン一覧"
+  ],
+  [
+    "Connection test",
+    "接続テスト"
+  ],
+  [
+    "QueryPanel preview",
+    "QueryPanel プレビュー"
+  ],
+  [
+    "Dataset",
+    "データセット"
+  ],
+  [
+    "Dataset · Headless BI Core",
+    "Dataset · Headless BI コア"
+  ],
+  [
+    "Metric/dimension modeling, data cleansing",
+    "メトリクス/ディメンション モデリング、データクレンジング"
+  ],
+  [
+    "Configure metric / dimension fields",
+    "メトリクス / ディメンションフィールドを設定"
+  ],
+  [
+    "Multi-table Join",
+    "マルチテーブル JOIN"
+  ],
+  [
+    "Calculated fields and data cleansing",
+    "計算フィールドとデータクレンジング"
+  ],
+  [
+    "AI-assisted cleansing (coming soon)",
+    "AI アシストクレンジング（近日公開）"
+  ],
+  [
+    "Chart",
+    "グラフ"
+  ],
+  [
+    "NoCode charting, drag and get results",
+    "NoCode グラフ作成、ドラッグするだけで結果取得"
+  ],
+  [
+    "Select chart type (plugin-based)",
+    "グラフタイプを選択（プラグインベース）"
+  ],
+  [
+    "Drag fields to X-axis/Y-axis/series",
+    "フィールドを X 軸/Y 軸/系列にドラッグ"
+  ],
+  [
+    "AI recommends best chart type",
+    "AI が最適なグラフタイプを推薦"
+  ],
+  [
+    "Live preview",
+    "ライブプレビュー"
+  ],
+  [
+    "Dashboard",
+    "ダッシュボード"
+  ],
+  [
+    "Multi-endpoint, multi-layout, flexible orchestration",
+    "マルチエンドポイント、マルチレイアウト、柔軟なオーケストレーション"
+  ],
+  [
+    "Grid / Position / Card / List — four layouts",
+    "Grid / Position / Card / List — 4 レイアウト"
+  ],
+  [
+    "Chart linkage, filters",
+    "グラフ連動、フィルター"
+  ],
+  [
+    "Version management, access control",
+    "バージョン管理、アクセス制御"
+  ],
+  [
+    "AI one-click layout optimization",
+    "AI ワンクリックレイアウト最適化"
+  ],
+  [
+    "Veteran Team, Battle-Tested",
+    "ベテランチーム、実戦検証済み"
+  ],
+  [
+    "Core Team: Years of Enterprise Data Visualization Platform Experience",
+    "コアチーム：エンタープライズ データ可視化プラットフォームの長年の経験"
+  ],
+  [
+    "From Tencent to Ping An — deep expertise in enterprise BI and visualization platforms",
+    "Tencent から Ping An まで — エンタープライズ BI と可視化プラットフォームの深い専門性"
+  ],
+  [
+    "Having built enterprise BI platforms from 0 to 1 over many years, DataLuminary distills that experience into one product",
+    "長年にわたりエンタープライズ BI プラットフォームを 0 から 1 まで構築してきた経験を、DataLuminary が一つの製品に凝縮"
+  ],
+  [
+    "Tencent Game Experience Management Platform",
+    "Tencent ゲーム体験管理プラットフォーム"
+  ],
+  [
+    "Led Architecture Refactor",
+    "アーキテクチャリファクタリングを主導"
+  ],
+  [
+    "Covers data experience pipeline for all Tencent game products",
+    "Tencent 全ゲーム製品のデータ体験パイプラインをカバー"
+  ],
+  [
+    "Visualization Platform",
+    "可視化プラットフォーム"
+  ],
+  [
+    "Architecture Refactor",
+    "アーキテクチャリファクタリング"
+  ],
+  [
+    "Large-Scale Data",
+    "大規模データ"
+  ],
+  [
+    "BlueKing Universal Chart Platform",
+    "BlueKing 汎用グラフプラットフォーム"
+  ],
+  [
+    "Built from Scratch",
+    "ゼロから構築"
+  ],
+  [
+    "Core visualization component of Tencent Cloud operations system",
+    "Tencent Cloud 運用システムのコア可視化コンポーネント"
+  ],
+  [
+    "From Zero",
+    "ゼロから"
+  ],
+  [
+    "Chart Platform",
+    "グラフプラットフォーム"
+  ],
+  [
+    "Tencent Cloud Ops",
+    "Tencent Cloud 運用"
+  ],
+  [
+    "Ping An Smart City MaxView",
+    "Ping An Smart City MaxView"
+  ],
+  [
+    "Financial-grade enterprise and government data visualization platform",
+    "金融グレードのエンタープライズ・政府向けデータ可視化プラットフォーム"
+  ],
+  [
+    "Financial Grade",
+    "金融グレード"
+  ],
+  [
+    "Enterprise BI",
+    "エンタープライズ BI"
+  ],
+  [
+    "Ping An Technology StarCanvas",
+    "Ping An Technology StarCanvas"
+  ],
+  [
+    "Years of Continuous Iteration",
+    "長年の継続的イテレーション"
+  ],
+  [
+    "Commercial BI product with deep data visualization expertise",
+    "データ可視化の深い専門性を持つ商用 BI 製品"
+  ],
+  [
+    "Commercial Product",
+    "商用製品"
+  ],
+  [
+    "Long-Term Iteration",
+    "長期イテレーション"
+  ],
+  [
+    "BI in Production",
+    "本番 BI"
+  ],
+  [
+    "Full-Stack TS, Lightweight Launch",
+    "フルスタック TS、軽量起動"
+  ],
+  [
+    "In the AI era, TypeScript is a first-class citizen — unified stack, faster development, lighter deployment",
+    "AI 時代において TypeScript は第一級市民 — 統一スタック、高速開発、軽量デプロイ"
+  ],
+  [
+    "Why Full-Stack TypeScript",
+    "なぜフルスタック TypeScript か"
+  ],
+  [
+    "The Top Choice for the AI Era",
+    "AI 時代の最適解"
+  ],
+  [
+    "TypeScript is the language Copilot, Claude, and other AI tools understand best. Full-stack TS multiplies AI-assisted development — more accurate completions, safer refactors.",
+    "TypeScript は Copilot、Claude など AI ツールが最も理解する言語。フルスタック TS は AI アシスト開発を倍増 — より正確な補完、より安全なリファクタリング。"
+  ],
+  [
+    "Lower Team Hiring Costs",
+    "チーム採用コストの低減"
+  ],
+  [
+    "Unified frontend/backend stack — full-stack engineers can ship complete features independently. Rich TS talent pool dramatically lowers team expansion barriers.",
+    "フロントエンド/バックエンド統一スタック — フルスタックエンジニアが独立して完全な機能をリリース。豊富な TS 人材プールがチーム拡大の障壁を大幅に低減。"
+  ],
+  [
+    "Type Safety, Fearless Refactoring",
+    "型安全性、恐れないリファクタリング"
+  ],
+  [
+    "Strong typing spans frontend and backend — plugin interfaces and data contracts are type-guaranteed. Errors surface at compile time, not in production.",
+    "強力な型付けがフロントエンド/バックエンドを貫通 — プラグインインターフェースとデータ契約が型で保証。エラーは本番ではなくコンパイル時に検出。"
+  ],
+  [
+    "Lightweight Deployment, Simple Ops",
+    "軽量デプロイ、シンプルな運用"
+  ],
+  [
+    "One-click Docker Compose launch, PostgreSQL only. Skip Docker and use local DB. Full support for Windows / macOS / Linux.",
+    "Docker Compose ワンクリック起動、PostgreSQL のみ。Docker をスキップしてローカル DB も可。Windows / macOS / Linux 完全対応。"
+  ],
+  [
+    "Traditional BI Platform Comparison",
+    "従来 BI プラットフォームとの比較"
+  ],
+  [
+    "Complex installation, dozens of config items",
+    "複雑なインストール、数十の設定項目"
+  ],
+  [
+    "Mixed languages, frontend/backend siloed",
+    "言語混在、フロントエンド/バックエンド分離"
+  ],
+  [
+    "Dedicated ops team required",
+    "専任運用チームが必要"
+  ],
+  [
+    "DataLuminary: 3 commands · unified TS · automated bootstrap",
+    "DataLuminary：3 コマンド · 統一 TS · 自動ブートストラップ"
+  ],
+  [
+    "Infinite Entry Points, Ecosystem-Driven",
+    "無限のエントリーポイント、エコシステム駆動"
+  ],
+  [
+    "More Than a BI Tool — An Ecosystem-Driven Data Insight Platform",
+    "BI ツールを超えて — エコシステム駆動のデータインサイトプラットフォーム"
+  ],
+  [
+    "Covers traditional BI scenarios while leveraging the LuminaryWorks ecosystem to expand into blockchain, AI tasks, IoT, remote monitoring, and other new physical-world scenarios",
+    "従来 BI シナリオをカバーしつつ、LuminaryWorks エコシステムを活用してブロックチェーン、AI タスク、IoT、リモート監視など新たな物理世界シナリオへ拡張"
+  ],
+  [
+    "Covers All Traditional Data Analysis Scenarios",
+    "従来のデータ分析シナリオをすべてカバー"
+  ],
+  [
+    "Product, operations, and BI analysts can get started independently — from data ingestion to insight reports, full NoCode pipeline",
+    "プロダクト、オペレーション、BI アナリストが独立して開始 — データ取り込みからインサイトレポートまで、完全 NoCode パイプライン"
+  ],
+  [
+    "Data Insights · See",
+    "データインサイト · 見る"
+  ],
+  [
+    "Data Aggregation Hub",
+    "データ集約ハブ"
+  ],
+  [
+    "E-commerce Operations",
+    "E コマースオペレーション"
+  ],
+  [
+    "Gaming Analytics",
+    "ゲーム分析"
+  ],
+  [
+    "Financial Risk Control",
+    "金融リスク管理"
+  ],
+  [
+    "Manufacturing Lines",
+    "製造ライン"
+  ],
+  [
+    "Retail Analytics",
+    "小売分析"
+  ],
+  [
+    "Healthcare",
+    "ヘルスケア"
+  ],
+  [
+    "Education Assessment",
+    "教育評価"
+  ],
+  [
+    "Logistics Tracking",
+    "物流追跡"
+  ],
+  [
+    "Project Management",
+    "プロジェクト管理"
+  ],
+  [
+    "Connect",
+    "接続"
+  ],
+  [
+    "Open-source IoT PaaS platform",
+    "オープンソース IoT PaaS プラットフォーム"
+  ],
+  [
+    "Factory floor device status → real-time monitoring dashboard",
+    "工場フロアのデバイス状態 → リアルタイム監視ダッシュボード"
+  ],
+  [
+    "Control",
+    "制御"
+  ],
+  [
+    "WebRTC remote operations platform",
+    "WebRTC リモートオペレーションプラットフォーム"
+  ],
+  [
+    "Remote ops audit logs → security audit reports",
+    "リモートオペレーション監査ログ → セキュリティ監査レポート"
+  ],
+  [
+    "Earn",
+    "収益"
+  ],
+  [
+    "AI Agent on-chain marketplace",
+    "AI Agent オンチェーンマーケットプレイス"
+  ],
+  [
+    "Blockchain Agent revenue → performance analytics dashboard",
+    "Blockchain Agent 収益 → パフォーマンス分析ダッシュボード"
+  ],
+  [
+    "Learn",
+    "学習"
+  ],
+  [
+    "Visual programming + AI-assisted teaching",
+    "ビジュアルプログラミング + AI アシスト教育"
+  ],
+  [
+    "Learning data → teaching quality dashboard · nurture ecosystem developers",
+    "学習データ → 教育品質ダッシュボード · エコシステム開発者を育成"
+  ],
+  [
+    "Ecosystem Entry · Developer Incubator",
+    "エコシステム参入 · 開発者インキュベーター"
+  ],
+  [
+    "Traditional BI, Ready Out of the Box",
+    "従来 BI、すぐに使える"
+  ],
+  [
+    "E-commerce · gaming · finance · manufacturing — mainstream BI scenarios fully covered, no ecosystem required, fully usable on standalone deployment",
+    "E コマース · ゲーム · 金融 · 製造 — 主流 BI シナリオを完全カバー、エコシステム不要、スタンドアロンデプロイで完全利用可能"
+  ],
+  [
+    "New Physical Scenarios, Ecosystem Support",
+    "新たな物理シナリオ、エコシステム支援"
+  ],
+  [
+    "IoT · AI tasks · blockchain · remote monitoring — sibling product data flows directly for cross-domain insights",
+    "IoT · AI タスク · ブロックチェーン · リモート監視 — 兄弟製品データが直接流れ、クロスドメインインサイトを実現"
+  ],
+  [
+    "Education Platform, Developer Ecosystem",
+    "教育プラットフォーム、開発者エコシステム"
+  ],
+  [
+    "VibeEdu visual programming + AI teaching assistance — more developers learn and contribute plugins, continuously expanding the ecosystem",
+    "VibeEdu ビジュアルプログラミング + AI 教育支援 — より多くの開発者が学びプラグインを貢献、エコシステムを継続拡大"
+  ],
+  [
+    "LuminaryWorks/identity unified OIDC login · LuminaryWorks/shared component library · one account across all products",
+    "LuminaryWorks/identity 統一 OIDC ログイン · LuminaryWorks/shared コンポーネントライブラリ · 全製品で一アカウント"
+  ],
+  [
+    "Why Choose DataLuminary",
+    "なぜ DataLuminary か"
+  ],
+  [
+    "Full Comparison at a Glance",
+    "一覧で完全比較"
+  ],
+  [
+    "Feature",
+    "機能"
+  ],
+  [
+    "Traditional BI Tools",
+    "従来 BI ツール"
+  ],
+  [
+    "Closed-Source SaaS",
+    "クローズドソース SaaS"
+  ],
+  [
+    "End-to-End AI",
+    "エンドツーエンド AI"
+  ],
+  [
+    "Charting/cleansing/layout/reports",
+    "グラフ/クレンジング/レイアウト/レポート"
+  ],
+  [
+    "None or very limited",
+    "なしまたは非常に限定的"
+  ],
+  [
+    "Paid unlock",
+    "有料アンロック"
+  ],
+  [
+    "Plugin Architecture",
+    "プラグインアーキテクチャ"
+  ],
+  [
+    "Microkernel, three-layer plugin ecosystem",
+    "マイクロカーネル、3 層プラグインエコシステム"
+  ],
+  [
+    "Monolithic",
+    "モノリシック"
+  ],
+  [
+    "Closed ecosystem",
+    "クローズドエコシステム"
+  ],
+  [
+    "Dashboard Layouts",
+    "ダッシュボードレイアウト"
+  ],
+  [
+    "Big screen/report/mobile/board",
+    "ビッグスクリーン/レポート/モバイル/ボード"
+  ],
+  [
+    "1-2 fixed types",
+    "1〜2 固定タイプ"
+  ],
+  [
+    "Limited",
+    "限定"
+  ],
+  [
+    "LessCode / NoCode",
+    "LessCode / NoCode"
+  ],
+  [
+    "Full drag-and-drop pipeline",
+    "フルドラッグ＆ドロップ パイプライン"
+  ],
+  [
+    "Partial support",
+    "部分対応"
+  ],
+  [
+    "Supported",
+    "対応"
+  ],
+  [
+    "Unified frontend/backend",
+    "フロントエンド/バックエンド統一"
+  ],
+  [
+    "Mixed languages",
+    "言語混在"
+  ],
+  [
+    "Not visible",
+    "非公開"
+  ],
+  [
+    "Deployment Complexity",
+    "デプロイの複雑さ"
+  ],
+  [
+    "3 commands, 5 minutes",
+    "3 コマンド、5 分"
+  ],
+  [
+    "Complex install",
+    "複雑なインストール"
+  ],
+  [
+    "N/A cloud service",
+    "N/A クラウドサービス"
+  ],
+  [
+    "Fully private",
+    "完全プライベート"
+  ],
+  [
+    "Extra cost",
+    "追加コスト"
+  ],
+  [
+    "Data Security",
+    "データセキュリティ"
+  ],
+  [
+    "Data stays on-premises",
+    "データはオンプレミスに保持"
+  ],
+  [
+    "Can be private",
+    "プライベート可能"
+  ],
+  [
+    "Data in cloud",
+    "クラウド上のデータ"
+  ],
+  [
+    "Customization",
+    "カスタマイズ"
+  ],
+  [
+    "Plugin SDK, type-safe",
+    "Plugin SDK、型安全"
+  ],
+  [
+    "Steep learning curve",
+    "学習曲線が急"
+  ],
+  [
+    "Not supported",
+    "非対応"
+  ],
+  [
+    "Open Source License",
+    "オープンソースライセンス"
+  ],
+  [
+    "MIT open source",
+    "MIT オープンソース"
+  ],
+  [
+    "Partially open",
+    "部分オープン"
+  ],
+  [
+    "Closed source",
+    "クローズドソース"
+  ],
+  [
+    "Ecosystem Integration",
+    "エコシステム統合"
+  ],
+  [
+    "Five-product AI ecosystem",
+    "5 製品 AI エコシステム"
+  ],
+  [
+    "Standalone product",
+    "スタンドアロン製品"
+  ],
+  [
+    "Limited integration",
+    "統合限定"
+  ],
+  [
+    "Cost",
+    "コスト"
+  ],
+  [
+    "Free",
+    "無料"
+  ],
+  [
+    "Enterprise edition fees",
+    "エンタープライズ版料金"
+  ],
+  [
+    "Usage-based billing",
+    "従量課金"
+  ],
+  [
+    "Use Cases",
+    "ユースケース"
+  ],
+  [
+    "Data Insights for Every Industry",
+    "あらゆる業界のデータインサイト"
+  ],
+  [
+    "Business Operations",
+    "ビジネスオペレーション"
+  ],
+  [
+    "Sales dashboards, KPI boards, channel analysis reports",
+    "売上ダッシュボード、KPI ボード、チャネル分析レポート"
+  ],
+  [
+    "Operations",
+    "オペレーション"
+  ],
+  [
+    "Manufacturing Monitoring",
+    "製造監視"
+  ],
+  [
+    "IoT device dashboards, production line analytics, energy monitoring",
+    "IoT デバイスダッシュボード、生産ライン分析、エネルギー監視"
+  ],
+  [
+    "IT",
+    "IT"
+  ],
+  [
+    "Financial Compliance",
+    "金融コンプライアンス"
+  ],
+  [
+    "Risk reports, transaction analysis, audit trail dashboards",
+    "リスクレポート、取引分析、監査証跡ダッシュボード"
+  ],
+  [
+    "Product",
+    "プロダクト"
+  ],
+  [
+    "E-commerce & Retail",
+    "E コマース＆小売"
+  ],
+  [
+    "User profiles, product analytics, logistics monitoring",
+    "ユーザープロファイル、プロダクト分析、物流監視"
+  ],
+  [
+    "Patient data analytics, medical resource scheduling dashboards",
+    "患者データ分析、医療リソーススケジューリングダッシュボード"
+  ],
+  [
+    "Education & Training",
+    "教育＆トレーニング"
+  ],
+  [
+    "Learning behavior analysis, teaching quality assessment reports",
+    "学習行動分析、教育品質評価レポート"
+  ],
+  [
+    "Open Source Collaboration",
+    "オープンソースコラボレーション"
+  ],
+  [
+    "Building the AI Data Insight Ecosystem Together",
+    "AI データインサイトエコシステムを共に構築"
+  ],
+  [
+    "DataLuminary is plugin-based — the entire platform is fully open to the community. Data sources, chart libraries, layout engines — extend capabilities at any layer",
+    "DataLuminary はプラグインベース — プラットフォーム全体がコミュニティに完全開放。データソース、グラフライブラリ、レイアウトエンジン — あらゆる層で機能を拡張"
+  ],
+  [
+    "Data Source Plugin Layer",
+    "データソースプラグイン層"
+  ],
+  [
+    "Direct connection at small scale, ClickHouse integration for billion-row data",
+    "小規模は直接接続、数十億行データは ClickHouse 統合"
+  ],
+  [
+    "Core data capabilities: MySQL · PostgreSQL · MongoDB · Excel · CSV · API",
+    "コアデータ機能：MySQL · PostgreSQL · MongoDB · Excel · CSV · API"
+  ],
+  [
+    "Small scale (millions) → direct PostgreSQL, zero extra cost",
+    "小規模（数百万）→ 直接 PostgreSQL、追加コストゼロ"
+  ],
+  [
+    "Tens/hundreds of millions → ClickHouse integration, second-level aggregation, config unchanged",
+    "数千万〜数億 → ClickHouse 統合、秒級集計、設定変更なし"
+  ],
+  [
+    "Users choose their own foundation — no forced database binding",
+    "ユーザーが基盤を選択 — データベース強制バインドなし"
+  ],
+  [
+    "Three-stage plugin protocol, interoperable with Grafana data source ecosystem",
+    "3 段階プラグインプロトコル、Grafana データソースエコシステムと相互運用"
+  ],
+  [
+    "Contribute Data Source Plugins",
+    "データソースプラグインに貢献"
+  ],
+  [
+    "Chart Plugin Layer",
+    "グラフプラグイン層"
+  ],
+  [
+    "No chart library limits, semantic smart recommendations",
+    "グラフライブラリ制限なし、セマンティック スマート推薦"
+  ],
+  [
+    "Built-in (AntV G2): line · bar · pie · scatter · radar · sankey...",
+    "組み込み（AntV G2）：折れ線 · 棒 · 円 · 散布 · レーダー · サンキー..."
+  ],
+  [
+    "Semantic recommendations (Alibaba AVA): data decides the chart, not user guesswork",
+    "セマンティック推薦（Alibaba AVA）：データがグラフを決定、推測不要"
+  ],
+  [
+    "Headless BI: switch ECharts / AntV / Highcharts freely without affecting config",
+    "Headless BI：ECharts / AntV / Highcharts を設定に影響なく自由切替"
+  ],
+  [
+    "Any third-party chart library can be wrapped as a chart plugin",
+    "任意のサードパーティグラフライブラリをグラフプラグインとしてラップ可能"
+  ],
+  [
+    "Contribute Chart Plugins",
+    "グラフプラグインに貢献"
+  ],
+  [
+    "Panel Layout Plugin Layer",
+    "パネルレイアウトプラグイン層"
+  ],
+  [
+    "Multi-scenario layouts for every display need",
+    "あらゆる表示ニーズに対応するマルチシナリオレイアウト"
+  ],
+  [
+    "grid-panel → grid drag, PC analysis reports preferred, import Grafana panels",
+    "grid-panel → グリッドドラッグ、PC 分析レポート向け、Grafana パネルをインポート"
+  ],
+  [
+    "position-panel → pixel-level free positioning (TMagic), big screens/command centers",
+    "position-panel → ピクセル単位自由配置（TMagic）、ビッグスクリーン/コマンドセンター"
+  ],
+  [
+    "card-panel → card view for reports, email, info boards",
+    "card-panel → レポート、メール、情報ボード向けカードビュー"
+  ],
+  [
+    "list-panel → vertical list, mobile-first",
+    "list-panel → 縦リスト、モバイルファースト"
+  ],
+  [
+    "Layout engine itself is a plugin — build and integrate your own engine",
+    "レイアウトエンジン自体がプラグイン — 独自エンジンを構築・統合"
+  ],
+  [
+    "Contribute Layout Plugins",
+    "レイアウトプラグインに貢献"
+  ],
+  [
+    "Import Packages On Demand",
+    "オンデマンドパッケージインポート"
+  ],
+  [
+    "Serverless Data Processing",
+    "Serverless データ処理"
+  ],
+  [
+    "Functional Business Logic",
+    "関数型ビジネスロジック"
+  ],
+  [
+    "Lerna Package Management",
+    "Lerna パッケージ管理"
+  ],
+  [
+    "All plugins, components, and functions managed by Lerna — independent versions, releases, and imports",
+    "すべてのプラグイン、コンポーネント、関数を Lerna で管理 — 独立バージョン、リリース、インポート"
+  ],
+  [
+    "Functional Data Processing",
+    "関数型データ処理"
+  ],
+  [
+    "Cleansing, transformation, and aggregation logic as pure functions — composable, testable, reusable",
+    "クレンジング、変換、集計ロジックを純関数として — 合成可能、テスト可能、再利用可能"
+  ],
+  [
+    "Serverless-Ready Granularity",
+    "Serverless 対応粒度"
+  ],
+  [
+    "Core processing logic is stateless — deploy directly as Serverless / Edge functions, compute on demand",
+    "コア処理ロジックはステートレス — Serverless / Edge 関数として直接デプロイ、オンデマンド計算"
+  ],
+  [
+    "User-Chosen Foundation",
+    "ユーザー選択基盤"
+  ],
+  [
+    "No forced database binding — direct PG at small scale, ClickHouse for billion-row data",
+    "データベース強制バインドなし — 小規模は直接 PG、数十億行は ClickHouse"
+  ],
+  [
+    "Star on GitHub",
+    "GitHub で Star"
+  ],
+  [
+    "Open source and free for commercial use",
+    "オープンソース、商用利用無料"
+  ],
+  [
+    "Complete Documentation",
+    "完全ドキュメント"
+  ],
+  [
+    "User guide · plugin development · API docs",
+    "ユーザーガイド · プラグイン開発 · API ドキュメント"
+  ],
+  [
+    "Active Community",
+    "アクティブコミュニティ"
+  ],
+  [
+    "GitHub Discussions · Discord",
+    "GitHub Discussions · Discord"
+  ],
+  [
+    "Contributor-Friendly",
+    "コントリビューターフレンドリー"
+  ],
+  [
+    "Detailed contribution guide, full CI/CD support",
+    "詳細な貢献ガイド、完全 CI/CD サポート"
+  ],
+  [
+    "Every line of plugin code is a step forward in AI data insight, driven by the community.",
+    "プラグインコードの一行一行が、コミュニティ主導の AI データインサイト前進の一歩。"
+  ],
+  [
+    "Deploy in 5 Minutes — Experience AI-Native Data Insights Now",
+    "5 分でデプロイ — AIネイティブ データインサイトを今すぐ体験"
+  ],
+  [
+    "Open source & free · No credit card · Private deployment · MIT License",
+    "オープンソース＆無料 · クレジットカード不要 · プライベートデプロイ · MIT ライセンス"
+  ],
+  [
+    "Deploy Locally for Free",
+    "無料でローカルデプロイ"
+  ],
+  [
+    "View Documentation",
+    "ドキュメントを見る"
+  ],
+  [
+    "Enter email to subscribe to product updates",
+    "製品アップデートを購読するメールアドレスを入力"
+  ],
+  [
+    "Email address",
+    "メールアドレス"
+  ],
+  [
+    "Subscribe",
+    "購読"
+  ],
+  [
+    "No spam, unsubscribe anytime",
+    "スパムなし、いつでも配信停止"
+  ],
+  [
+    "Adopted by 500+ enterprises and developers",
+    "500 社以上の企業と開発者に採用"
+  ],
+  [
+    "4.9/5 community rating",
+    "コミュニティ評価 4.9/5"
+  ],
+  [
+    "Open-source, plugin-based, AI-native data visualization BI platform. Insights within reach.",
+    "オープンソース・プラグインベース・AIネイティブ データ可視化 BI プラットフォーム。インサイトを手の届くところに。"
+  ],
+  [
+    "Social links",
+    "ソーシャルリンク"
+  ],
+  [
+    "Plugin Marketplace",
+    "プラグインマーケットプレイス"
+  ],
+  [
+    "Changelog",
+    "変更履歴"
+  ],
+  [
+    "Roadmap",
+    "ロードマップ"
+  ],
+  [
+    "Developers",
+    "開発者"
+  ],
+  [
+    "Plugin Development Guide",
+    "プラグイン開発ガイド"
+  ],
+  [
+    "API Docs",
+    "API ドキュメント"
+  ],
+  [
+    "Contribution Guide",
+    "貢献ガイド"
+  ],
+  [
+    "Ecosystem",
+    "エコシステム"
+  ],
+  [
+    "Legal",
+    "法的情報"
+  ],
+  [
+    "Privacy Policy",
+    "プライバシーポリシー"
+  ],
+  [
+    "Security Disclosure",
+    "セキュリティ開示"
+  ],
+  [
+    "© 2024–2026 LuminaryWorks. Built with TypeScript.",
+    "© 2024–2026 LuminaryWorks. Built with TypeScript."
+  ]
+]
