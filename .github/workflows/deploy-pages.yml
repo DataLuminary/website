@@ -51,17 +51,17 @@ jobs:
           command: pages deploy out --project-name=dataluminary-website --branch=main --commit-dirty=true
 
       - name: Bind custom domains
-        uses: cloudflare/wrangler-action@v3
         continue-on-error: true
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages project add-domain dataluminary-website dataluminary.dev
-
-      - name: Bind www subdomain
-        uses: cloudflare/wrangler-action@v3
-        continue-on-error: true
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages project add-domain dataluminary-website www.dataluminary.dev
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          for domain in dataluminary.dev www.dataluminary.dev; do
+            echo "Binding ${domain}..."
+            curl -sS -X POST \
+              "https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/pages/projects/dataluminary-website/domains" \
+              -H "Authorization: Bearer ${CLOUDFLARE_API_TOKEN}" \
+              -H "Content-Type: application/json" \
+              --data "{\"name\":\"${domain}\"}"
+            echo
+          done
