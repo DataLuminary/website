@@ -9,7 +9,7 @@
     "clean": "node -e \"try{require('fs').rmSync('.next',{recursive:true,force:true,maxRetries:3,retryDelay:200})}catch(e){console.error('Stop dev server first, then: pnpm run clean');process.exit(1)}\"",
     "dev": "next dev -p 13119",
     "dev:clean": "pnpm run clean && pnpm run strip-bom && pnpm run dev",
-    "build": "next build && node scripts/postbuild-static.mjs",
+    "build": "node scripts/build.mjs",
     "start": "next start",
     "lint": "eslint ."
   },
