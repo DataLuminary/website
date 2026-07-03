@@ -4,7 +4,7 @@ import { GitBranch, ArrowUpRight } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 import { Logo } from './logo'
 
-type EcoKey = 'blockyedu' | 'syncrobrain' | 'vistacast' | 'vistaremote'
+type EcoKey = 'blockyedu' | 'syncrobrain' | 'vistacast' | 'vistaremote' | 'doerflow'
 
 type EcoProduct = {
   key: EcoKey
@@ -41,6 +41,13 @@ const products: EcoProduct[] = [
     logo: '/ecosystem/vistaremote.svg',
     site: { label: 'remote.vistacast.dev', href: 'https://remote.vistacast.dev' },
     github: 'https://github.com/VistaRemote',
+  },
+  {
+    key: 'doerflow',
+    name: 'DoerFlow',
+    logo: '/ecosystem/doerflow.svg',
+    site: { label: 'doerflow.dev', href: 'https://doerflow.dev' },
+    github: 'https://github.com/doerflow',
   },
 ]
 

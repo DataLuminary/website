@@ -31,7 +31,7 @@
     "closeMenu": "メニューを閉じる"
   },
   "hero": {
-    "badge": "LuminaryWorks AI エコシステム · オープンソース MIT ライセンス",
+    "badge": "LuminaryWorks AI エコシステム · オープンソース Polyform Noncommercial ライセンス",
     "title": "インサイトを手の届くところに",
     "tagline": "Illuminate insights for all",
     "values": [
@@ -661,7 +661,7 @@
         "feature": "オープンソースライセンス",
         "dl": {
           "type": "yes",
-          "note": "MIT オープンソース"
+          "note": "Polyform Noncommercial オープンソース"
         },
         "trad": {
           "type": "warn",
@@ -833,7 +833,7 @@
   },
   "footerCta": {
     "title": "5 分でデプロイ — AIネイティブ データインサイトを今すぐ体験",
-    "subtitle": "オープンソース＆無料 · クレジットカード不要 · プライベートデプロイ · MIT ライセンス",
+    "subtitle": "オープンソース＆無料 · クレジットカード不要 · プライベートデプロイ · Polyform Noncommercial ライセンス",
     "deploy": "無料でローカルデプロイ",
     "docs": "ドキュメントを見る",
     "github": "GitHub",
@@ -878,7 +878,7 @@
       {
         "title": "法的情報",
         "links": [
-          "MIT License",
+          "Polyform Noncommercial License",
           "プライバシーポリシー",
           "セキュリティ開示"
         ]

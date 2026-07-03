@@ -661,7 +661,7 @@
         "feature": "Licencia de código abierto",
         "dl": {
           "type": "yes",
-          "note": "Código abierto MIT"
+          "note": "Código abierto Polyform Noncommercial"
         },
         "trad": {
           "type": "warn",
@@ -878,7 +878,7 @@
       {
         "title": "Legal",
         "links": [
-          "MIT License",
+          "Polyform Noncommercial License",
           "Política de privacidad",
           "Divulgación de seguridad"
         ]

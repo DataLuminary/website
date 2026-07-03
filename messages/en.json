@@ -31,7 +31,7 @@
     "closeMenu": "Close menu"
   },
   "hero": {
-    "badge": "LuminaryWorks AI Ecosystem · Open Source MIT License",
+    "badge": "LuminaryWorks AI Ecosystem · Open Source Polyform Noncommercial License",
     "title": "Insights Within Reach",
     "tagline": "Illuminate insights for all",
     "values": [
@@ -661,7 +661,7 @@
         "feature": "Open Source License",
         "dl": {
           "type": "yes",
-          "note": "MIT open source"
+          "note": "Polyform Noncommercial open source"
         },
         "trad": {
           "type": "warn",
@@ -833,7 +833,7 @@
   },
   "footerCta": {
     "title": "Deploy in 5 Minutes — Experience AI-Native Data Insights Now",
-    "subtitle": "Open source & free · No credit card · Private deployment · MIT License",
+    "subtitle": "Open source & free · No credit card · Private deployment · Polyform Noncommercial License",
     "deploy": "Deploy Locally for Free",
     "docs": "View Documentation",
     "github": "GitHub",
@@ -878,7 +878,7 @@
       {
         "title": "Legal",
         "links": [
-          "MIT License",
+          "Polyform Noncommercial License",
           "Privacy Policy",
           "Security Disclosure"
         ]

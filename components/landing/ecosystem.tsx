@@ -6,8 +6,8 @@ import {
   GraduationCap,
   Radio,
   Coins,
-  GraduationCap as GradIcon,
   Monitor,
+  Video,
   ShoppingCart,
   Gamepad2,
   Landmark,
@@ -35,8 +35,8 @@ const industryIcons = [
   ClipboardList,
 ] as const
 
-const nodeIcons = [Radio, Monitor, Coins, GradIcon] as const
-const nodeAccents = ['text-emerald', 'text-cyan', 'text-violet', 'text-amber'] as const
+const nodeIcons = [Radio, GraduationCap, Video, Monitor, Coins] as const
+const nodeAccents = ['text-emerald', 'text-amber', 'text-rose', 'text-cyan', 'text-violet'] as const
 
 const valueIcons = [BarChart3, Network, GraduationCap] as const
 
@@ -46,6 +46,7 @@ type EcosystemNode = {
   role: string
   desc: string
   scenario: string
+  href?: string
   badge?: string
 }
 type ValueCard = { title: string; body: string }
@@ -119,7 +120,20 @@ export function Ecosystem() {
                       </span>
                       <span className={cn('text-xs font-bold', nodeAccents[i])}>{n.role}</span>
                     </div>
-                    <p className="mt-3 text-sm font-semibold text-foreground">{n.name}</p>
+                    <p className="mt-3 text-sm font-semibold text-foreground">
+                      {n.href ? (
+                        <a
+                          href={n.href}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="transition-colors hover:text-cyan"
+                        >
+                          {n.name}
+                        </a>
+                      ) : (
+                        n.name
+                      )}
+                    </p>
                     <p className="text-xs text-muted-foreground">{n.desc}</p>
                     <p className="mt-2 text-[11px] text-slate-400">→ {n.scenario}</p>
                     {n.badge && (

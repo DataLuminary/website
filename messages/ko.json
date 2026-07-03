@@ -31,7 +31,7 @@
     "closeMenu": "메뉴 닫기"
   },
   "hero": {
-    "badge": "LuminaryWorks AI 생태계 · 오픈소스 MIT 라이선스",
+    "badge": "LuminaryWorks AI 생태계 · 오픈소스 Polyform Noncommercial 라이선스",
     "title": "손끝의 인사이트",
     "tagline": "Illuminate insights for all",
     "values": [
@@ -661,7 +661,7 @@
         "feature": "오픈소스 라이선스",
         "dl": {
           "type": "yes",
-          "note": "MIT 오픈소스"
+          "note": "Polyform Noncommercial 오픈소스"
         },
         "trad": {
           "type": "warn",
@@ -833,7 +833,7 @@
   },
   "footerCta": {
     "title": "5분 배포 — AI 네이티브 데이터 인사이트를 지금 경험",
-    "subtitle": "오픈소스 & 무료 · 신용카드 불필요 · 프라이빗 배포 · MIT 라이선스",
+    "subtitle": "오픈소스 & 무료 · 신용카드 불필요 · 프라이빗 배포 · Polyform Noncommercial 라이선스",
     "deploy": "무료 로컬 배포",
     "docs": "문서 보기",
     "github": "GitHub",
@@ -878,7 +878,7 @@
       {
         "title": "법률",
         "links": [
-          "MIT License",
+          "Polyform Noncommercial License",
           "개인정보 처리방침",
           "보안 공개"
         ]

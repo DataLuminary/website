@@ -31,7 +31,7 @@
     "closeMenu": "Fechar menu"
   },
   "hero": {
-    "badge": "Ecossistema IA LuminaryWorks · Licença MIT open source",
+    "badge": "Ecossistema IA LuminaryWorks · Licença Polyform Noncommercial open source",
     "title": "Insights ao alcance",
     "tagline": "Illuminate insights for all",
     "values": [
@@ -661,7 +661,7 @@
         "feature": "Licença open source",
         "dl": {
           "type": "yes",
-          "note": "Open source MIT"
+          "note": "Open source Polyform Noncommercial"
         },
         "trad": {
           "type": "warn",
@@ -878,7 +878,7 @@
       {
         "title": "Legal",
         "links": [
-          "MIT License",
+          "Polyform Noncommercial License",
           "Política de privacidade",
           "Divulgação de segurança"
         ]

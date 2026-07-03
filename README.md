@@ -1,4 +1,4 @@
-# DataLuminary Website
+﻿# DataLuminary Website
 
 Official marketing site for [DataLuminary](https://dataluminary.dev), built with Next.js static export and deployed to Cloudflare Pages.
 
@@ -50,3 +50,7 @@ pnpm sync:brand
 ```
 
 然后提交 `website` 仓库中的 `public/` 变更。
+
+## License
+
+[Polyform Noncommercial License 1.0.0](LICENSE) (Polyform-NC). See DataLuminary meta repo for commercial licensing.
