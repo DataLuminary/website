@@ -175,7 +175,7 @@ function ReportDemo({ data }: { data: ReportDemoData }) {
           <p className="text-xs font-medium text-muted-foreground">
             {data.previewLabel}
           </p>
-          <div className="mt-3 grid grid-cols-4 gap-2">
+          <div className="mt-3 grid grid-cols-2 gap-2 sm:grid-cols-4">
             {data.metricLabels.map((k) => (
               <div key={k} className="rounded-lg bg-secondary p-2 text-center">
                 <p className="text-[10px] text-muted-foreground">{k}</p>
@@ -285,7 +285,7 @@ function CleanDemo({ data }: { data: CleanDemoData }) {
             {rows.map((r) => (
               <div
                 key={r.date}
-                className="grid grid-cols-3 gap-2 rounded-md px-2 py-1.5"
+                className="grid grid-cols-2 gap-2 rounded-md px-2 py-1.5 sm:grid-cols-3"
               >
                 <span className={cn('rounded px-1', stateColor[r.state])}>
                   {r.date}
@@ -326,7 +326,7 @@ function LayoutDemo({ data }: { data: LayoutDemoData }) {
       left={
         <div className="rounded-xl border border-dashed border-border bg-background/40 p-4">
           <p className="text-xs text-muted-foreground">{data.beforeLabel}</p>
-          <div className="mt-3 grid grid-cols-3 gap-2">
+          <div className="mt-3 grid grid-cols-2 gap-2 sm:grid-cols-3">
             <div className="col-span-2 h-10 rounded bg-secondary" />
             <div className="h-16 rounded bg-secondary" />
             <div className="h-12 rounded bg-secondary" />
@@ -341,7 +341,7 @@ function LayoutDemo({ data }: { data: LayoutDemoData }) {
         <div className="rounded-xl border border-violet/30 bg-background/40 p-4">
           <p className="text-xs text-violet">{data.afterLabel}</p>
           <div className="mt-3 space-y-2">
-            <div className="grid grid-cols-4 gap-2">
+            <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
               {[0, 1, 2, 3].map((i) => (
                 <div key={i} className="h-8 rounded bg-secondary" />
               ))}

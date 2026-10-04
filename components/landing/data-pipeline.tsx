@@ -45,9 +45,19 @@ export function DataPipeline() {
                   </p>
                   <p className="text-xs text-muted-foreground">{s.en}</p>
                   <p className="mt-2 text-sm text-slate-300">{s.desc}</p>
+
+                  {/* Mobile / PAD: always-visible details */}
+                  <ul className="mt-4 w-full space-y-1.5 border-t border-border pt-4 text-left lg:hidden">
+                    {s.popup.map((p) => (
+                      <li key={p} className="text-xs text-slate-300">
+                        · {p}
+                      </li>
+                    ))}
+                  </ul>
                 </div>
 
-                <div className="pointer-events-none absolute left-1/2 z-40 w-64 -translate-x-1/2 rounded-xl border border-border bg-popover p-4 text-left opacity-0 shadow-2xl transition-opacity duration-200 group-hover:opacity-100 max-lg:top-full max-lg:mt-3 lg:bottom-full lg:mb-3 lg:top-auto">
+                {/* Desktop: hover popup */}
+                <div className="pointer-events-none absolute bottom-full left-1/2 z-40 mb-3 hidden w-64 -translate-x-1/2 rounded-xl border border-border bg-popover p-4 text-left opacity-0 shadow-2xl transition-opacity duration-200 group-hover:opacity-100 lg:block">
                   <ul className="space-y-1.5">
                     {s.popup.map((p) => (
                       <li key={p} className="text-xs text-slate-300">

@@ -150,9 +150,9 @@ function HeroCard({
           <span className="h-3 w-3 rounded-full bg-rose-400/80" />
           <span className="h-3 w-3 rounded-full bg-amber/80" />
           <span className="h-3 w-3 rounded-full bg-emerald/80" />
-          <div className="ml-3 flex items-center gap-1.5 rounded-md border border-border bg-background/60 px-2.5 py-1 text-[11px] text-muted-foreground">
-            <Lock className="h-3 w-3" />
-            app.dataluminary.dev/dashboard
+          <div className="ml-3 flex min-w-0 flex-1 items-center gap-1.5 rounded-md border border-border bg-background/60 px-2.5 py-1 text-[11px] text-muted-foreground">
+            <Lock className="h-3 w-3 shrink-0" />
+            <span className="truncate">app.dataluminary.dev/dashboard</span>
           </div>
         </div>
 

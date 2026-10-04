@@ -34,7 +34,50 @@ export function Comparison() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeading eyebrow={t('eyebrow')} title={t('title')} />
 
-        <Reveal className="mt-12">
+        {/* Mobile / PAD: stacked cards */}
+        <Reveal className="mt-12 lg:hidden">
+          <div className="space-y-3">
+            {rows.map((row) => (
+              <article
+                key={row.feature}
+                className="rounded-2xl border border-border bg-card p-4 backdrop-blur-xl"
+              >
+                <h3 className="text-sm font-semibold text-foreground">
+                  {row.feature}
+                </h3>
+                <dl className="mt-3 space-y-2">
+                  <div className="flex items-start gap-3 rounded-xl border border-violet/30 bg-violet/5 px-3 py-2.5">
+                    <dt className="w-28 shrink-0 text-xs font-bold text-violet">
+                      {t('colDL')}
+                    </dt>
+                    <dd className="min-w-0 flex-1">
+                      <CellView cell={row.dl} />
+                    </dd>
+                  </div>
+                  <div className="flex items-start gap-3 rounded-xl border border-border bg-secondary/30 px-3 py-2.5">
+                    <dt className="w-28 shrink-0 text-xs font-semibold text-slate-300">
+                      {t('colTrad')}
+                    </dt>
+                    <dd className="min-w-0 flex-1">
+                      <CellView cell={row.trad} />
+                    </dd>
+                  </div>
+                  <div className="flex items-start gap-3 rounded-xl border border-border bg-secondary/30 px-3 py-2.5">
+                    <dt className="w-28 shrink-0 text-xs font-semibold text-slate-300">
+                      {t('colSaas')}
+                    </dt>
+                    <dd className="min-w-0 flex-1">
+                      <CellView cell={row.saas} />
+                    </dd>
+                  </div>
+                </dl>
+              </article>
+            ))}
+          </div>
+        </Reveal>
+
+        {/* Desktop: original table */}
+        <Reveal className="mt-12 hidden lg:block">
           <table className="w-full border-separate border-spacing-0 text-left">
             <thead>
               <tr>

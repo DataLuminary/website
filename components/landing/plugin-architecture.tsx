@@ -43,14 +43,14 @@ export function PluginArchitecture() {
         />
 
         <div className="mt-14 grid grid-cols-1 items-center gap-10 lg:grid-cols-2" {...pauseProps}>
-          <Reveal className="flex justify-center">
-            <div className="relative h-[340px] w-[340px] sm:h-[400px] sm:w-[400px]">
+          <Reveal className="flex w-full justify-center px-1">
+            <div className="relative aspect-square w-full max-w-[min(100%,340px)] sm:max-w-[400px]">
               {[1, 2, 3].map((r) => (
                 <div
                   key={r}
                   className="absolute inset-0 rounded-full border border-border"
                   style={{
-                    inset: `${r * 36}px`,
+                    inset: `${r * 10.5}%`,
                     animation: `spin-slow ${40 + r * 20}s linear infinite${r % 2 ? '' : ' reverse'}`,
                   }}
                 >
@@ -63,18 +63,19 @@ export function PluginArchitecture() {
                 </div>
               ))}
 
-              <div className="absolute left-1/2 top-1/2 flex h-28 w-28 -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center rounded-full bg-gradient-to-br from-violet to-cyan text-center shadow-[0_0_40px_-4px] shadow-violet/50">
-                <span className="font-heading text-sm font-bold text-white">
+              <div className="absolute left-1/2 top-1/2 flex h-24 w-24 -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center rounded-full bg-gradient-to-br from-violet to-cyan text-center shadow-[0_0_40px_-4px] shadow-violet/50 sm:h-28 sm:w-28">
+                <span className="font-heading text-xs font-bold text-white sm:text-sm">
                   DataLuminary
                 </span>
-                <span className="text-xs text-white/80">{t('microkernel')}</span>
+                <span className="text-[10px] text-white/80 sm:text-xs">{t('microkernel')}</span>
               </div>
 
               {orbits.map((o, i) => {
                 const angle = (i / orbits.length) * 2 * Math.PI - Math.PI / 2
-                const radius = 150
-                const x = Math.cos(angle) * radius
-                const y = Math.sin(angle) * radius
+                // Percentage of container size keeps nodes inside on narrow phones
+                const radiusPct = 37.5
+                const xPct = Math.cos(angle) * radiusPct
+                const yPct = Math.sin(angle) * radiusPct
                 const oa = accentMap[o.accent]
                 const on = active === o.id
                 return (
@@ -83,16 +84,18 @@ export function PluginArchitecture() {
                     type="button"
                     onClick={() => select(i)}
                     className={cn(
-                      'absolute left-1/2 top-1/2 flex h-20 w-20 flex-col items-center justify-center rounded-2xl border bg-card text-center backdrop-blur-xl transition-all',
+                      'absolute flex h-16 w-16 flex-col items-center justify-center rounded-2xl border bg-card text-center backdrop-blur-xl transition-all sm:h-20 sm:w-20',
                       on ? cn(oa.border, 'ring-2', oa.ring) : 'border-border',
                     )}
                     style={{
-                      transform: `translate(calc(-50% + ${x}px), calc(-50% + ${y}px))`,
+                      left: `calc(50% + ${xPct}%)`,
+                      top: `calc(50% + ${yPct}%)`,
+                      transform: 'translate(-50%, -50%)',
                     }}
                     aria-pressed={on}
                   >
-                    <o.icon className={cn('h-5 w-5', oa.text)} />
-                    <span className="mt-1 px-1 text-[10px] leading-tight text-slate-300">
+                    <o.icon className={cn('h-4 w-4 sm:h-5 sm:w-5', oa.text)} />
+                    <span className="mt-0.5 px-0.5 text-[9px] leading-tight text-slate-300 sm:mt-1 sm:px-1 sm:text-[10px]">
                       {o.title}
                     </span>
                   </button>
