@@ -4,12 +4,18 @@
     "description": "DataLuminary is an open-source, plugin-based, AI-native data visualization and BI platform built with full-stack TypeScript. End-to-end AI insights, microkernel plugin ecosystem, drag-and-drop NoCode configuration, and 5-minute Docker private deployment.",
     "keywords": [
       "DataLuminary",
-      "BI Platform",
-      "Data Visualization",
-      "AI Insights",
-      "Open Source BI",
-      "TypeScript",
-      "Plugin Architecture"
+      "open source BI",
+      "data visualization",
+      "AI-native BI",
+      "dashboard platform",
+      "large screen visualization",
+      "Headless BI",
+      "private deployment",
+      "plugin BI",
+      "TypeScript BI",
+      "Grafana alternative",
+      "self-hosted BI",
+      "business intelligence"
     ],
     "openGraph": {
       "title": "DataLuminary — Insights Within Reach",

@@ -4,12 +4,18 @@
     "description": "DataLuminary 是开源、插件化、AI 原生的数据可视化与 BI 平台，全栈 TypeScript 构建。AI 全链路洞察、微内核插件生态、拖拽 NoCode 配置、5 分钟 Docker 私有化部署。",
     "keywords": [
       "DataLuminary",
-      "BI 平台",
-      "数据可视化",
-      "AI 洞察",
       "开源 BI",
-      "TypeScript",
-      "插件化"
+      "数据可视化",
+      "AI 原生 BI",
+      "数据大屏",
+      "仪表盘",
+      "Headless BI",
+      "私有化部署",
+      "插件化 BI",
+      "TypeScript BI",
+      "Grafana 替代",
+      "DataEase 替代",
+      "开源商业智能"
     ],
     "openGraph": {
       "title": "DataLuminary — 让数据洞察触手可及",
