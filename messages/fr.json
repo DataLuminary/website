@@ -1,0 +1,915 @@
+{
+  "metadata": {
+    "title": "DataLuminary — Des informations à portée de main | Plateforme BI Open Source AI-Native",
+    "description": "DataLuminary est une plate-forme open source de visualisation de données et de BI, basée sur des plugins et native de l'IA, construite avec TypeScript full-stack. Informations sur l'IA de bout en bout, écosystème de plugins micro-noyau, configuration NoCode par glisser-déposer et déploiement privé Docker en 5 minutes.",
+    "keywords": [
+      "DataLuminary",
+      "BI open source",
+      "visualisation des données",
+      "BI native pour l'IA",
+      "plateforme de tableau de bord",
+      "visualisation sur grand écran",
+      "BI sans tête",
+      "déploiement privé",
+      "plugin BI",
+      "BI dactylographié",
+      "Alternative à Grafana",
+      "BI auto-hébergée",
+      "intelligence d'affaires"
+    ],
+    "openGraph": {
+      "title": "DataLuminary — Des informations à portée de main",
+      "description": "Plateforme de BI de visualisation de données open source, native d'IA, basée sur des plugins"
+    }
+  },
+  "nav": {
+    "links": {
+      "features": "Caractéristiques",
+      "plugins": "Plugins",
+      "ai": "IA",
+      "deploy": "Déployer",
+      "about": "À propos"
+    },
+    "login": "Se connecter",
+    "homeAria": "DataLuminary Accueil",
+    "toggleLang": "Changer de langue",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
+  },
+  "hero": {
+    "badge": "LuminaryWorks Écosystème IA · Licence non commerciale Open Source Polyform",
+    "title": "Des informations à portée de main",
+    "tagline": "Illuminez les informations pour tous",
+    "values": [
+      "IA de bout en bout : génération de rapports, graphiques, nettoyage des données et mise en page, l'IA vous assiste à chaque étape",
+      "Plugins Microkernel : sources de données, graphiques et présentations de tableaux de bord, tout est extensible",
+      "TypeScript full-stack : lancement avec Docker en 5 minutes, déploiement privé, aucune barrière à la personnalisation"
+    ],
+    "cta": "Essayez gratuitement",
+    "github": "GitHub",
+    "trust": [
+      {
+        "label": "Communauté Open Source"
+      },
+      {
+        "label": "Lancement de Docker en un clic"
+      },
+      {
+        "label": "TypeScript complet"
+      },
+      {
+        "label": "Déploiement privé"
+      }
+    ],
+    "card": {
+      "aiGenerating": "L'IA génère un rapport d'analyse",
+      "totalSales": "Ventes totales",
+      "anomalyTrend": "Tendances des anomalies",
+      "anomalyCount": "3",
+      "anomalyAlert": "3 tendances d'anomalies détectées · Est de la Chine T3 YoY ↓18%",
+      "statusChips": [
+        {
+          "label": "Nettoyage de l'IA"
+        },
+        {
+          "label": "Graphiques/rapports IA"
+        },
+        {
+          "label": "Glisser-déposer complet"
+        },
+        {
+          "label": "Basé sur un plugin"
+        }
+      ]
+    }
+  },
+  "coreAdvantages": {
+    "eyebrow": "Quatre différenciateurs fondamentaux",
+    "title": "Redéfinir la visualisation des données d'entreprise",
+    "subtitle": "IA de bout en bout · Plugins Microkernel · NoCode par glisser-déposer · TypeScript Full-Stack",
+    "cards": [
+      {
+        "headline": "Intelligence IA native de bout en bout",
+        "body": "Au-delà de la visualisation BI — DataLuminary intègre l'IA à chaque étape, des données aux décisions. L'IA vous guide à chaque étape de vos rapports.",
+        "chips": [
+          {
+            "label": "Rapports d'analyse générés par l'IA",
+            "desc": "Décrivez votre objectif d'analyse ; L'IA produit un rapport complet"
+          },
+          {
+            "label": "Cartographie assistée par l'IA",
+            "desc": "Recommandations de graphiques intelligents avec mappage automatique des champs"
+          },
+          {
+            "label": "Nettoyage des données IA",
+            "desc": "Détectez les valeurs nulles, les anomalies et les erreurs de format : corrigez-les en un seul clic"
+          },
+          {
+            "label": "Mise en page IA",
+            "desc": "Analysez la hiérarchie du contenu et organisez automatiquement la disposition des tableaux de bord"
+          }
+        ]
+      },
+      {
+        "headline": "Architecture micro-noyau, extensible à l'infini",
+        "body": "Les systèmes de plug-ins de panneaux, de graphiques et de sources de données forment le monde de visualisation de DataLuminary : il ne s'agit pas d'une liste de fonctionnalités fixe, mais d'un écosystème de plug-ins en constante croissance.",
+        "chips": [
+          {
+            "label": "Plugins de tableau de bord",
+            "desc": "Grands écrans de forme libre / rapports de grille PC / listes mobiles / tableaux de cartes"
+          },
+          {
+            "label": "Plugins de graphiques",
+            "desc": "ECharts · AntV · Highcharts — les contributions de la communauté s'empilent à l'infini"
+          },
+          {
+            "label": "Plugins de source de données",
+            "desc": "MySQL / PG / MongoDB / Excel / API — extension via personnalisé SDK"
+          },
+          {
+            "label": "Ouvrir SDK",
+            "desc": "JSON Contraintes de schéma, interopérables avec l'écosystème Grafana"
+          }
+        ]
+      },
+      {
+        "headline": "Configuration par glisser-déposer, aucun codage requis",
+        "body": "Les analystes produits, opérations et BI peuvent gérer indépendamment le nettoyage des données, la création de graphiques et la création de tableaux de bord. Les développeurs peuvent se plonger dans SQL et la configuration avancée en cas de besoin.",
+        "chips": [
+          {
+            "label": "Ensembles de données par glisser-déposer",
+            "desc": "Faites glisser les champs pour configurer les métriques/dimensions, les jointures multi-tables, les champs calculés"
+          },
+          {
+            "label": "Graphiques sans code",
+            "desc": "Choisissez le type de graphique, faites glisser les champs vers les axes, aperçu en direct, zéro code"
+          },
+          {
+            "label": "Disposition visuelle",
+            "desc": "Glissement sur la grille / positionnement libre, adaptation réactive"
+          },
+          {
+            "label": "Liens vers les graphiques et exploration vers le bas",
+            "desc": "Configurez visuellement les filtres et les liens – pas de code d'interaction"
+          }
+        ]
+      },
+      {
+        "headline": "TS Full-Stack, léger et rapide",
+        "body": "À l’ère de l’IA, TypeScript est un citoyen de premier ordre. Un full-stack unifié signifie des obstacles à l’embauche réduits, un développement assisté par l’IA plus rapide et une maintenance plus légère.",
+        "chips": [
+          {
+            "label": "Vivez en 5 minutes",
+            "desc": "Lancement de Docker Compose en un clic – déploiement en 3 commandes"
+          },
+          {
+            "label": "Embauche plus facile",
+            "desc": "Écosystème TS florissant – talents frontend et backend interchangeables"
+          },
+          {
+            "label": "Développement assisté par l'IA",
+            "desc": "Les informations de type TS sont le langage que les LLM comprennent le mieux"
+          },
+          {
+            "label": "Zéro barrière de personnalisation",
+            "desc": "Plugin complet, sécurisé, compatible avec les refactoristes SDK"
+          }
+        ]
+      }
+    ]
+  },
+  "aiCapabilities": {
+    "eyebrow": "Capacités d'analyse de l'IA de bout en bout",
+    "title": "Alimenté par l'IA : des données qui parlent",
+    "subtitle": "Du nettoyage des données aux rapports d'analyse, l'IA couvre chaque étape",
+    "tabs": [
+      {
+        "id": "rapport",
+        "label": "Rapports d'analyse générés par l'IA"
+      },
+      {
+        "id": "graphique",
+        "label": "Cartographie assistée par l'IA"
+      },
+      {
+        "id": "faire le ménage",
+        "label": "Nettoyage des données IA"
+      },
+      {
+        "id": "mise en page",
+        "label": "Mise en page IA"
+      }
+    ],
+    "demos": {
+      "report": {
+        "tag": "Extraire automatiquement les indicateurs clés · Détecter les tendances des anomalies · Produire des recommandations commerciales",
+        "user": "Analysez les tendances des ventes régionales ce trimestre, en vous concentrant sur le déclin de la Chine orientale",
+        "ai": "Analyse de l'ensemble de données de ventes du troisième trimestre... Trouvé 3 tendances d'anomalies ↓\nStructure du rapport : Présentation → Comparaison régionale → Cause profonde → Recommandations",
+        "previewLabel": "Aperçu du rapport",
+        "metricLabels": [
+          "Revenu",
+          "Ordres",
+          "Conversion",
+          "AOV"
+        ],
+        "anomalyNote": "Est de la Chine T3 YoY ↓18%, principalement en raison du retard dans les stocks des canaux"
+      },
+      "chart": {
+        "tag": "Comprendre la sémantique métier · Recommander les meilleurs graphiques · Configuration de saisie semi-automatique",
+        "user": "Comparez les taux de croissance mensuels des gammes de produits au cours des 6 derniers mois",
+        "ai": "Graphique linéaire multi-séries sélectionné automatiquement, axe X = mois / axe Y = taux de croissance, palette de couleurs recommandée, ligne de référence moyenne suggérée",
+        "beforeLabel": "Avant",
+        "afterLabel": "Après"
+      },
+      "clean": {
+        "tag": "Détection intelligente de la qualité · Réparation par lots · Préserver l'historique du traitement",
+        "cleanButton": "Nettoyage IA en un clic",
+        "completeLabel": "Nettoyage terminé",
+        "results": [
+          "Rempli 3 valeurs manquantes (imputation moyenne)",
+          "Signalé 1 cas aberrant (conservé et annoté)",
+          "8 formats de date standardisés"
+        ]
+      },
+      "layout": {
+        "tag": "Analyser le poids du contenu · Ajuster automatiquement la taille et la position · Suivre les normes visuelles",
+        "beforeLabel": "Avant · Disposition encombrée",
+        "afterLabel": "Après · Hiérarchie claire",
+        "optimizeButton": "AI Optimiser la mise en page",
+        "afterNote": "L'IA a analysé le poids du contenu de 6 composants et la hiérarchie de mise en page auto-optimisée"
+      }
+    }
+  },
+  "pluginArchitecture": {
+    "eyebrow": "Architecture du plugin micronoyau",
+    "title": "Répondez à tous les besoins de visualisation",
+    "subtitle": "Contrairement aux outils de BI traditionnels monolithiques, DataLuminary est une plate-forme de plug-in à micro-noyau : les écosystèmes de plug-ins de panneaux, de graphiques et de sources de données rendent chaque besoin de visualisation réalisable.",
+    "microkernel": "Micro-noyau",
+    "exploreCta": "Explorez l'écosystème de plugins",
+    "orbits": [
+      {
+        "id": "panneau",
+        "title": "Plugins de mise en page de tableau de bord",
+        "nodes": [
+          "Grille",
+          "Position",
+          "Carte",
+          "Liste",
+          "Coutume"
+        ],
+        "detail": {
+          "lines": [
+            "disposition de la grille du panneau de grille – react-grid-layout, rapports PC préférés, importation de panneaux Grafana",
+            "Grand écran de forme libre à panneau de position — Positionnement au niveau des pixels basé sur TMagic pour les centres de commande",
+            "vue de la carte sur le panneau de cartes : rapports, e-mails, tableaux, etc.",
+            "Disposition de la liste sur le panneau de liste : défilement vertical des cartes, axé sur le mobile",
+            "+ Plugins de mise en page personnalisés — intégrés via le développement SDK"
+          ]
+        }
+      },
+      {
+        "id": "graphique",
+        "title": "Plugins de graphiques",
+        "nodes": [
+          "Graphiques électroniques",
+          "AntV",
+          "Graphiques élevés",
+          "Coutume"
+        ],
+        "detail": {
+          "title": "Conception BI sans tête",
+          "lines": [
+            "Les plugins de graphiques rendent uniquement les données : les données sont fournies uniformément par la couche de jeu de données, pas de connexion directe à la source de données.",
+            "Intégré : ligne · barre · zone · tarte · anneau · dispersion · radar · entonnoir",
+            "Carte · nuage de mots · carte métrique · table · texte riche · liquide · carte thermique · sankey · chandelier · graphique...",
+            "Changer de bibliothèque de graphiques : ECharts / AntV / Highcharts – échangez librement sans affecter la configuration"
+          ]
+        }
+      },
+      {
+        "id": "source de données",
+        "title": "Plugins de source de données",
+        "nodes": [
+          "MySQL",
+          "PG",
+          "MongoDB",
+          "Exceller",
+          "API",
+          "Coutume"
+        ],
+        "detail": {
+          "title": "Protocole de plugin en trois étapes (inspiré de Grafana)",
+          "lines": [
+            "Configuration de la source de données ConfigPanel · Configuration de la requête QueryPanel · Requête variable VariablePanel",
+            "Relationnel : MySQL · PostgreSQL · SQL Server · ClickHouse",
+            "Document : MongoDB · Elasticsearch | Fichiers : Excel · CSV · JSON",
+            "API : RESTful API · GraphQL | + Plugin SDK pour toute source de données personnalisée"
+          ]
+        }
+      }
+    ]
+  },
+  "dataPipeline": {
+    "eyebrow": "Pipeline principal",
+    "title": "Des données aux décisions",
+    "subtitle": "Source de données → Ensemble de données → Graphique → Tableau de bord — les données circulent à travers le pipeline, chaque étape est extensible par plugin",
+    "headlessLabel": "Conception BI sans tête :",
+    "headlessNote": "Les graphiques ne se connectent pas directement aux sources de données : les ensembles de données fournissent des données de manière uniforme. C'est la principale différence architecturale de DataLuminary par rapport aux outils traditionnels.",
+    "steps": [
+      {
+        "label": "Source de données",
+        "en": "Source de données",
+        "desc": "Ingestion multi-sources, gestion unifiée",
+        "popup": [
+          "Liste des plugins de source de données",
+          "Test de connexion",
+          "Aperçu du QueryPanel"
+        ]
+      },
+      {
+        "label": "Ensemble de données",
+        "en": "Ensemble de données · Noyau BI sans tête",
+        "desc": "Modélisation de métriques/dimensions, nettoyage des données",
+        "popup": [
+          "Configurer les champs de métrique/dimension",
+          "Rejoindre plusieurs tables",
+          "Champs calculés et nettoyage des données",
+          "Nettoyage assisté par l'IA (à venir)"
+        ]
+      },
+      {
+        "label": "Graphique",
+        "en": "Graphique",
+        "desc": "Cartographie NoCode, faites glisser et obtenez des résultats",
+        "popup": [
+          "Sélectionnez le type de graphique (basé sur un plugin)",
+          "Faites glisser les champs vers l'axe X/l'axe Y/la série",
+          "L'IA recommande le meilleur type de graphique",
+          "Aperçu en direct"
+        ]
+      },
+      {
+        "label": "Tableau de bord",
+        "en": "Tableau de bord",
+        "desc": "Orchestration multi-points de terminaison, multi-mise en page et flexible",
+        "popup": [
+          "Grille/Position/Carte/Liste — quatre mises en page",
+          "Liens graphiques, filtres",
+          "Gestion des versions, contrôle d'accès",
+          "Optimisation de la mise en page par l'IA en un clic"
+        ]
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "Équipe de vétérans, testée au combat",
+    "title": "Équipe principale : années d'expérience dans la plateforme de visualisation de données d'entreprise",
+    "subtitle": "De Tencent à Ping An — une expertise approfondie en matière de BI d'entreprise et de plateformes de visualisation",
+    "quote": "Après avoir construit des plateformes BI d'entreprise de 0 à 1 au fil de nombreuses années, DataLuminary distille cette expérience en un seul produit.",
+    "cards": [
+      {
+        "company": "Plateforme de gestion de l'expérience de jeu Tencent",
+        "role": "Refactorisation de l'architecture dirigée",
+        "impact": "Couvre le pipeline d'expérience de données pour tous les produits de jeux Tencent",
+        "chips": [
+          "Plateforme de visualisation",
+          "Refactorisation de l'architecture",
+          "Données à grande échelle"
+        ]
+      },
+      {
+        "company": "Plateforme graphique universelle Tencent BlueKing",
+        "role": "Construit à partir de zéro",
+        "impact": "Composant de visualisation principal du système d'exploitation Tencent Cloud",
+        "chips": [
+          "De zéro",
+          "Plateforme graphique",
+          "Tencent Cloud Ops"
+        ]
+      },
+      {
+        "company": "Ping pour une ville intelligente MaxView",
+        "role": "Construit à partir de zéro",
+        "impact": "Plateforme de visualisation de données d'entreprise et gouvernementale de qualité financière",
+        "chips": [
+          "Qualité financière",
+          "De zéro",
+          "BI d'entreprise"
+        ]
+      },
+      {
+        "company": "Ping An Technologie StarCanvas",
+        "role": "Des années d'itération continue",
+        "impact": "Produit BI commercial avec une expertise approfondie en visualisation de données",
+        "chips": [
+          "Produit commercial",
+          "Itération à long terme",
+          "BI en production"
+        ]
+      }
+    ]
+  },
+  "typescriptDeploy": {
+    "eyebrow": "TypeScript complet",
+    "title": "Full-Stack TS, lancement léger",
+    "subtitle": "À l'ère de l'IA, TypeScript est un citoyen de premier ordre : pile unifiée, développement plus rapide, déploiement plus léger",
+    "whyTitle": "Pourquoi Full-Stack TypeScript",
+    "reasons": [
+      {
+        "title": "Le meilleur choix pour l’ère de l’IA",
+        "body": "TypeScript est le langage que Copilot, Claude et d'autres outils d'IA comprennent le mieux. Full-stack TS multiplie le développement assisté par l'IA : des complétions plus précises, des refactors plus sûrs."
+      },
+      {
+        "title": "Coûts d’embauche d’équipe réduits",
+        "body": "Pile frontend/backend unifiée : les ingénieurs full-stack peuvent fournir des fonctionnalités complètes de manière indépendante. Le riche vivier de talents TS réduit considérablement les obstacles à l’expansion des équipes."
+      },
+      {
+        "title": "Sécurité des types, refactorisation sans peur",
+        "body": "Une frappe forte s'étend sur le frontend et le backend – les interfaces de plug-in et les contrats de données sont garantis par type. Les erreurs apparaissent au moment de la compilation, pas en production."
+      },
+      {
+        "title": "Déploiement léger, opérations simples",
+        "body": "Lancement de Docker Compose en un clic, PostgreSQL uniquement. Ignorez Docker et utilisez la base de données locale. Prise en charge complète de Windows/MacOS/Linux."
+      }
+    ],
+    "compareTitle": "Comparaison des plateformes BI traditionnelles",
+    "compareBad": [
+      "Installation complexe, des dizaines d'éléments de configuration",
+      "Langues mixtes, frontend/backend cloisonnés",
+      "Équipe opérationnelle dédiée requise"
+    ],
+    "compareGood": "DataLuminary : 3 commandes · TS unifié · bootstrap automatisé"
+  },
+  "ecosystem": {
+    "eyebrow": "Points d'entrée infinis, axés sur l'écosystème",
+    "title": "Plus qu'un outil BI : une plateforme d'analyse des données basée sur l'écosystème",
+    "subtitle": "Couvre les scénarios BI traditionnels tout en tirant parti de l'écosystème LuminaryWorks pour s'étendre à la blockchain, aux tâches d'IA, à l'IoT, à la surveillance à distance et à d'autres nouveaux scénarios du monde physique.",
+    "industriesTitle": "Couvre tous les scénarios d'analyse de données traditionnels",
+    "industriesNote": "Les analystes des produits, des opérations et de la BI peuvent démarrer indépendamment : de l'ingestion de données aux rapports d'analyse, en passant par le pipeline NoCode complet.",
+    "hubTag": "Informations sur les données · Voir",
+    "hubBadge": "Centre d'agrégation de données",
+    "industries": [
+      {
+        "label": "Opérations de commerce électronique"
+      },
+      {
+        "label": "Analyse des jeux"
+      },
+      {
+        "label": "Contrôle des risques financiers"
+      },
+      {
+        "label": "Lignes de fabrication"
+      },
+      {
+        "label": "Analyse de vente au détail"
+      },
+      {
+        "label": "Soins de santé"
+      },
+      {
+        "label": "Évaluation de l'éducation"
+      },
+      {
+        "label": "Suivi logistique"
+      },
+      {
+        "label": "Gestion de projet"
+      }
+    ],
+    "nodes": [
+      {
+        "name": "LuminaireIoTChaîne",
+        "role": "Connecter",
+        "desc": "Plateforme IoT PaaS open source",
+        "scenario": "État des appareils de l'usine → tableau de bord de surveillance en temps réel"
+      },
+      {
+        "name": "VistaRemote",
+        "role": "Contrôle",
+        "desc": "WebRTC plateforme d'opérations à distance",
+        "scenario": "Journaux d'audit des opérations à distance → rapports d'audit de sécurité"
+      },
+      {
+        "name": "VibeAgent",
+        "role": "Gagner",
+        "desc": "Marché en chaîne d'agents IA",
+        "scenario": "Revenus de l'agent Blockchain → tableau de bord d'analyse des performances"
+      },
+      {
+        "name": "VibeEdu / BlockyEdu",
+        "role": "Apprendre",
+        "desc": "Programmation visuelle + enseignement assisté par IA",
+        "scenario": "Données d'apprentissage → tableau de bord de la qualité de l'enseignement · nourrir les développeurs d'écosystèmes",
+        "badge": "Entrée dans l'écosystème · Incubateur de développeurs"
+      }
+    ],
+    "valueCards": [
+      {
+        "title": "BI traditionnelle, prête à l'emploi",
+        "body": "E-commerce · jeux · finance · fabrication - scénarios BI traditionnels entièrement couverts, aucun écosystème requis, entièrement utilisable sur un déploiement autonome"
+      },
+      {
+        "title": "Nouveaux scénarios physiques, soutien des écosystèmes",
+        "body": "IoT · Tâches d'IA · blockchain · surveillance à distance : les données des produits frères circulent directement pour des informations inter-domaines"
+      },
+      {
+        "title": "Plateforme éducative, écosystème de développeurs",
+        "body": "Programmation visuelle VibeEdu + aide à l'enseignement de l'IA : davantage de développeurs apprennent et contribuent aux plugins, élargissant ainsi continuellement l'écosystème."
+      }
+    ],
+    "footerNote": "LuminaryWorks/identité unifiée OIDC connexion · LuminaryWorks/bibliothèque de composants partagée · un compte pour tous les produits"
+  },
+  "comparison": {
+    "eyebrow": "Pourquoi choisir DataLuminary",
+    "title": "Comparaison complète en un coup d'œil",
+    "colFeature": "Fonctionnalité",
+    "colDL": "DataLuminary",
+    "colTrad": "Outils BI traditionnels",
+    "colSaas": "SaaS à source fermée",
+    "rows": [
+      {
+        "feature": "IA de bout en bout",
+        "dl": {
+          "type": "Oui",
+          "note": "Charting/cleansing/layout/reports"
+        },
+        "trad": {
+          "type": "Non",
+          "note": "Aucun ou très limité"
+        },
+        "saas": {
+          "type": "avertir",
+          "note": "Déverrouillage payant"
+        }
+      },
+      {
+        "feature": "Architecture des plugins",
+        "dl": {
+          "type": "Oui",
+          "note": "Micronoyau, écosystème de plugins à trois couches"
+        },
+        "trad": {
+          "type": "Non",
+          "note": "Monolithique"
+        },
+        "saas": {
+          "type": "Non",
+          "note": "Écosystème fermé"
+        }
+      },
+      {
+        "feature": "Dispositions du tableau de bord",
+        "dl": {
+          "type": "Oui",
+          "note": "Grand écran/reportage/mobile/tableau"
+        },
+        "trad": {
+          "type": "avertir",
+          "note": "1-2 types fixes"
+        },
+        "saas": {
+          "type": "avertir",
+          "note": "Limité"
+        }
+      },
+      {
+        "feature": "Moins de code / pas de code",
+        "dl": {
+          "type": "Oui",
+          "note": "Pipeline glisser-déposer complet"
+        },
+        "trad": {
+          "type": "avertir",
+          "note": "Prise en charge partielle"
+        },
+        "saas": {
+          "type": "Oui",
+          "note": "Soutenu"
+        }
+      },
+      {
+        "feature": "TypeScript complet",
+        "dl": {
+          "type": "Oui",
+          "note": "Frontend/backend unifiés"
+        },
+        "trad": {
+          "type": "Non",
+          "note": "Langues mixtes"
+        },
+        "saas": {
+          "type": "verrouillage",
+          "note": "Non visible"
+        }
+      },
+      {
+        "feature": "Complexité du déploiement",
+        "dl": {
+          "type": "Oui",
+          "note": "3 commandes, 5 minutes"
+        },
+        "trad": {
+          "type": "Non",
+          "note": "Installation complexe"
+        },
+        "saas": {
+          "type": "texte",
+          "note": "Service cloud sans objet"
+        }
+      },
+      {
+        "feature": "Déploiement privé",
+        "dl": {
+          "type": "Oui",
+          "note": "Entièrement privé"
+        },
+        "trad": {
+          "type": "Oui",
+          "note": "Soutenu"
+        },
+        "saas": {
+          "type": "avertir",
+          "note": "Coût supplémentaire"
+        }
+      },
+      {
+        "feature": "Sécurité des données",
+        "dl": {
+          "type": "Oui",
+          "note": "Les données restent sur site"
+        },
+        "trad": {
+          "type": "Oui",
+          "note": "Peut être privé"
+        },
+        "saas": {
+          "type": "avertir",
+          "note": "Données dans le cloud"
+        }
+      },
+      {
+        "feature": "Personnalisation",
+        "dl": {
+          "type": "Oui",
+          "note": "Plugin SDK, type sécurisé"
+        },
+        "trad": {
+          "type": "Non",
+          "note": "Courbe d’apprentissage abrupte"
+        },
+        "saas": {
+          "type": "verrouillage",
+          "note": "Non pris en charge"
+        }
+      },
+      {
+        "feature": "Licence Open Source",
+        "dl": {
+          "type": "Oui",
+          "note": "Polyform Open source non commercial"
+        },
+        "trad": {
+          "type": "avertir",
+          "note": "Partiellement ouvert"
+        },
+        "saas": {
+          "type": "Non",
+          "note": "Source fermée"
+        }
+      },
+      {
+        "feature": "Intégration des écosystèmes",
+        "dl": {
+          "type": "Oui",
+          "note": "Écosystème d'IA composé de cinq produits"
+        },
+        "trad": {
+          "type": "Non",
+          "note": "Produit autonome"
+        },
+        "saas": {
+          "type": "avertir",
+          "note": "Intégration limitée"
+        }
+      },
+      {
+        "feature": "Coût",
+        "dl": {
+          "type": "Oui",
+          "note": "Gratuit"
+        },
+        "trad": {
+          "type": "avertir",
+          "note": "Frais de l'édition Entreprise"
+        },
+        "saas": {
+          "type": "texte",
+          "note": "Facturation basée sur l'utilisation"
+        }
+      }
+    ]
+  },
+  "useCases": {
+    "eyebrow": "Cas d'utilisation",
+    "title": "Des informations sur les données pour chaque secteur",
+    "cases": [
+      {
+        "title": "Opérations commerciales",
+        "desc": "Tableaux de bord des ventes, tableaux KPI, rapports d'analyse des canaux",
+        "persona": "Opérations"
+      },
+      {
+        "title": "Surveillance de la fabrication",
+        "desc": "Tableaux de bord des appareils IoT, analyses de lignes de production, surveillance de l'énergie",
+        "persona": "IL"
+      },
+      {
+        "title": "Conformité financière",
+        "desc": "Rapports de risques, analyse des transactions, tableaux de bord de pistes d'audit",
+        "persona": "Produit"
+      },
+      {
+        "title": "Commerce électronique et vente au détail",
+        "desc": "Profils utilisateurs, analyses de produits, suivi logistique",
+        "persona": "Opérations"
+      },
+      {
+        "title": "Soins de santé",
+        "desc": "Analyse des données des patients, tableaux de bord de planification des ressources médicales",
+        "persona": "IL"
+      },
+      {
+        "title": "Éducation et formation",
+        "desc": "Analyse du comportement d'apprentissage, rapports d'évaluation de la qualité de l'enseignement",
+        "persona": "Produit"
+      }
+    ]
+  },
+  "openSource": {
+    "eyebrow": "Collaboration open source",
+    "title": "Construire ensemble l’écosystème AI Data Insight",
+    "subtitle": "DataLuminary est basé sur un plugin — l'ensemble de la plateforme est entièrement ouverte à la communauté. Sources de données, bibliothèques de graphiques, moteurs de mise en page : étendez les capacités à n'importe quelle couche",
+    "layers": [
+      {
+        "headline": "Couche de plug-in de source de données",
+        "sub": "Connexion directe à petite échelle, intégration ClickHouse pour des données d'un milliard de lignes",
+        "points": [
+          "Capacités de données de base : MySQL · PostgreSQL · MongoDB · Excel · CSV · API",
+          "Petite échelle (millions) → PostgreSQL direct, aucun coût supplémentaire",
+          "Dizaines/centaines de millions → Intégration ClickHouse, agrégation de deuxième niveau, configuration inchangée",
+          "Les utilisateurs choisissent leur propre fondation – pas de liaison de base de données forcée",
+          "Protocole de plugin en trois étapes, interopérable avec l'écosystème de sources de données Grafana"
+        ],
+        "cta": "Contribuer aux plugins de source de données"
+      },
+      {
+        "headline": "Couche de plugin de graphique",
+        "sub": "Aucune limite de bibliothèque de graphiques, recommandations sémantiques intelligentes",
+        "points": [
+          "Intégré (AntV G2) : ligne · barre · tarte · dispersion · radar · sankey...",
+          "Recommandations sémantiques (Alibaba AVA) : les données décident du graphique, pas les conjectures de l'utilisateur",
+          "Headless BI : basculez librement entre ECharts / AntV / Highcharts sans affecter la configuration",
+          "Toute bibliothèque de graphiques tierce peut être encapsulée sous forme de plugin de graphiques"
+        ],
+        "cta": "Contribuer aux plugins de graphiques"
+      },
+      {
+        "headline": "Couche de plug-in de disposition de panneau",
+        "sub": "Dispositions multi-scénarios pour chaque besoin d'affichage",
+        "points": [
+          "panneau-grille → glisser-grille, rapports d'analyse PC préférés, importer des panneaux Grafana",
+          "panneau de position → positionnement libre au niveau des pixels (TMagic), grands écrans/centres de commande",
+          "panneau de cartes → vue de carte pour les rapports, les e-mails, les tableaux d'informations",
+          "panneau de liste → liste verticale, mobile d'abord",
+          "Le moteur de mise en page lui-même est un plugin : créez et intégrez votre propre moteur"
+        ],
+        "cta": "Contribuer aux plugins de mise en page"
+      }
+    ],
+    "codeTabs": [
+      {
+        "id": "importer",
+        "label": "Importer des packages à la demande"
+      },
+      {
+        "id": "sans serveur",
+        "label": "Traitement des données sans serveur"
+      },
+      {
+        "id": "composer",
+        "label": "Logique métier fonctionnelle"
+      }
+    ],
+    "featureCards": [
+      {
+        "title": "Gestion des paquets Lerna",
+        "body": "Tous les plugins, composants et fonctions gérés par Lerna — versions, versions et importations indépendantes"
+      },
+      {
+        "title": "Traitement des données fonctionnelles",
+        "body": "Logique de nettoyage, de transformation et d'agrégation en tant que fonctions pures - composables, testables, réutilisables"
+      },
+      {
+        "title": "Granularité prête pour le sans serveur",
+        "body": "La logique de traitement de base est sans état : déployez directement en tant que fonctions sans serveur/Edge, calculez à la demande"
+      },
+      {
+        "title": "Fondation choisie par l'utilisateur",
+        "body": "Aucune liaison de base de données forcée – PG direct à petite échelle, ClickHouse pour les données d'un milliard de lignes"
+      }
+    ],
+    "starGithub": "Étoile sur GitHub",
+    "commercialBadge": "Open source et gratuit pour un usage commercial",
+    "community": [
+      {
+        "title": "Documentation complète",
+        "body": "Guide de l'utilisateur · développement de plugins · API docs"
+      },
+      {
+        "title": "Communauté active",
+        "body": "Discussions GitHub · Discorde"
+      },
+      {
+        "title": "Convivial pour les contributeurs",
+        "body": "Guide de contribution détaillé, prise en charge complète de CI/CD"
+      }
+    ],
+    "quote": "Chaque ligne de code du plugin est un pas en avant dans la compréhension des données d'IA, piloté par la communauté."
+  },
+  "footerCta": {
+    "title": "Déployez en 5 minutes – Découvrez dès maintenant les informations sur les données natives de l'IA",
+    "subtitle": "Open source et gratuit · Pas de carte de crédit · Déploiement privé · Licence non commerciale Polyform",
+    "deploy": "Déployez localement gratuitement",
+    "docs": "Afficher la documentation",
+    "github": "GitHub",
+    "emailPlaceholder": "Entrez votre e-mail pour vous abonner aux mises à jour du produit",
+    "emailAria": "Adresse email",
+    "subscribe": "S'abonner",
+    "noSpam": "Pas de spam, désabonnez-vous à tout moment",
+    "adopted": "Adopté par plus de 500 entreprises et développeurs",
+    "rating": "Note de la communauté 4,9/5"
+  },
+  "siteFooter": {
+    "tagline": "Plateforme de BI de visualisation de données open source, basée sur des plugins et native pour l'IA. Des informations à portée de main.",
+    "socialAria": "Liens sociaux",
+    "columns": [
+      {
+        "title": "Produit",
+        "links": [
+          "Caractéristiques",
+          "Marché des plugins",
+          "Journal des modifications",
+          "Feuille de route"
+        ]
+      },
+      {
+        "title": "Développeurs",
+        "links": [
+          "Guide de développement de plugins",
+          "API Documents",
+          "Guide des contributions",
+          "GitHub"
+        ]
+      },
+      {
+        "title": "Écosystème",
+        "links": [
+          "LuminaryWorks",
+          "Chaîne IoT",
+          "VistaRemote",
+          "VibeEdu"
+        ]
+      },
+      {
+        "title": "Légal",
+        "links": [
+          "Licence non commerciale Polyform",
+          "politique de confidentialité",
+          "Divulgation de sécurité"
+        ]
+      }
+    ],
+    "copyright": "© 2024-2026 LuminaryWorks. Construit avec TypeScript.",
+    "poweredBy": "Fait partie de l'écosystème LuminaryWorks",
+    "ecosystem": {
+      "title": "LuminaryWorks Écosystème",
+      "subtitle": "Des produits frères qui alimentent des données du monde réel dans DataLuminary.",
+      "items": {
+        "blockyedu": "Plateforme éducative pour le développement de plugins et de fonctions.",
+        "syncrobrain": "Plateforme IoT fournissant des analyses de données du monde physique.",
+        "vistacast": "Analyses d'IA spécifiques à la scène pour les usines, les magasins et les entrepôts.",
+        "vistaremote": "Analyse des effectifs avec assistance au déploiement à distance."
+      }
+    }
+  },
+  "terminal": {
+    "title": "DataLuminary — Démarrage local dans 5 minutes",
+    "initComment": "# Initialiser les sous-dépôts",
+    "bootstrapComment": "# Dépendances + PostgreSQL + migrations + données de départ",
+    "backendComment": "# Backend API → localhost:7084",
+    "frontendComment": "# Interface utilisateur frontale → localhost:3003",
+    "done": "# ✓ 3 commandes, 5 minutes, c'est fait !",
+    "defaultAccount": "# Compte par défaut : admin / admin !@#123"
+  }
+}

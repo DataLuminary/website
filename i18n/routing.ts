@@ -10,11 +10,12 @@ export const locales = [
   'it',
   'ja',
   'ko',
+  'fr',
 ] as const
 
 export type Locale = (typeof locales)[number]
 
-export const defaultLocale: Locale = 'zh-CN'
+export const defaultLocale: Locale = 'en'
 
 export const localeLabels: Record<Locale, string> = {
   en: 'English',
@@ -26,6 +27,7 @@ export const localeLabels: Record<Locale, string> = {
   it: 'Italiano',
   ja: '日本語',
   ko: '한국어',
+  fr: 'Français',
 }
 
 export const routing = defineRouting({

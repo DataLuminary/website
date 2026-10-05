@@ -18,9 +18,10 @@ export const ogLocaleMap: Record<Locale, string> = {
   it: 'it_IT',
   ja: 'ja_JP',
   ko: 'ko_KR',
+  fr: 'fr_FR',
 }
 
-/** Absolute URL for a locale home (default zh-CN is apex `/`). */
+/** Absolute URL for a locale home (default English is apex `/`). */
 export function localeHomePath(locale: Locale): string {
   if (locale === defaultLocale) return '/'
   return `/${locale}/`
