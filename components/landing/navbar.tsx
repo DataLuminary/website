@@ -62,9 +62,9 @@ export function Navbar() {
           <LocaleSwitcher />
           <a
             href="https://app.dataluminary.dev"
-            className="inline-flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-foreground"
+            className="inline-flex h-5 items-center gap-2 text-sm leading-5 text-muted-foreground transition-colors hover:text-foreground"
           >
-            <LogIn className="h-4 w-4" />
+            <LogIn className="h-4 w-4 shrink-0" />
             {t('login')}
           </a>
         </div>
@@ -97,9 +97,9 @@ export function Navbar() {
               <a
                 href="https://app.dataluminary.dev"
                 onClick={() => setOpen(false)}
-                className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground"
+                className="inline-flex h-5 items-center gap-2 text-sm leading-5 text-muted-foreground hover:text-foreground"
               >
-                <LogIn className="h-4 w-4" />
+                <LogIn className="h-4 w-4 shrink-0" />
                 {t('login')}
               </a>
             </div>

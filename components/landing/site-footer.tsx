@@ -18,7 +18,7 @@ const products: EcoProduct[] = [
   {
     key: 'blockyedu',
     name: 'BlockyEdu',
-    logo: '/ecosystem/blockyedu.png',
+    logo: '/ecosystem/blockyedu.svg',
     site: { label: 'blockyedu.com', href: 'https://blockyedu.com' },
     github: 'https://github.com/blockyedu',
   },

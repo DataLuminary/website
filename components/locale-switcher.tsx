@@ -35,17 +35,17 @@ export function LocaleSwitcher({ className }: { className?: string }) {
   }
 
   return (
-    <div ref={ref} className={cn('relative', className)}>
+    <div ref={ref} className={cn('relative inline-flex items-center', className)}>
       <button
         type="button"
         onClick={() => setOpen((v) => !v)}
-        className="inline-flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
+        className="inline-flex h-5 items-center gap-2 text-sm leading-5 text-muted-foreground transition-colors hover:text-foreground"
         aria-label={t('toggleLang')}
         aria-expanded={open}
         aria-haspopup="listbox"
       >
-        <Globe className="h-4 w-4" />
-        <span className="max-w-[5rem] truncate text-xs">
+        <Globe className="h-4 w-4 shrink-0" />
+        <span className="whitespace-nowrap">
           {localeLabels[locale]}
         </span>
       </button>
