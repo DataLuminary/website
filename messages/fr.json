@@ -184,19 +184,19 @@
     "subtitle": "Du nettoyage des données aux rapports d'analyse, l'IA couvre chaque étape",
     "tabs": [
       {
-        "id": "rapport",
+        "id": "report",
         "label": "Rapports d'analyse générés par l'IA"
       },
       {
-        "id": "graphique",
+        "id": "chart",
         "label": "Cartographie assistée par l'IA"
       },
       {
-        "id": "faire le ménage",
+        "id": "clean",
         "label": "Nettoyage des données IA"
       },
       {
-        "id": "mise en page",
+        "id": "layout",
         "label": "Mise en page IA"
       }
     ],
@@ -248,7 +248,7 @@
     "exploreCta": "Explorez l'écosystème de plugins",
     "orbits": [
       {
-        "id": "panneau",
+        "id": "panel",
         "title": "Plugins de mise en page de tableau de bord",
         "nodes": [
           "Grille",
@@ -268,7 +268,7 @@
         }
       },
       {
-        "id": "graphique",
+        "id": "chart",
         "title": "Plugins de graphiques",
         "nodes": [
           "Graphiques électroniques",
@@ -287,7 +287,7 @@
         }
       },
       {
-        "id": "source de données",
+        "id": "datasource",
         "title": "Plugins de source de données",
         "nodes": [
           "MySQL",
@@ -789,15 +789,15 @@
     ],
     "codeTabs": [
       {
-        "id": "importer",
+        "id": "import",
         "label": "Importer des packages à la demande"
       },
       {
-        "id": "sans serveur",
+        "id": "serverless",
         "label": "Traitement des données sans serveur"
       },
       {
-        "id": "composer",
+        "id": "compose",
         "label": "Logique métier fonctionnelle"
       }
     ],
